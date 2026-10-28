@@ -1,0 +1,10 @@
+model,validation,r2,mae,n
+Ridge regression,5-fold GroupKFold (by state),0.537,1.032,1112
+Ridge regression,Temporal holdout 2017-2019,0.297,1.16,153
+Ridge regression,Temporal holdout 2020,-0.098,1.349,51
+Random forest,5-fold GroupKFold (by state),0.52,1.06,1112
+Random forest,Temporal holdout 2017-2019,0.447,1.052,153
+Random forest,Temporal holdout 2020,0.094,1.236,51
+Histogram gradient boosting,5-fold GroupKFold (by state),0.53,1.028,1112
+Histogram gradient boosting,Temporal holdout 2017-2019,0.448,1.053,153
+Histogram gradient boosting,Temporal holdout 2020,0.245,1.149,51

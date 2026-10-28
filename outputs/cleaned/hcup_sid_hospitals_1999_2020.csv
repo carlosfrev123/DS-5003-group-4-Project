@@ -1,0 +1,598 @@
+year,state_abbr,hospitals_community_sid,hospitals_noncommunity_sid,hospitals_sid,hospitals_not_in_sid,source,state
+1999,AZ,59.0,1.0,60.0,3.0,HCUP HTML table,Arizona
+1999,CA,391.0,41.0,432.0,6.0,HCUP HTML table,California
+1999,CO,66.0,3.0,69.0,1.0,HCUP HTML table,Colorado
+1999,FL,193.0,24.0,217.0,12.0,HCUP HTML table,Florida
+1999,HI,19.0,1.0,20.0,4.0,HCUP HTML table,Hawaii
+1999,IA,115.0,1.0,116.0,0.0,HCUP HTML table,Iowa
+1999,KY,,,,,HCUP HTML table,Kentucky
+1999,MA,68.0,2.0,70.0,11.0,HCUP HTML table,Massachusetts
+1999,MD,48.0,1.0,49.0,1.0,HCUP HTML table,Maryland
+1999,MI,143.0,4.0,147.0,5.0,HCUP HTML table,Michigan
+1999,NC,,,,,HCUP HTML table,North Carolina
+1999,NE,,,,,HCUP HTML table,Nebraska
+1999,NJ,75.0,1.0,76.0,6.0,HCUP HTML table,New Jersey
+1999,NV,,,,,HCUP HTML table,Nevada
+1999,NY,217.0,4.0,221.0,1.0,HCUP HTML table,New York
+1999,OR,58.0,2.0,60.0,1.0,HCUP HTML table,Oregon
+1999,RI,,,,,HCUP HTML table,Rhode Island
+1999,SC,60.0,1.0,61.0,5.0,HCUP HTML table,South Carolina
+1999,UT,41.0,5.0,46.0,1.0,HCUP HTML table,Utah
+1999,VT,,,,,HCUP HTML table,Vermont
+1999,WA,86.0,4.0,90.0,1.0,HCUP HTML table,Washington
+1999,WI,123.0,16.0,139.0,0.0,HCUP HTML table,Wisconsin
+1999,WV,,,,,HCUP HTML table,West Virginia
+2000,AZ,55.0,2.0,57.0,7.0,HCUP HTML table,Arizona
+2000,CA,385.0,38.0,423.0,5.0,HCUP HTML table,California
+2000,CO,67.0,2.0,69.0,2.0,HCUP HTML table,Colorado
+2000,FL,190.0,20.0,210.0,14.0,HCUP HTML table,Florida
+2000,HI,18.0,2.0,20.0,4.0,HCUP HTML table,Hawaii
+2000,IA,115.0,1.0,116.0,0.0,HCUP HTML table,Iowa
+2000,KY,97.0,4.0,101.0,8.0,HCUP HTML table,Kentucky
+2000,MA,68.0,2.0,70.0,12.0,HCUP HTML table,Massachusetts
+2000,MD,48.0,1.0,49.0,1.0,HCUP HTML table,Maryland
+2000,MI,144.0,4.0,148.0,4.0,HCUP HTML table,Michigan
+2000,NC,111.0,8.0,119.0,3.0,HCUP HTML table,North Carolina
+2000,NE,,,,,HCUP HTML table,Nebraska
+2000,NJ,75.0,1.0,76.0,6.0,HCUP HTML table,New Jersey
+2000,NV,,,,,HCUP HTML table,Nevada
+2000,NY,216.0,4.0,220.0,0.0,HCUP HTML table,New York
+2000,OR,58.0,0.0,58.0,1.0,HCUP HTML table,Oregon
+2000,RI,,,,,HCUP HTML table,Rhode Island
+2000,SC,60.0,1.0,61.0,5.0,HCUP HTML table,South Carolina
+2000,UT,41.0,5.0,46.0,1.0,HCUP HTML table,Utah
+2000,VT,,,,,HCUP HTML table,Vermont
+2000,WA,84.0,5.0,89.0,1.0,HCUP HTML table,Washington
+2000,WI,120.0,17.0,137.0,1.0,HCUP HTML table,Wisconsin
+2000,WV,54.0,0.0,54.0,4.0,HCUP HTML table,West Virginia
+2001,AZ,56.0,2.0,58.0,5.0,HCUP HTML table,Arizona
+2001,CA,381.0,36.0,417.0,6.0,HCUP HTML table,California
+2001,CO,65.0,4.0,69.0,1.0,HCUP HTML table,Colorado
+2001,FL,189.0,19.0,208.0,14.0,HCUP HTML table,Florida
+2001,HI,19.0,2.0,21.0,4.0,HCUP HTML table,Hawaii
+2001,IA,116.0,0.0,116.0,0.0,HCUP HTML table,Iowa
+2001,KY,98.0,5.0,103.0,5.0,HCUP HTML table,Kentucky
+2001,MA,68.0,2.0,70.0,12.0,HCUP HTML table,Massachusetts
+2001,MD,48.0,0.0,48.0,1.0,HCUP HTML table,Maryland
+2001,MI,142.0,4.0,146.0,5.0,HCUP HTML table,Michigan
+2001,NC,110.0,6.0,116.0,3.0,HCUP HTML table,North Carolina
+2001,NE,77.0,2.0,79.0,7.0,HCUP HTML table,Nebraska
+2001,NJ,71.0,1.0,72.0,7.0,HCUP HTML table,New Jersey
+2001,NV,,,,,HCUP HTML table,Nevada
+2001,NY,211.0,3.0,214.0,1.0,HCUP HTML table,New York
+2001,OR,58.0,0.0,58.0,2.0,HCUP HTML table,Oregon
+2001,RI,,,,,HCUP HTML table,Rhode Island
+2001,SC,58.0,1.0,59.0,5.0,HCUP HTML table,South Carolina
+2001,UT,41.0,5.0,46.0,1.0,HCUP HTML table,Utah
+2001,VT,14.0,1.0,15.0,0.0,HCUP HTML table,Vermont
+2001,WA,84.0,5.0,89.0,1.0,HCUP HTML table,Washington
+2001,WI,121.0,13.0,134.0,0.0,HCUP HTML table,Wisconsin
+2001,WV,54.0,0.0,54.0,4.0,HCUP HTML table,West Virginia
+2002,AZ,58.0,2.0,60.0,3.0,HCUP HTML table,Arizona
+2002,CA,,,,,HCUP HTML table,California
+2002,CO,66.0,3.0,69.0,2.0,HCUP HTML table,Colorado
+2002,FL,189.0,18.0,207.0,13.0,HCUP HTML table,Florida
+2002,HI,19.0,1.0,20.0,6.0,HCUP HTML table,Hawaii
+2002,IA,116.0,0.0,116.0,0.0,HCUP HTML table,Iowa
+2002,KY,101.0,5.0,106.0,3.0,HCUP HTML table,Kentucky
+2002,MA,66.0,2.0,68.0,12.0,HCUP HTML table,Massachusetts
+2002,MD,49.0,0.0,49.0,0.0,HCUP HTML table,Maryland
+2002,MI,136.0,4.0,140.0,10.0,HCUP HTML table,Michigan
+2002,NC,112.0,6.0,118.0,3.0,HCUP HTML table,North Carolina
+2002,NE,81.0,0.0,81.0,5.0,HCUP HTML table,Nebraska
+2002,NJ,74.0,1.0,75.0,7.0,HCUP HTML table,New Jersey
+2002,NV,24.0,0.0,24.0,5.0,HCUP HTML table,Nevada
+2002,NY,209.0,2.0,211.0,2.0,HCUP HTML table,New York
+2002,OR,58.0,0.0,58.0,2.0,HCUP HTML table,Oregon
+2002,RI,12.0,2.0,14.0,0.0,HCUP HTML table,Rhode Island
+2002,SC,58.0,1.0,59.0,5.0,HCUP HTML table,South Carolina
+2002,UT,41.0,5.0,46.0,1.0,HCUP HTML table,Utah
+2002,VT,14.0,0.0,14.0,0.0,HCUP HTML table,Vermont
+2002,WA,86.0,5.0,91.0,1.0,HCUP HTML table,Washington
+2002,WI,120.0,12.0,132.0,0.0,HCUP HTML table,Wisconsin
+2002,WV,54.0,0.0,54.0,4.0,HCUP HTML table,West Virginia
+2003,AZ,61.0,3.0,64.0,1.0,HCUP HTML table,Arizona
+2003,CA,367.0,37.0,404.0,6.0,HCUP HTML table,California
+2003,CO,66.0,3.0,69.0,2.0,HCUP HTML table,Colorado
+2003,FL,191.0,18.0,209.0,13.0,HCUP HTML table,Florida
+2003,HI,20.0,2.0,22.0,4.0,HCUP HTML table,Hawaii
+2003,IA,116.0,0.0,116.0,0.0,HCUP HTML table,Iowa
+2003,KY,101.0,6.0,107.0,2.0,HCUP HTML table,Kentucky
+2003,MA,67.0,1.0,68.0,12.0,HCUP HTML table,Massachusetts
+2003,MD,49.0,0.0,49.0,2.0,HCUP HTML table,Maryland
+2003,MI,135.0,13.0,148.0,4.0,HCUP HTML table,Michigan
+2003,NC,111.0,4.0,115.0,6.0,HCUP HTML table,North Carolina
+2003,NE,84.0,0.0,84.0,1.0,HCUP HTML table,Nebraska
+2003,NJ,73.0,5.0,78.0,1.0,HCUP HTML table,New Jersey
+2003,NV,25.0,0.0,25.0,4.0,HCUP HTML table,Nevada
+2003,NY,206.0,3.0,209.0,1.0,HCUP HTML table,New York
+2003,OR,56.0,0.0,56.0,2.0,HCUP HTML table,Oregon
+2003,RI,12.0,2.0,14.0,0.0,HCUP HTML table,Rhode Island
+2003,SC,57.0,1.0,58.0,5.0,HCUP HTML table,South Carolina
+2003,UT,41.0,5.0,46.0,1.0,HCUP HTML table,Utah
+2003,VT,14.0,0.0,14.0,0.0,HCUP HTML table,Vermont
+2003,WA,86.0,5.0,91.0,1.0,HCUP HTML table,Washington
+2003,WI,128.0,12.0,140.0,0.0,HCUP HTML table,Wisconsin
+2003,WV,54.0,0.0,54.0,5.0,HCUP HTML table,West Virginia
+2004,AR,93.0,10.0,103.0,0.0,HCUP HTML table,Arkansas
+2004,AZ,65.0,2.0,67.0,1.0,HCUP HTML table,Arizona
+2004,CA,360.0,37.0,397.0,6.0,HCUP HTML table,California
+2004,CO,68.0,3.0,71.0,3.0,HCUP HTML table,Colorado
+2004,FL,190.0,17.0,207.0,15.0,HCUP HTML table,Florida
+2004,HI,19.0,3.0,22.0,5.0,HCUP HTML table,Hawaii
+2004,IA,115.0,0.0,115.0,0.0,HCUP HTML table,Iowa
+2004,KY,106.0,6.0,112.0,1.0,HCUP HTML table,Kentucky
+2004,MA,66.0,1.0,67.0,13.0,HCUP HTML table,Massachusetts
+2004,MD,49.0,0.0,49.0,1.0,HCUP HTML table,Maryland
+2004,MI,136.0,5.0,141.0,13.0,HCUP HTML table,Michigan
+2004,NC,114.0,5.0,119.0,2.0,HCUP HTML table,North Carolina
+2004,NE,84.0,0.0,84.0,1.0,HCUP HTML table,Nebraska
+2004,NJ,74.0,1.0,75.0,6.0,HCUP HTML table,New Jersey
+2004,NV,27.0,0.0,27.0,8.0,HCUP HTML table,Nevada
+2004,NY,205.0,3.0,208.0,1.0,HCUP HTML table,New York
+2004,OR,57.0,0.0,57.0,1.0,HCUP HTML table,Oregon
+2004,RI,12.0,2.0,14.0,0.0,HCUP HTML table,Rhode Island
+2004,SC,57.0,1.0,58.0,7.0,HCUP HTML table,South Carolina
+2004,UT,42.0,4.0,46.0,1.0,HCUP HTML table,Utah
+2004,VT,14.0,0.0,14.0,0.0,HCUP HTML table,Vermont
+2004,WA,85.0,7.0,92.0,1.0,HCUP HTML table,Washington
+2004,WI,125.0,13.0,138.0,1.0,HCUP HTML table,Wisconsin
+2004,WV,60.0,4.0,64.0,0.0,HCUP HTML table,West Virginia
+2005,AR,93.0,12.0,105.0,0.0,HCUP HTML table,Arkansas
+2005,AZ,73.0,2.0,75.0,2.0,HCUP HTML table,Arizona
+2005,CA,366.0,38.0,404.0,5.0,HCUP HTML table,California
+2005,CO,70.0,3.0,73.0,6.0,HCUP HTML table,Colorado
+2005,FL,201.0,16.0,217.0,19.0,HCUP HTML table,Florida
+2005,HI,20.0,2.0,22.0,6.0,HCUP HTML table,Hawaii
+2005,IA,115.0,0.0,115.0,1.0,HCUP HTML table,Iowa
+2005,KY,111.0,6.0,117.0,4.0,HCUP HTML table,Kentucky
+2005,MA,67.0,0.0,67.0,16.0,HCUP HTML table,Massachusetts
+2005,MD,49.0,0.0,49.0,1.0,HCUP HTML table,Maryland
+2005,MI,147.0,5.0,152.0,15.0,HCUP HTML table,Michigan
+2005,NC,117.0,6.0,123.0,5.0,HCUP HTML table,North Carolina
+2005,NE,85.0,0.0,85.0,5.0,HCUP HTML table,Nebraska
+2005,NJ,78.0,1.0,79.0,9.0,HCUP HTML table,New Jersey
+2005,NV,30.0,0.0,30.0,8.0,HCUP HTML table,Nevada
+2005,NY,202.0,4.0,206.0,3.0,HCUP HTML table,New York
+2005,OR,58.0,0.0,58.0,1.0,HCUP HTML table,Oregon
+2005,RI,20.0,2.0,22.0,6.0,HCUP HTML table,Rhode Island
+2005,SC,56.0,2.0,58.0,11.0,HCUP HTML table,South Carolina
+2005,UT,45.0,4.0,49.0,2.0,HCUP HTML table,Utah
+2005,VT,14.0,0.0,14.0,0.0,HCUP HTML table,Vermont
+2005,WA,88.0,6.0,94.0,1.0,HCUP HTML table,Washington
+2005,WI,128.0,14.0,142.0,4.0,HCUP HTML table,Wisconsin
+2005,WV,61.0,4.0,65.0,0.0,HCUP HTML table,West Virginia
+2006,AR,92.0,11.0,103.0,0.0,HCUP HTML table,Arkansas
+2006,AZ,73.0,2.0,75.0,2.0,HCUP HTML table,Arizona
+2006,CA,364.0,36.0,400.0,7.0,HCUP HTML table,California
+2006,CO,71.0,3.0,74.0,6.0,HCUP HTML table,Colorado
+2006,FL,200.0,18.0,218.0,16.0,HCUP HTML table,Florida
+2006,HI,21.0,3.0,24.0,3.0,HCUP HTML table,Hawaii
+2006,IA,117.0,0.0,117.0,1.0,HCUP HTML table,Iowa
+2006,KY,108.0,9.0,117.0,4.0,HCUP HTML table,Kentucky
+2006,MA,67.0,0.0,67.0,16.0,HCUP HTML table,Massachusetts
+2006,MD,50.0,0.0,50.0,0.0,HCUP HTML table,Maryland
+2006,ME,37.0,2.0,39.0,0.0,HCUP HTML table,Maine
+2006,MI,142.0,9.0,151.0,12.0,HCUP HTML table,Michigan
+2006,NC,116.0,6.0,122.0,4.0,HCUP HTML table,North Carolina
+2006,NE,86.0,1.0,87.0,2.0,HCUP HTML table,Nebraska
+2006,NJ,78.0,1.0,79.0,8.0,HCUP HTML table,New Jersey
+2006,NV,30.0,0.0,30.0,9.0,HCUP HTML table,Nevada
+2006,NY,203.0,3.0,206.0,1.0,HCUP HTML table,New York
+2006,OR,57.0,0.0,57.0,1.0,HCUP HTML table,Oregon
+2006,RI,12.0,2.0,14.0,0.0,HCUP HTML table,Rhode Island
+2006,SC,57.0,3.0,60.0,9.0,HCUP HTML table,South Carolina
+2006,UT,42.0,4.0,46.0,5.0,HCUP HTML table,Utah
+2006,VT,14.0,0.0,14.0,0.0,HCUP HTML table,Vermont
+2006,WA,90.0,5.0,95.0,1.0,HCUP HTML table,Washington
+2006,WI,131.0,14.0,145.0,2.0,HCUP HTML table,Wisconsin
+2006,WV,61.0,4.0,65.0,0.0,HCUP HTML table,West Virginia
+2007,AR,91.0,11.0,102.0,0.0,HCUP HTML table,Arkansas
+2007,AZ,73.0,3.0,76.0,2.0,HCUP HTML table,Arizona
+2007,CA,360.0,36.0,396.0,7.0,HCUP HTML table,California
+2007,CO,73.0,3.0,76.0,6.0,HCUP HTML table,Colorado
+2007,FL,194.0,19.0,213.0,16.0,HCUP HTML table,Florida
+2007,HI,20.0,4.0,24.0,3.0,HCUP HTML table,Hawaii
+2007,IA,117.0,0.0,117.0,0.0,HCUP HTML table,Iowa
+2007,KY,107.0,8.0,115.0,4.0,HCUP HTML table,Kentucky
+2007,MA,65.0,0.0,65.0,16.0,HCUP HTML table,Massachusetts
+2007,MD,49.0,1.0,50.0,0.0,HCUP HTML table,Maryland
+2007,ME,37.0,4.0,41.0,0.0,HCUP HTML table,Maine
+2007,MI,144.0,6.0,150.0,14.0,HCUP HTML table,Michigan
+2007,NC,116.0,6.0,122.0,3.0,HCUP HTML table,North Carolina
+2007,NE,86.0,1.0,87.0,2.0,HCUP HTML table,Nebraska
+2007,NJ,73.0,1.0,74.0,8.0,HCUP HTML table,New Jersey
+2007,NV,32.0,0.0,32.0,7.0,HCUP HTML table,Nevada
+2007,NY,203.0,3.0,206.0,0.0,HCUP HTML table,New York
+2007,OR,57.0,0.0,57.0,1.0,HCUP HTML table,Oregon
+2007,RI,12.0,2.0,14.0,0.0,HCUP HTML table,Rhode Island
+2007,SC,57.0,2.0,59.0,11.0,HCUP HTML table,South Carolina
+2007,UT,42.0,5.0,47.0,2.0,HCUP HTML table,Utah
+2007,VT,14.0,0.0,14.0,0.0,HCUP HTML table,Vermont
+2007,WA,90.0,5.0,95.0,1.0,HCUP HTML table,Washington
+2007,WI,130.0,13.0,143.0,1.0,HCUP HTML table,Wisconsin
+2007,WV,60.0,4.0,64.0,0.0,HCUP HTML table,West Virginia
+2008,AR,91.0,10.0,101.0,1.0,HCUP HTML table,Arkansas
+2008,AZ,80.0,1.0,81.0,2.0,HCUP HTML table,Arizona
+2008,CA,361.0,34.0,395.0,7.0,HCUP HTML table,California
+2008,CO,75.0,3.0,78.0,7.0,HCUP HTML table,Colorado
+2008,FL,199.0,18.0,217.0,18.0,HCUP HTML table,Florida
+2008,HI,22.0,3.0,25.0,3.0,HCUP HTML table,Hawaii
+2008,IA,117.0,0.0,117.0,1.0,HCUP HTML table,Iowa
+2008,KY,108.0,9.0,117.0,2.0,HCUP HTML table,Kentucky
+2008,MA,63.0,0.0,63.0,15.0,HCUP HTML table,Massachusetts
+2008,MD,50.0,0.0,50.0,0.0,HCUP HTML table,Maryland
+2008,ME,37.0,4.0,41.0,0.0,HCUP HTML table,Maine
+2008,MI,144.0,2.0,146.0,16.0,HCUP HTML table,Michigan
+2008,NC,116.0,5.0,121.0,2.0,HCUP HTML table,North Carolina
+2008,NE,87.0,0.0,87.0,2.0,HCUP HTML table,Nebraska
+2008,NJ,71.0,1.0,72.0,9.0,HCUP HTML table,New Jersey
+2008,NV,39.0,5.0,44.0,4.0,HCUP HTML table,Nevada
+2008,NY,196.0,3.0,199.0,1.0,HCUP HTML table,New York
+2008,OR,58.0,0.0,58.0,1.0,HCUP HTML table,Oregon
+2008,RI,12.0,2.0,14.0,0.0,HCUP HTML table,Rhode Island
+2008,SC,59.0,1.0,60.0,11.0,HCUP HTML table,South Carolina
+2008,SD,49.0,0.0,49.0,9.0,HCUP HTML table,South Dakota
+2008,UT,44.0,5.0,49.0,3.0,HCUP HTML table,Utah
+2008,VT,14.0,0.0,14.0,0.0,HCUP HTML table,Vermont
+2008,WA,89.0,5.0,94.0,1.0,HCUP HTML table,Washington
+2008,WI,131.0,13.0,144.0,1.0,HCUP HTML table,Wisconsin
+2008,WV,58.0,4.0,62.0,0.0,HCUP HTML table,West Virginia
+2009,AR,93.0,8.0,101.0,2.0,HCUP HTML table,Arkansas
+2009,AZ,80.0,0.0,80.0,2.0,HCUP HTML table,Arizona
+2009,CA,354.0,36.0,390.0,3.0,HCUP HTML table,California
+2009,CO,76.0,2.0,78.0,8.0,HCUP HTML table,Colorado
+2009,FL,199.0,17.0,216.0,16.0,HCUP HTML table,Florida
+2009,HI,23.0,2.0,25.0,2.0,HCUP HTML table,Hawaii
+2009,IA,117.0,0.0,117.0,1.0,HCUP HTML table,Iowa
+2009,KY,107.0,11.0,118.0,2.0,HCUP HTML table,Kentucky
+2009,MA,64.0,0.0,64.0,16.0,HCUP HTML table,Massachusetts
+2009,MD,49.0,1.0,50.0,0.0,HCUP HTML table,Maryland
+2009,ME,37.0,4.0,41.0,0.0,HCUP HTML table,Maine
+2009,MI,147.0,1.0,148.0,13.0,HCUP HTML table,Michigan
+2009,NC,115.0,6.0,121.0,2.0,HCUP HTML table,North Carolina
+2009,NE,87.0,0.0,87.0,3.0,HCUP HTML table,Nebraska
+2009,NJ,70.0,1.0,71.0,10.0,HCUP HTML table,New Jersey
+2009,NV,40.0,5.0,45.0,3.0,HCUP HTML table,Nevada
+2009,NY,190.0,3.0,193.0,1.0,HCUP HTML table,New York
+2009,OR,58.0,0.0,58.0,1.0,HCUP HTML table,Oregon
+2009,RI,12.0,2.0,14.0,0.0,HCUP HTML table,Rhode Island
+2009,SC,59.0,0.0,59.0,13.0,HCUP HTML table,South Carolina
+2009,SD,49.0,0.0,49.0,9.0,HCUP HTML table,South Dakota
+2009,UT,44.0,4.0,48.0,3.0,HCUP HTML table,Utah
+2009,VT,14.0,0.0,14.0,0.0,HCUP HTML table,Vermont
+2009,WA,89.0,6.0,95.0,1.0,HCUP HTML table,Washington
+2009,WI,131.0,13.0,144.0,1.0,HCUP HTML table,Wisconsin
+2009,WV,58.0,4.0,62.0,0.0,HCUP HTML table,West Virginia
+2010,AR,91.0,10.0,101.0,1.0,HCUP HTML table,Arkansas
+2010,AZ,81.0,0.0,81.0,4.0,HCUP HTML table,Arizona
+2010,CA,354.0,35.0,389.0,6.0,HCUP HTML table,California
+2010,CO,76.0,3.0,79.0,7.0,HCUP HTML table,Colorado
+2010,FL,214.0,20.0,234.0,1.0,HCUP HTML table,Florida
+2010,HI,22.0,2.0,24.0,4.0,HCUP HTML table,Hawaii
+2010,IA,117.0,0.0,117.0,2.0,HCUP HTML table,Iowa
+2010,KY,109.0,10.0,119.0,2.0,HCUP HTML table,Kentucky
+2010,MA,64.0,0.0,64.0,17.0,HCUP HTML table,Massachusetts
+2010,MD,47.0,1.0,48.0,1.0,HCUP HTML table,Maryland
+2010,ME,37.0,3.0,40.0,0.0,HCUP HTML table,Maine
+2010,MI,146.0,1.0,147.0,11.0,HCUP HTML table,Michigan
+2010,NC,117.0,5.0,122.0,5.0,HCUP HTML table,North Carolina
+2010,NE,88.0,0.0,88.0,4.0,HCUP HTML table,Nebraska
+2010,NJ,69.0,1.0,70.0,8.0,HCUP HTML table,New Jersey
+2010,NV,40.0,4.0,44.0,4.0,HCUP HTML table,Nevada
+2010,NY,186.0,3.0,189.0,1.0,HCUP HTML table,New York
+2010,OR,59.0,0.0,59.0,1.0,HCUP HTML table,Oregon
+2010,RI,12.0,2.0,14.0,0.0,HCUP HTML table,Rhode Island
+2010,SC,59.0,0.0,59.0,11.0,HCUP HTML table,South Carolina
+2010,SD,49.0,0.0,49.0,8.0,HCUP HTML table,South Dakota
+2010,UT,48.0,3.0,51.0,1.0,HCUP HTML table,Utah
+2010,VT,14.0,0.0,14.0,0.0,HCUP HTML table,Vermont
+2010,WA,88.0,7.0,95.0,1.0,HCUP HTML table,Washington
+2010,WI,129.0,14.0,143.0,1.0,HCUP HTML table,Wisconsin
+2010,WV,58.0,4.0,62.0,0.0,HCUP HTML table,West Virginia
+2011,AR,,,106.0,,HCUP PDF report,Arkansas
+2011,AZ,,,110.0,,HCUP PDF report,Arizona
+2011,CA,,,443.0,,HCUP PDF report,California
+2011,CO,,,86.0,,HCUP PDF report,Colorado
+2011,FL,,,281.0,,HCUP PDF report,Florida
+2011,GA,,,169.0,,HCUP PDF report,Georgia
+2011,HI,,,25.0,,HCUP PDF report,Hawaii
+2011,IA,,,118.0,,HCUP PDF report,Iowa
+2011,KY,,,122.0,,HCUP PDF report,Kentucky
+2011,MA,,,75.0,,HCUP PDF report,Massachusetts
+2011,MD,,,50.0,,HCUP PDF report,Maryland
+2011,ME,,,41.0,,HCUP PDF report,Maine
+2011,MI,,,152.0,,HCUP PDF report,Michigan
+2011,MS,,,110.0,,HCUP PDF report,Mississippi
+2011,NC,,,125.0,,HCUP PDF report,North Carolina
+2011,NE,,,86.0,,HCUP PDF report,Nebraska
+2011,NJ,,,116.0,,HCUP PDF report,New Jersey
+2011,NM,,,51.0,,HCUP PDF report,New Mexico
+2011,NV,,,50.0,,HCUP PDF report,Nevada
+2011,NY,,,226.0,,HCUP PDF report,New York
+2011,OR,,,59.0,,HCUP PDF report,Oregon
+2011,RI,,,14.0,,HCUP PDF report,Rhode Island
+2011,SC,,,62.0,,HCUP PDF report,South Carolina
+2011,SD,,,49.0,,HCUP PDF report,South Dakota
+2011,UT,,,54.0,,HCUP PDF report,Utah
+2011,VT,,,14.0,,HCUP PDF report,Vermont
+2011,WA,,,164.0,,HCUP PDF report,Washington
+2011,WI,,,151.0,,HCUP PDF report,Wisconsin
+2011,WV,,,62.0,,HCUP PDF report,West Virginia
+2012,AR,,,104.0,,HCUP PDF report,Arkansas
+2012,AZ,,,109.0,,HCUP PDF report,Arizona
+2012,CA,,,444.0,,HCUP PDF report,California
+2012,CO,,,85.0,,HCUP PDF report,Colorado
+2012,FL,,,288.0,,HCUP PDF report,Florida
+2012,GA,,,168.0,,HCUP PDF report,Georgia
+2012,HI,,,21.0,,HCUP PDF report,Hawaii
+2012,IA,,,118.0,,HCUP PDF report,Iowa
+2012,KY,,,123.0,,HCUP PDF report,Kentucky
+2012,MA,,,73.0,,HCUP PDF report,Massachusetts
+2012,MD,,,51.0,,HCUP PDF report,Maryland
+2012,MI,,,151.0,,HCUP PDF report,Michigan
+2012,NC,,,124.0,,HCUP PDF report,North Carolina
+2012,NE,,,87.0,,HCUP PDF report,Nebraska
+2012,NJ,,,118.0,,HCUP PDF report,New Jersey
+2012,NM,,,47.0,,HCUP PDF report,New Mexico
+2012,NV,,,54.0,,HCUP PDF report,Nevada
+2012,NY,,,224.0,,HCUP PDF report,New York
+2012,OR,,,59.0,,HCUP PDF report,Oregon
+2012,RI,,,14.0,,HCUP PDF report,Rhode Island
+2012,SC,,,61.0,,HCUP PDF report,South Carolina
+2012,SD,,,51.0,,HCUP PDF report,South Dakota
+2012,UT,,,54.0,,HCUP PDF report,Utah
+2012,VT,,,14.0,,HCUP PDF report,Vermont
+2012,WA,,,164.0,,HCUP PDF report,Washington
+2012,WI,,,151.0,,HCUP PDF report,Wisconsin
+2012,WV,,,60.0,,HCUP PDF report,West Virginia
+2013,AR,,,104.0,,HCUP PDF report,Arkansas
+2013,AZ,,,108.0,,HCUP PDF report,Arizona
+2013,CO,,,86.0,,HCUP PDF report,Colorado
+2013,DC,,,9.0,,HCUP PDF report,District of Columbia
+2013,FL,,,294.0,,HCUP PDF report,Florida
+2013,GA,,,162.0,,HCUP PDF report,Georgia
+2013,HI,,,21.0,,HCUP PDF report,Hawaii
+2013,IA,,,118.0,,HCUP PDF report,Iowa
+2013,KY,,,123.0,,HCUP PDF report,Kentucky
+2013,MA,,,73.0,,HCUP PDF report,Massachusetts
+2013,MD,,,49.0,,HCUP PDF report,Maryland
+2013,MI,,,150.0,,HCUP PDF report,Michigan
+2013,NC,,,125.0,,HCUP PDF report,North Carolina
+2013,NE,,,89.0,,HCUP PDF report,Nebraska
+2013,NJ,,,119.0,,HCUP PDF report,New Jersey
+2013,NM,,,48.0,,HCUP PDF report,New Mexico
+2013,NV,,,53.0,,HCUP PDF report,Nevada
+2013,NY,,,218.0,,HCUP PDF report,New York
+2013,OR,,,60.0,,HCUP PDF report,Oregon
+2013,SC,,,61.0,,HCUP PDF report,South Carolina
+2013,SD,,,51.0,,HCUP PDF report,South Dakota
+2013,UT,,,55.0,,HCUP PDF report,Utah
+2013,VT,,,14.0,,HCUP PDF report,Vermont
+2013,WA,,,165.0,,HCUP PDF report,Washington
+2013,WI,,,151.0,,HCUP PDF report,Wisconsin
+2013,WV,,,61.0,,HCUP PDF report,West Virginia
+2014,AR,,,104.0,,HCUP PDF report,Arkansas
+2014,AZ,,,111.0,,HCUP PDF report,Arizona
+2014,CA,,,451.0,,HCUP PDF report,California
+2014,CO,,,84.0,,HCUP PDF report,Colorado
+2014,DC,,,9.0,,HCUP PDF report,District of Columbia
+2014,FL,,,296.0,,HCUP PDF report,Florida
+2014,GA,,,160.0,,HCUP PDF report,Georgia
+2014,HI,,,23.0,,HCUP PDF report,Hawaii
+2014,IA,,,118.0,,HCUP PDF report,Iowa
+2014,KY,,,123.0,,HCUP PDF report,Kentucky
+2014,MA,,,72.0,,HCUP PDF report,Massachusetts
+2014,MD,,,51.0,,HCUP PDF report,Maryland
+2014,ME,,,40.0,,HCUP PDF report,Maine
+2014,MI,,,152.0,,HCUP PDF report,Michigan
+2014,MN,,,132.0,,HCUP PDF report,Minnesota
+2014,NC,,,125.0,,HCUP PDF report,North Carolina
+2014,NE,,,91.0,,HCUP PDF report,Nebraska
+2014,NJ,,,118.0,,HCUP PDF report,New Jersey
+2014,NM,,,50.0,,HCUP PDF report,New Mexico
+2014,NV,,,53.0,,HCUP PDF report,Nevada
+2014,NY,,,216.0,,HCUP PDF report,New York
+2014,OR,,,60.0,,HCUP PDF report,Oregon
+2014,RI,,,15.0,,HCUP PDF report,Rhode Island
+2014,SC,,,62.0,,HCUP PDF report,South Carolina
+2014,SD,,,51.0,,HCUP PDF report,South Dakota
+2014,UT,,,61.0,,HCUP PDF report,Utah
+2014,VT,,,14.0,,HCUP PDF report,Vermont
+2014,WA,,,161.0,,HCUP PDF report,Washington
+2014,WI,,,152.0,,HCUP PDF report,Wisconsin
+2014,WV,,,61.0,,HCUP PDF report,West Virginia
+2015,AR,,,99.0,,HCUP PDF report,Arkansas
+2015,AZ,,,113.0,,HCUP PDF report,Arizona
+2015,CO,,,85.0,,HCUP PDF report,Colorado
+2015,DC,,,9.0,,HCUP PDF report,District of Columbia
+2015,FL,,,298.0,,HCUP PDF report,Florida
+2015,GA,,,159.0,,HCUP PDF report,Georgia
+2015,HI,,,23.0,,HCUP PDF report,Hawaii
+2015,IA,,,118.0,,HCUP PDF report,Iowa
+2015,KY,,,122.0,,HCUP PDF report,Kentucky
+2015,MA,,,71.0,,HCUP PDF report,Massachusetts
+2015,MD,,,51.0,,HCUP PDF report,Maryland
+2015,ME,,,40.0,,HCUP PDF report,Maine
+2015,MI,,,149.0,,HCUP PDF report,Michigan
+2015,MN,,,132.0,,HCUP PDF report,Minnesota
+2015,MS,,,105.0,,HCUP PDF report,Mississippi
+2015,NC,,,127.0,,HCUP PDF report,North Carolina
+2015,NE,,,90.0,,HCUP PDF report,Nebraska
+2015,NJ,,,116.0,,HCUP PDF report,New Jersey
+2015,NM,,,52.0,,HCUP PDF report,New Mexico
+2015,NV,,,56.0,,HCUP PDF report,Nevada
+2015,NY,,,214.0,,HCUP PDF report,New York
+2015,OR,,,60.0,,HCUP PDF report,Oregon
+2015,RI,,,14.0,,HCUP PDF report,Rhode Island
+2015,SC,,,63.0,,HCUP PDF report,South Carolina
+2015,SD,,,51.0,,HCUP PDF report,South Dakota
+2015,UT,,,65.0,,HCUP PDF report,Utah
+2015,VT,,,14.0,,HCUP PDF report,Vermont
+2015,WA,,,162.0,,HCUP PDF report,Washington
+2015,WI,,,153.0,,HCUP PDF report,Wisconsin
+2015,WV,,,60.0,,HCUP PDF report,West Virginia
+2016,AR,,,100.0,,HCUP PDF report,Arkansas
+2016,AZ,,,115.0,,HCUP PDF report,Arizona
+2016,CO,,,87.0,,HCUP PDF report,Colorado
+2016,DC,,,9.0,,HCUP PDF report,District of Columbia
+2016,FL,,,299.0,,HCUP PDF report,Florida
+2016,GA,,,157.0,,HCUP PDF report,Georgia
+2016,HI,,,23.0,,HCUP PDF report,Hawaii
+2016,IA,,,118.0,,HCUP PDF report,Iowa
+2016,KS,,,127.0,,HCUP PDF report,Kansas
+2016,KY,,,123.0,,HCUP PDF report,Kentucky
+2016,MA,,,71.0,,HCUP PDF report,Massachusetts
+2016,MD,,,52.0,,HCUP PDF report,Maryland
+2016,ME,,,38.0,,HCUP PDF report,Maine
+2016,MI,,,149.0,,HCUP PDF report,Michigan
+2016,MN,,,130.0,,HCUP PDF report,Minnesota
+2016,MS,,,106.0,,HCUP PDF report,Mississippi
+2016,NC,,,128.0,,HCUP PDF report,North Carolina
+2016,NE,,,89.0,,HCUP PDF report,Nebraska
+2016,NJ,,,114.0,,HCUP PDF report,New Jersey
+2016,NM,,,52.0,,HCUP PDF report,New Mexico
+2016,NV,,,55.0,,HCUP PDF report,Nevada
+2016,NY,,,212.0,,HCUP PDF report,New York
+2016,OR,,,60.0,,HCUP PDF report,Oregon
+2016,RI,,,13.0,,HCUP PDF report,Rhode Island
+2016,SC,,,60.0,,HCUP PDF report,South Carolina
+2016,SD,,,50.0,,HCUP PDF report,South Dakota
+2016,UT,,,65.0,,HCUP PDF report,Utah
+2016,VT,,,14.0,,HCUP PDF report,Vermont
+2016,WA,,,157.0,,HCUP PDF report,Washington
+2016,WI,,,153.0,,HCUP PDF report,Wisconsin
+2016,WV,,,62.0,,HCUP PDF report,West Virginia
+2017,AK,,,34.0,,HCUP PDF report,Alaska
+2017,AR,,,100.0,,HCUP PDF report,Arkansas
+2017,AZ,,,111.0,,HCUP PDF report,Arizona
+2017,CO,,,88.0,,HCUP PDF report,Colorado
+2017,DC,,,9.0,,HCUP PDF report,District of Columbia
+2017,FL,,,301.0,,HCUP PDF report,Florida
+2017,GA,,,158.0,,HCUP PDF report,Georgia
+2017,IA,,,118.0,,HCUP PDF report,Iowa
+2017,KS,,,127.0,,HCUP PDF report,Kansas
+2017,KY,,,130.0,,HCUP PDF report,Kentucky
+2017,MA,,,70.0,,HCUP PDF report,Massachusetts
+2017,MD,,,52.0,,HCUP PDF report,Maryland
+2017,ME,,,38.0,,HCUP PDF report,Maine
+2017,MI,,,151.0,,HCUP PDF report,Michigan
+2017,MN,,,129.0,,HCUP PDF report,Minnesota
+2017,MS,,,108.0,,HCUP PDF report,Mississippi
+2017,NC,,,129.0,,HCUP PDF report,North Carolina
+2017,NE,,,89.0,,HCUP PDF report,Nebraska
+2017,NJ,,,117.0,,HCUP PDF report,New Jersey
+2017,NM,,,52.0,,HCUP PDF report,New Mexico
+2017,NV,,,53.0,,HCUP PDF report,Nevada
+2017,NY,,,214.0,,HCUP PDF report,New York
+2017,OR,,,60.0,,HCUP PDF report,Oregon
+2017,RI,,,13.0,,HCUP PDF report,Rhode Island
+2017,SC,,,60.0,,HCUP PDF report,South Carolina
+2017,SD,,,50.0,,HCUP PDF report,South Dakota
+2017,UT,,,64.0,,HCUP PDF report,Utah
+2017,VT,,,14.0,,HCUP PDF report,Vermont
+2017,WA,,,158.0,,HCUP PDF report,Washington
+2017,WI,,,153.0,,HCUP PDF report,Wisconsin
+2017,WV,,,62.0,,HCUP PDF report,West Virginia
+2018,AK,,,25.0,,HCUP PDF report,Alaska
+2018,AR,,,103.0,,HCUP PDF report,Arkansas
+2018,AZ,,,111.0,,HCUP PDF report,Arizona
+2018,CA,,,446.0,,HCUP PDF report,California
+2018,CO,,,88.0,,HCUP PDF report,Colorado
+2018,DC,,,9.0,,HCUP PDF report,District of Columbia
+2018,DE,,,7.0,,HCUP PDF report,Delaware
+2018,FL,,,300.0,,HCUP PDF report,Florida
+2018,GA,,,153.0,,HCUP PDF report,Georgia
+2018,IA,,,118.0,,HCUP PDF report,Iowa
+2018,KS,,,123.0,,HCUP PDF report,Kansas
+2018,KY,,,132.0,,HCUP PDF report,Kentucky
+2018,MA,,,69.0,,HCUP PDF report,Massachusetts
+2018,MD,,,52.0,,HCUP PDF report,Maryland
+2018,ME,,,38.0,,HCUP PDF report,Maine
+2018,MI,,,148.0,,HCUP PDF report,Michigan
+2018,MN,,,129.0,,HCUP PDF report,Minnesota
+2018,MS,,,105.0,,HCUP PDF report,Mississippi
+2018,NC,,,120.0,,HCUP PDF report,North Carolina
+2018,NE,,,89.0,,HCUP PDF report,Nebraska
+2018,NJ,,,113.0,,HCUP PDF report,New Jersey
+2018,NM,,,52.0,,HCUP PDF report,New Mexico
+2018,NV,,,60.0,,HCUP PDF report,Nevada
+2018,NY,,,209.0,,HCUP PDF report,New York
+2018,OR,,,60.0,,HCUP PDF report,Oregon
+2018,RI,,,12.0,,HCUP PDF report,Rhode Island
+2018,SC,,,59.0,,HCUP PDF report,South Carolina
+2018,SD,,,50.0,,HCUP PDF report,South Dakota
+2018,UT,,,66.0,,HCUP PDF report,Utah
+2018,VT,,,14.0,,HCUP PDF report,Vermont
+2018,WA,,,161.0,,HCUP PDF report,Washington
+2018,WI,,,154.0,,HCUP PDF report,Wisconsin
+2018,WV,,,63.0,,HCUP PDF report,West Virginia
+2019,AK,,,24.0,,HCUP PDF report,Alaska
+2019,AR,,,105.0,,HCUP PDF report,Arkansas
+2019,AZ,,,115.0,,HCUP PDF report,Arizona
+2019,CA,,,442.0,,HCUP PDF report,California
+2019,CO,,,90.0,,HCUP PDF report,Colorado
+2019,DC,,,9.0,,HCUP PDF report,District of Columbia
+2019,DE,,,7.0,,HCUP PDF report,Delaware
+2019,FL,,,297.0,,HCUP PDF report,Florida
+2019,GA,,,153.0,,HCUP PDF report,Georgia
+2019,IA,,,120.0,,HCUP PDF report,Iowa
+2019,IN,,,139.0,,HCUP PDF report,Indiana
+2019,KS,,,123.0,,HCUP PDF report,Kansas
+2019,KY,,,131.0,,HCUP PDF report,Kentucky
+2019,MA,,,69.0,,HCUP PDF report,Massachusetts
+2019,MD,,,51.0,,HCUP PDF report,Maryland
+2019,ME,,,38.0,,HCUP PDF report,Maine
+2019,MI,,,147.0,,HCUP PDF report,Michigan
+2019,MN,,,128.0,,HCUP PDF report,Minnesota
+2019,MS,,,103.0,,HCUP PDF report,Mississippi
+2019,NC,,,125.0,,HCUP PDF report,North Carolina
+2019,NE,,,89.0,,HCUP PDF report,Nebraska
+2019,NJ,,,114.0,,HCUP PDF report,New Jersey
+2019,NM,,,53.0,,HCUP PDF report,New Mexico
+2019,NV,,,63.0,,HCUP PDF report,Nevada
+2019,NY,,,207.0,,HCUP PDF report,New York
+2019,OR,,,60.0,,HCUP PDF report,Oregon
+2019,RI,,,12.0,,HCUP PDF report,Rhode Island
+2019,SC,,,59.0,,HCUP PDF report,South Carolina
+2019,SD,,,50.0,,HCUP PDF report,South Dakota
+2019,UT,,,66.0,,HCUP PDF report,Utah
+2019,VT,,,15.0,,HCUP PDF report,Vermont
+2019,WA,,,164.0,,HCUP PDF report,Washington
+2019,WI,,,153.0,,HCUP PDF report,Wisconsin
+2019,WV,,,63.0,,HCUP PDF report,West Virginia
+2020,AK,,,24.0,,HCUP PDF report,Alaska
+2020,AR,,,104.0,,HCUP PDF report,Arkansas
+2020,AZ,,,123.0,,HCUP PDF report,Arizona
+2020,CA,,,444.0,,HCUP PDF report,California
+2020,CO,,,89.0,,HCUP PDF report,Colorado
+2020,DC,,,8.0,,HCUP PDF report,District of Columbia
+2020,DE,,,7.0,,HCUP PDF report,Delaware
+2020,FL,,,297.0,,HCUP PDF report,Florida
+2020,GA,,,154.0,,HCUP PDF report,Georgia
+2020,IA,,,120.0,,HCUP PDF report,Iowa
+2020,IN,,,141.0,,HCUP PDF report,Indiana
+2020,KS,,,123.0,,HCUP PDF report,Kansas
+2020,KY,,,132.0,,HCUP PDF report,Kentucky
+2020,MA,,,70.0,,HCUP PDF report,Massachusetts
+2020,MD,,,54.0,,HCUP PDF report,Maryland
+2020,ME,,,38.0,,HCUP PDF report,Maine
+2020,MI,,,147.0,,HCUP PDF report,Michigan
+2020,MN,,,126.0,,HCUP PDF report,Minnesota
+2020,MO,,,131.0,,HCUP PDF report,Missouri
+2020,MS,,,103.0,,HCUP PDF report,Mississippi
+2020,NC,,,132.0,,HCUP PDF report,North Carolina
+2020,NE,,,89.0,,HCUP PDF report,Nebraska
+2020,NJ,,,115.0,,HCUP PDF report,New Jersey
+2020,NM,,,53.0,,HCUP PDF report,New Mexico
+2020,NV,,,62.0,,HCUP PDF report,Nevada
+2020,NY,,,211.0,,HCUP PDF report,New York
+2020,OR,,,60.0,,HCUP PDF report,Oregon
+2020,RI,,,12.0,,HCUP PDF report,Rhode Island
+2020,SC,,,59.0,,HCUP PDF report,South Carolina
+2020,SD,,,50.0,,HCUP PDF report,South Dakota
+2020,UT,,,66.0,,HCUP PDF report,Utah
+2020,VT,,,15.0,,HCUP PDF report,Vermont
+2020,WA,,,159.0,,HCUP PDF report,Washington
+2020,WI,,,154.0,,HCUP PDF report,Wisconsin
+2020,WV,,,61.0,,HCUP PDF report,West Virginia

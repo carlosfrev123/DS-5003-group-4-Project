@@ -1,0 +1,19 @@
+column,description,source
+year,Calendar year,All sources
+state_abbr,Two-letter USPS state code,Derived
+crc_cases,"New invasive colon/rectum cancer cases, all ages",CDC WONDER USCS D205
+population,State population used as WONDER denominator,CDC WONDER USCS D205
+crc_age_adj_rate,"Age-adjusted CRC incidence per 100,000 (2000 US standard)",CDC WONDER USCS D205
+crc_crude_rate,"Crude CRC incidence per 100,000, all ages",CDC WONDER USCS D205
+crc_early_cases,"New CRC cases, ages 20-49",CDC WONDER USCS D205
+crc_early_rate,"Crude CRC incidence per 100,000, ages 20-49",CDC WONDER USCS D205
+hospitals_sid,Hospitals participating in the HCUP SID,HCUP SID file composition
+hospitals_per100k,"hospitals_sid / population x 100,000",Derived
+red_meat_lb_pc,"Red meat availability, lb per person per year (carcass weight)",USDA ERS
+poultry_lb_pc,"Poultry availability, lb per person per year (carcass weight)",USDA ERS
+red_meat_lag10,Red meat availability 10 years earlier,Derived
+smoking_pct,"Adults who currently smoke, crude %",CDC BRFSS
+obesity_pct,"Adults with BMI >= 30, crude %",CDC BRFSS
+uninsured_pct,"Adults without health insurance, crude %",CDC BRFSS
+region,Census region,Derived
+crc_early_rate_baseline,State's first observed early-onset rate (usually 1999),Derived
