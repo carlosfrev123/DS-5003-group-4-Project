@@ -1,0 +1,1727 @@
+<?xml version="1.0"?>
+<page>
+<platform>prod</platform>
+<title>United States and Puerto Rico Cancer Statistics, 1999-2022 Incidence Results Form</title>
+<default-map/>
+<dataset code="D205" label="United States and Puerto Rico Cancer Statistics, 1999-2022 Incidence" family="Cancer" validatorFamily="" totals="true" vintage-latest="Cancer Incidence" suppress-counts="true" agreement-required="false">
+	<variable groupby-heading="Cancers"/>
+	<variable code="D205.V8" label="Cancer Sites" type="ignore-selections=O_cancer=D205.V10,indent,indent-modify-sql" display-code="F" use-finder="false">
+		<other-param-control code="O_cancer" value="D205.V8"/>
+		<value code="0" label="All Invasive Cancer Sites Combined" hierarchy-level="1"/>
+		<value code="20010-20100" label="Oral Cavity and Pharynx" hierarchy-level="2"/>
+		<value code="20010" label="Lip" hierarchy-level="3"/>
+		<value code="20020" label="Tongue" hierarchy-level="3"/>
+		<value code="20030" label="Salivary Gland" hierarchy-level="3"/>
+		<value code="20040" label="Floor of Mouth" hierarchy-level="3"/>
+		<value code="20050" label="Gum and Other Mouth" hierarchy-level="3"/>
+		<value code="20060" label="Nasopharynx" hierarchy-level="3"/>
+		<value code="20070" label="Tonsil" hierarchy-level="3"/>
+		<value code="20080" label="Oropharynx" hierarchy-level="3"/>
+		<value code="20090" label="Hypopharynx" hierarchy-level="3"/>
+		<value code="20100" label="Other Oral Cavity and Pharynx" hierarchy-level="3"/>
+		<value code="21010-21130" label="Digestive System" hierarchy-level="2"/>
+		<value code="21010" label="Esophagus" hierarchy-level="3"/>
+		<value code="21020" label="Stomach" hierarchy-level="3"/>
+		<value code="21030" label="Small Intestine" hierarchy-level="3"/>
+		<value code="21041-21052" label="Colon and Rectum" hierarchy-level="3"/>
+		<value code="21041-21049" label="Colon excluding Rectum" hierarchy-level="4"/>
+		<value code="21041" label="Cecum" hierarchy-level="5"/>
+		<value code="21042" label="Appendix" hierarchy-level="5"/>
+		<value code="21043" label="Ascending Colon" hierarchy-level="5"/>
+		<value code="21044" label="Hepatic Flexure" hierarchy-level="5"/>
+		<value code="21045" label="Transverse Colon" hierarchy-level="5"/>
+		<value code="21046" label="Splenic Flexure" hierarchy-level="5"/>
+		<value code="21047" label="Descending Colon" hierarchy-level="5"/>
+		<value code="21048" label="Sigmoid Colon" hierarchy-level="5"/>
+		<value code="21049" label="Large Intestine, NOS" hierarchy-level="5"/>
+		<value code="21051-21052" label="Rectum and Rectosigmoid Junction" hierarchy-level="4"/>
+		<value code="21051" label="Rectosigmoid Junction" hierarchy-level="5"/>
+		<value code="21052" label="Rectum" hierarchy-level="5"/>
+		<value code="21060" label="Anus, Anal Canal and Anorectum" hierarchy-level="3"/>
+		<value code="21071-21072" label="Liver and Intrahepatic Bile Duct" hierarchy-level="3"/>
+		<value code="21071" label="Liver" hierarchy-level="4"/>
+		<value code="21072" label="Intrahepatic Bile Duct" hierarchy-level="4"/>
+		<value code="21080" label="Gallbladder" hierarchy-level="3"/>
+		<value code="21090" label="Other Biliary" hierarchy-level="3"/>
+		<value code="21100" label="Pancreas" hierarchy-level="3"/>
+		<value code="21110" label="Retroperitoneum" hierarchy-level="3"/>
+		<value code="21120" label="Peritoneum, Omentum and Mesentery" hierarchy-level="3"/>
+		<value code="21130" label="Other Digestive Organs" hierarchy-level="3"/>
+		<value code="22010-22060" label="Respiratory System" hierarchy-level="2"/>
+		<value code="22010" label="Nose, Nasal Cavity and Middle Ear" hierarchy-level="3"/>
+		<value code="22020" label="Larynx" hierarchy-level="3"/>
+		<value code="22030" label="Lung and Bronchus" hierarchy-level="3"/>
+		<value code="22050" label="Pleura" hierarchy-level="3"/>
+		<value code="22060" label="Trachea, Mediastinum and Other Respiratory Organs" hierarchy-level="3"/>
+		<value code="23000" label="Bones and Joints" hierarchy-level="2"/>
+		<value code="24000" label="Soft Tissue including Heart" hierarchy-level="2"/>
+		<value code="25010-25020" label="Skin excluding Basal and Squamous" hierarchy-level="2"/>
+		<value code="25010" label="Melanoma of the Skin" hierarchy-level="3"/>
+		<value code="25020" label="Other Non-Epithelial Skin" hierarchy-level="3"/>
+		<value code="26000" label="Male and Female Breast" hierarchy-level="2"/>
+		<value code="26000-Female" label="Female Breast" hierarchy-level="3"/>
+		<value code="26000-Male" label="Male Breast" hierarchy-level="3"/>
+		<value code="27010-27070" label="Female Genital System" hierarchy-level="2"/>
+		<value code="27010" label="Cervix Uteri" hierarchy-level="3"/>
+		<value code="27020" label="Corpus Uteri" hierarchy-level="3"/>
+		<value code="27030" label="Uterus, NOS" hierarchy-level="3"/>
+		<value code="27040" label="Ovary" hierarchy-level="3"/>
+		<value code="27050" label="Vagina" hierarchy-level="3"/>
+		<value code="27060" label="Vulva" hierarchy-level="3"/>
+		<value code="27070" label="Other Female Genital Organs" hierarchy-level="3"/>
+		<value code="28010-28040" label="Male Genital System" hierarchy-level="2"/>
+		<value code="28010" label="Prostate" hierarchy-level="3"/>
+		<value code="28020" label="Testis" hierarchy-level="3"/>
+		<value code="28030" label="Penis" hierarchy-level="3"/>
+		<value code="28040" label="Other Male Genital Organs" hierarchy-level="3"/>
+		<value code="29010-29040" label="Urinary System" hierarchy-level="2"/>
+		<value code="29010" label="Urinary Bladder, invasive and in situ" hierarchy-level="3"/>
+		<value code="29020" label="Kidney and Renal Pelvis" hierarchy-level="3"/>
+		<value code="29030" label="Ureter" hierarchy-level="3"/>
+		<value code="29040" label="Other Urinary Organs" hierarchy-level="3"/>
+		<value code="30000" label="Eye and Orbit" hierarchy-level="2"/>
+		<value code="31010-31040" label="Brain and Other Nervous System" hierarchy-level="2"/>
+		<value code="31010" label="Brain" hierarchy-level="3"/>
+		<value code="31040" label="Cranial Nerves Other Nervous System" hierarchy-level="3"/>
+		<value code="32010-32020" label="Endocrine System" hierarchy-level="2"/>
+		<value code="32010" label="Thyroid" hierarchy-level="3"/>
+		<value code="32020" label="Other Endocrine including Thymus" hierarchy-level="3"/>
+		<value code="33011-33042" label="Lymphomas" hierarchy-level="2"/>
+		<value code="33011-33012" label="Hodgkin Lymphoma" hierarchy-level="3"/>
+		<value code="33011" label="Hodgkin - Nodal" hierarchy-level="4"/>
+		<value code="33012" label="Hodgkin - Extranodal" hierarchy-level="4"/>
+		<value code="33041-33042" label="Non-Hodgkin Lymphoma" hierarchy-level="3"/>
+		<value code="33041" label="NHL - Nodal" hierarchy-level="4"/>
+		<value code="33042" label="NHL - Extranodal" hierarchy-level="4"/>
+		<value code="34000" label="Myeloma" hierarchy-level="2"/>
+		<value code="35011-35043" label="Leukemias" hierarchy-level="2"/>
+		<value code="35011" label="Acute Lymphocytic Leukemia" hierarchy-level="3"/>
+		<value code="35012" label="Chronic Lymphocytic Leukemia" hierarchy-level="3"/>
+		<value code="35021" label="Acute Myeloid Leukemia" hierarchy-level="3"/>
+		<value code="35022" label="Chronic Myeloid Leukemia" hierarchy-level="3"/>
+		<value code="35041-35043" label="Other Leukemias" hierarchy-level="3"/>
+		<value code="35013" label="Other Lymphocytic Leukemia" hierarchy-level="4"/>
+		<value code="35031" label="Acute Monocytic Leukemia" hierarchy-level="4"/>
+		<value code="35041" label="Other Acute Leukemia" hierarchy-level="4"/>
+		<value code="35043" label="Aleukemic, Subleukemic and NOS" hierarchy-level="4"/>
+		<value code="35023" label="Other Myeloid/Monocytic Leukemia" hierarchy-level="4"/>
+		<value code="36010" label="Mesothelioma" hierarchy-level="2"/>
+		<value code="36020" label="Kaposi Sarcoma" hierarchy-level="2"/>
+		<value code="37000" label="Miscellaneous" hierarchy-level="2"/>
+		<value code="Breast-InSitu" label="Male and Female Breast, In Situ" hierarchy-level="1"/>
+		<value code="Breast-InSitu-Female" label="Female Breast, In Situ" hierarchy-level="2"/>
+		<value code="Breast-InSitu-Male" label="Male Breast, In Situ" hierarchy-level="2"/>
+		<value code="99999" label="Invalid Value(s)" hierarchy-level="1"/>
+	</variable>
+	<variable code="D205.V10" label="Leading Cancer Sites" type="default=0,ignore-selections=O_cancer" display-code="F" use-finder="false">
+		<other-param-control code="O_cancer" value="D205.V10"/>
+		<value code="0" label="All Leading Invasive Cancer Sites"/>
+		<value code="31010-31040" label="Brain and Other Nervous System"/>
+		<value code="26000" label="Breast"/>
+		<value code="27010" label="Cervix Uteri"/>
+		<value code="21041-21052" label="Colon and Rectum"/>
+		<value code="27020" label="Corpus Uteri"/>
+		<value code="21010" label="Esophagus"/>
+		<value code="21080" label="Gallbladder"/>
+		<value code="29020" label="Kidney and Renal Pelvis"/>
+		<value code="22020" label="Larynx"/>
+		<value code="35011-35043" label="Leukemias"/>
+		<value code="21071" label="Liver"/>
+		<value code="22030" label="Lung and Bronchus"/>
+		<value code="25010" label="Melanoma of the Skin"/>
+		<value code="34000" label="Myeloma"/>
+		<value code="33041-33042" label="Non-Hodgkin Lymphoma"/>
+		<value code="20010-20100" label="Oral Cavity and Pharynx"/>
+		<value code="27040" label="Ovary"/>
+		<value code="21100" label="Pancreas"/>
+		<value code="28010" label="Prostate"/>
+		<value code="21020" label="Stomach"/>
+		<value code="32010" label="Thyroid"/>
+		<value code="29010" label="Urinary Bladder, invasive and in situ"/>
+	</variable>
+	<variable code="D205.V7" label="Childhood Cancers" type="indent,indent-modify-sql" display-code="F" use-finder="false">
+		<other-param-control code="O_cancer" value="D205.V7"/>
+		<value code="0" label="All Childhood Invasive Cancer Sites Combined" hierarchy-level="1"/>
+		<value code="10" label="I Leukemia" hierarchy-level="2"/>
+		<value code="11" label="I(a) Lymphoid leukemias" hierarchy-level="3"/>
+		<value code="12" label="I(b) Acute myeloid leukemias" hierarchy-level="3"/>
+		<value code="13" label="I(c) Chronic myeloproliferative diseases" hierarchy-level="3"/>
+		<value code="14" label="I(d) Myelodysplastic syndrome and other myeloproliferative" hierarchy-level="3"/>
+		<value code="15" label="I(e) Unspecified and other specified leukemias" hierarchy-level="3"/>
+		<value code="20" label="II Lymphoma and reticuloendothelial neoplasms" hierarchy-level="2"/>
+		<value code="21" label="II(a) Hodgkin lymphomas" hierarchy-level="3"/>
+		<value code="22" label="II(b) Non-Hodgkin lymphomas (except Burkitt lymphoma)" hierarchy-level="3"/>
+		<value code="23" label="II(c) Burkitt lymphoma" hierarchy-level="3"/>
+		<value code="24" label="II(d) Miscellaneous lymphoreticular neoplasms" hierarchy-level="3"/>
+		<value code="25" label="II(e) Unspecified lymphomas" hierarchy-level="3"/>
+		<value code="30" label="III CNS and misc intracranial and intraspinal neoplasms" hierarchy-level="2"/>
+		<value code="31" label="III(a) Ependymomas and choroid plexus tumor" hierarchy-level="3"/>
+		<value code="32" label="III(b) Astrocytomas" hierarchy-level="3"/>
+		<value code="33" label="III(c) Intracranial and intraspinal embryonal tumors" hierarchy-level="3"/>
+		<value code="34" label="III(d) Other gliomas" hierarchy-level="3"/>
+		<value code="35" label="III(e) Other specified intracranial/intraspinal neoplasms" hierarchy-level="3"/>
+		<value code="36" label="III(f) Unspecified intracranial and intraspinal neoplasms" hierarchy-level="3"/>
+		<value code="40" label="IV Sympathetic nervous system tumors" hierarchy-level="2"/>
+		<value code="41" label="IV(a) Neuroblastoma and ganglioneuroblastoma" hierarchy-level="3"/>
+		<value code="42" label="IV(b) Other peripheral nervous cell tumors" hierarchy-level="3"/>
+		<value code="50" label="V Retinoblastoma" hierarchy-level="2"/>
+		<value code="60" label="VI Renal tumors" hierarchy-level="2"/>
+		<value code="61" label="VI(a) Nephroblastoma and other nonepithelial renal tumors" hierarchy-level="3"/>
+		<value code="62" label="VI(b) Renal carcinomas" hierarchy-level="3"/>
+		<value code="63" label="VI(c) Unspecified malignant renal tumors" hierarchy-level="3"/>
+		<value code="70" label="VII Hepatic tumor" hierarchy-level="2"/>
+		<value code="71" label="VII(a) Hepatoblastoma" hierarchy-level="3"/>
+		<value code="72" label="VII(b) Hepatic carcinomas" hierarchy-level="3"/>
+		<value code="73" label="VII(c) Unspecified malignant hepatic tumors" hierarchy-level="3"/>
+		<value code="80" label="VIII Malignant bone tumors" hierarchy-level="2"/>
+		<value code="81" label="VIII(a) Osteosarcomas" hierarchy-level="3"/>
+		<value code="82" label="VIII(b) Chondrosarcomas" hierarchy-level="3"/>
+		<value code="83" label="VIII(c) Ewing tumor and related sarcomas of bone" hierarchy-level="3"/>
+		<value code="84" label="VIII(d) Other specified malignant bone tumors" hierarchy-level="3"/>
+		<value code="85" label="VIII(e) Unspecified malignant bone tumors" hierarchy-level="3"/>
+		<value code="90" label="IX Soft-tissue sarcomas" hierarchy-level="2"/>
+		<value code="91" label="IX(a) Rhabdomyosarcomas" hierarchy-level="3"/>
+		<value code="92" label="IX(b) Fibrosarcomas, peripheral nerve &amp; other fibrous" hierarchy-level="3"/>
+		<value code="93" label="IX(c) Kaposi sarcoma" hierarchy-level="3"/>
+		<value code="94" label="IX(d) Other specified soft tissue sarcomas" hierarchy-level="3"/>
+		<value code="95" label="IX(e) Unspecified soft tissue sarcomas" hierarchy-level="3"/>
+		<value code="100" label="X Germ-cell, trophoblastic and other gonadal neoplasms" hierarchy-level="2"/>
+		<value code="101" label="X(a) Intracranial &amp; intraspinal germ cell tumors" hierarchy-level="3"/>
+		<value code="102" label="X(b) Extracranial &amp; extragonadal germ cell tumors" hierarchy-level="3"/>
+		<value code="103" label="X(c) Malignant gonadal germ cell tumors" hierarchy-level="3"/>
+		<value code="104" label="X(d) Gonadal carcinomas" hierarchy-level="3"/>
+		<value code="105" label="X(e) Other and unspecified malignant gonadal tumors" hierarchy-level="3"/>
+		<value code="110" label="XI Carcinomas and other malignant epithelial neoplasms" hierarchy-level="2"/>
+		<value code="111" label="XI(a) Adrenocortical carcinomas" hierarchy-level="3"/>
+		<value code="112" label="XI(b) Thyroid carcinomas" hierarchy-level="3"/>
+		<value code="113" label="XI(c) Nasopharyngeal carcinomas" hierarchy-level="3"/>
+		<value code="114" label="XI(d) Malignant melanomas" hierarchy-level="3"/>
+		<value code="115" label="XI(e) Skin carcinomas" hierarchy-level="3"/>
+		<value code="116" label="XI(f) Other and unspecified carcinomas" hierarchy-level="3"/>
+		<value code="120" label="XII Other and unspecified malignant neoplasms" hierarchy-level="2"/>
+		<value code="121" label="XII(a) Other specified malignant tumors" hierarchy-level="3"/>
+		<value code="122" label="XII(b) Other unspecified malignant tumors" hierarchy-level="3"/>
+		<value code="253" label="Not classified by ICCC or in situ" hierarchy-level="2"/>
+		<value code="254" label="Male and Female Breast, In Situ" hierarchy-level="1"/>
+		<value code="254F" label="Female Breast, In Situ" hierarchy-level="2"/>
+		<value code="254M" label="Male Breast, In Situ" hierarchy-level="2"/>
+	</variable>
+	<variable groupby-heading="endgroup"/>
+	<variable groupby-heading="Location"/>
+	<variable code="D205.V11" label="Regions" type="hier1,related,use-finder" display-code="F" use-finder="true">
+		<other-param-control code="O_location" value="D205.V11"/>
+		<hier-level code="D205.V11-level1" level="1" label="Region" type="geo=region-cens"/>
+		<hier-level code="D205.V11-level2" level="2" label="Division" type="geo=division-cens,valuesvary"/>
+		<hier-level code="D205.V11-level3" level="3" label="State" type="geo=state,valuesvary,alias=D205.V2"/>
+	</variable>
+	<variable code="D205.V2" label="States" type="display-label-code,geo=state,related" display-code="T-Last" use-finder="false">
+		<other-param-control code="O_location" value="D205.V2"/>
+		<value code="01" label="Alabama"/>
+		<value code="02" label="Alaska"/>
+		<value code="04" label="Arizona"/>
+		<value code="05" label="Arkansas"/>
+		<value code="06" label="California"/>
+		<value code="08" label="Colorado"/>
+		<value code="09" label="Connecticut"/>
+		<value code="10" label="Delaware"/>
+		<value code="11" label="District of Columbia"/>
+		<value code="12" label="Florida"/>
+		<value code="13" label="Georgia"/>
+		<value code="15" label="Hawaii"/>
+		<value code="16" label="Idaho"/>
+		<value code="17" label="Illinois"/>
+		<value code="18" label="Indiana"/>
+		<value code="19" label="Iowa"/>
+		<value code="20" label="Kansas"/>
+		<value code="21" label="Kentucky"/>
+		<value code="22" label="Louisiana"/>
+		<value code="23" label="Maine"/>
+		<value code="24" label="Maryland"/>
+		<value code="25" label="Massachusetts"/>
+		<value code="26" label="Michigan"/>
+		<value code="27" label="Minnesota"/>
+		<value code="28" label="Mississippi"/>
+		<value code="29" label="Missouri"/>
+		<value code="30" label="Montana"/>
+		<value code="31" label="Nebraska"/>
+		<value code="32" label="Nevada"/>
+		<value code="33" label="New Hampshire"/>
+		<value code="34" label="New Jersey"/>
+		<value code="35" label="New Mexico"/>
+		<value code="36" label="New York"/>
+		<value code="37" label="North Carolina"/>
+		<value code="38" label="North Dakota"/>
+		<value code="39" label="Ohio"/>
+		<value code="40" label="Oklahoma"/>
+		<value code="41" label="Oregon"/>
+		<value code="42" label="Pennsylvania"/>
+		<value code="44" label="Rhode Island"/>
+		<value code="45" label="South Carolina"/>
+		<value code="46" label="South Dakota"/>
+		<value code="47" label="Tennessee"/>
+		<value code="48" label="Texas"/>
+		<value code="49" label="Utah"/>
+		<value code="50" label="Vermont"/>
+		<value code="51" label="Virginia"/>
+		<value code="53" label="Washington"/>
+		<value code="54" label="West Virginia"/>
+		<value code="55" label="Wisconsin"/>
+		<value code="56" label="Wyoming"/>
+	</variable>
+	<variable code="D205.V3" label="MSA" type="display-label-code,geo=msa2,req-label-code" display-code="T-Last" use-finder="false">
+		<other-param-control code="O_location" value="D205.V3"/>
+		<value code="10420" label="Akron, OH"/>
+		<value code="10580" label="Albany-Schenectady-Troy, NY"/>
+		<value code="10740" label="Albuquerque, NM"/>
+		<value code="10900" label="Allentown-Bethlehem-Easton, PA-NJ"/>
+		<value code="12060" label="Atlanta-Sandy Springs-Roswell, GA"/>
+		<value code="12260" label="Augusta-Richmond County, GA-SC"/>
+		<value code="12420" label="Austin-Round Rock, TX"/>
+		<value code="12540" label="Bakersfield, CA"/>
+		<value code="12580" label="Baltimore-Columbia-Towson, MD"/>
+		<value code="12940" label="Baton Rouge, LA"/>
+		<value code="13820" label="Birmingham-Hoover, AL"/>
+		<value code="14260" label="Boise City, ID"/>
+		<value code="14460" label="Boston-Cambridge-Newton, MA-NH"/>
+		<value code="14860" label="Bridgeport-Stamford-Norwalk, CT"/>
+		<value code="15380" label="Buffalo-Cheektowaga-Niagara Falls, NY"/>
+		<value code="15980" label="Cape Coral-Fort Myers, FL"/>
+		<value code="16700" label="Charleston-North Charleston, SC"/>
+		<value code="16740" label="Charlotte-Concord-Gastonia, NC-SC"/>
+		<value code="16860" label="Chattanooga, TN-GA"/>
+		<value code="16980" label="Chicago-Naperville-Elgin, IL-IN-WI"/>
+		<value code="17140" label="Cincinnati, OH-KY-IN"/>
+		<value code="17410" label="Cleveland, OH"/>
+		<value code="17820" label="Colorado Springs, CO"/>
+		<value code="17900" label="Columbia, SC"/>
+		<value code="18140" label="Columbus, OH"/>
+		<value code="19100" label="Dallas-Fort Worth-Arlington, TX"/>
+		<value code="19430" label="Dayton-Kettering, OH"/>
+		<value code="19660" label="Deltona-Daytona Beach-Ormond Beach, FL"/>
+		<value code="19740" label="Denver-Aurora-Lakewood, CO"/>
+		<value code="19780" label="Des Moines-West Des Moines, IA"/>
+		<value code="19820" label="Detroit-Warren-Dearborn, MI"/>
+		<value code="20500" label="Durham-Chapel Hill, NC"/>
+		<value code="21340" label="El Paso, TX"/>
+		<value code="22220" label="Fayetteville-Springdale-Rogers, AR-MO"/>
+		<value code="23420" label="Fresno, CA"/>
+		<value code="24340" label="Grand Rapids-Wyoming, MI"/>
+		<value code="24660" label="Greensboro-High Point, NC"/>
+		<value code="24860" label="Greenville-Anderson-Mauldin, SC"/>
+		<value code="25420" label="Harrisburg-Carlisle, PA"/>
+		<value code="25540" label="Hartford-West Hartford-East Hartford, CT"/>
+		<value code="26420" label="Houston-The Woodlands-Sugar Land, TX"/>
+		<value code="26620" label="Huntsville, AL"/>
+		<value code="26900" label="Indianapolis-Carmel-Anderson, IN"/>
+		<value code="27140" label="Jackson, MS"/>
+		<value code="27260" label="Jacksonville, FL"/>
+		<value code="28140" label="Kansas City, MO-KS"/>
+		<value code="28660" label="Killeen-Temple, TX"/>
+		<value code="28880" label="Kiryas Joel-Poughkeepsie-Newburgh, NY"/>
+		<value code="28940" label="Knoxville, TN"/>
+		<value code="29460" label="Lakeland-Winter Haven, FL"/>
+		<value code="29540" label="Lancaster, PA"/>
+		<value code="29820" label="Las Vegas-Henderson-Paradise, NV"/>
+		<value code="30460" label="Lexington-Fayette, KY"/>
+		<value code="30780" label="Little Rock-North Little Rock-Conway, AR"/>
+		<value code="31080" label="Los Angeles-Long Beach-Anaheim, CA"/>
+		<value code="31140" label="Louisville-Jefferson County, KY-IN"/>
+		<value code="31540" label="Madison, WI"/>
+		<value code="32580" label="McAllen-Edinburg-Mission, TX"/>
+		<value code="32820" label="Memphis, TN-MS-AR"/>
+		<value code="33100" label="Miami-Fort Lauderdale-West Palm Beach, FL"/>
+		<value code="33340" label="Milwaukee-Waukesha-West Allis, WI"/>
+		<value code="33460" label="Minneapolis-St. Paul-Bloomington, MN-WI"/>
+		<value code="33700" label="Modesto, CA"/>
+		<value code="34980" label="Nashville-Davidson-Murfreesboro-Franklin, TN"/>
+		<value code="35300" label="New Haven-Milford, CT"/>
+		<value code="35380" label="New Orleans-Metairie, LA"/>
+		<value code="35620" label="New York-Newark-Jersey City, NY-NJ-PA"/>
+		<value code="35840" label="North Port-Sarasota-Bradenton, FL"/>
+		<value code="36260" label="Ogden-Clearfield, UT"/>
+		<value code="36420" label="Oklahoma City, OK"/>
+		<value code="36540" label="Omaha-Council Bluffs, NE-IA"/>
+		<value code="36740" label="Orlando-Kissimmee-Sanford, FL"/>
+		<value code="37100" label="Oxnard-Thousand Oaks-Ventura, CA"/>
+		<value code="37340" label="Palm Bay-Melbourne-Titusville, FL"/>
+		<value code="37860" label="Pensacola-Ferry Pass-Brent, FL"/>
+		<value code="37980" label="Philadelphia-Camden-Wilmington, PA-NJ-DE-MD"/>
+		<value code="38060" label="Phoenix-Mesa-Scottsdale, AZ"/>
+		<value code="38300" label="Pittsburgh, PA"/>
+		<value code="38860" label="Portland-South Portland, ME"/>
+		<value code="38900" label="Portland-Vancouver-Hillsboro, OR-WA"/>
+		<value code="38940" label="Port St. Lucie, FL"/>
+		<value code="39300" label="Providence-Warwick, RI-MA"/>
+		<value code="39340" label="Provo-Orem, UT"/>
+		<value code="39580" label="Raleigh, NC"/>
+		<value code="39900" label="Reno, NV"/>
+		<value code="40060" label="Richmond, VA"/>
+		<value code="40140" label="Riverside-San Bernardino-Ontario, CA"/>
+		<value code="40380" label="Rochester, NY"/>
+		<value code="40900" label="Sacramento-Roseville-Arden-Arcade, CA"/>
+		<value code="41180" label="St. Louis, MO-IL"/>
+		<value code="41620" label="Salt Lake City, UT"/>
+		<value code="41700" label="San Antonio-New Braunfels, TX"/>
+		<value code="41740" label="San Diego-Carlsbad, CA"/>
+		<value code="41860" label="San Francisco-Oakland-Hayward, CA"/>
+		<value code="41940" label="San Jose-Sunnyvale-Santa Clara, CA"/>
+		<value code="42220" label="Santa Rosa-Petaluma, CA"/>
+		<value code="42540" label="Scranton-Wilkes-Barre-Hazleton, PA"/>
+		<value code="42660" label="Seattle-Tacoma-Bellevue, WA"/>
+		<value code="44060" label="Spokane-Spokane Valley, WA"/>
+		<value code="44700" label="Stockton-Lodi, CA"/>
+		<value code="45060" label="Syracuse, NY"/>
+		<value code="45300" label="Tampa-St. Petersburg-Clearwater, FL"/>
+		<value code="45780" label="Toledo, OH"/>
+		<value code="46060" label="Tucson, AZ"/>
+		<value code="46140" label="Tulsa, OK"/>
+		<value code="46520" label="Urban Honolulu, HI"/>
+		<value code="47260" label="Virginia Beach-Norfolk-Newport News, VA-NC"/>
+		<value code="47900" label="Washington-Arlington-Alexandria, DC-VA-MD-WV"/>
+		<value code="48620" label="Wichita, KS  "/>
+		<value code="49180" label="Winston-Salem, NC"/>
+		<value code="49340" label="Worcester, MA"/>
+		<value code="99999" label="Other"/>
+	</variable>
+	<variable code="D205.V12" label="States and Puerto Rico" type="display-label-code,geo=state" display-code="T-Last" use-finder="false">
+		<other-param-control code="O_location" value="D205.V12"/>
+		<value code="01" label="Alabama"/>
+		<value code="02" label="Alaska"/>
+		<value code="04" label="Arizona"/>
+		<value code="05" label="Arkansas"/>
+		<value code="06" label="California"/>
+		<value code="08" label="Colorado"/>
+		<value code="09" label="Connecticut"/>
+		<value code="10" label="Delaware"/>
+		<value code="11" label="District of Columbia"/>
+		<value code="12" label="Florida"/>
+		<value code="13" label="Georgia"/>
+		<value code="15" label="Hawaii"/>
+		<value code="16" label="Idaho"/>
+		<value code="17" label="Illinois"/>
+		<value code="18" label="Indiana"/>
+		<value code="19" label="Iowa"/>
+		<value code="20" label="Kansas"/>
+		<value code="21" label="Kentucky"/>
+		<value code="22" label="Louisiana"/>
+		<value code="23" label="Maine"/>
+		<value code="24" label="Maryland"/>
+		<value code="25" label="Massachusetts"/>
+		<value code="26" label="Michigan"/>
+		<value code="27" label="Minnesota"/>
+		<value code="28" label="Mississippi"/>
+		<value code="29" label="Missouri"/>
+		<value code="30" label="Montana"/>
+		<value code="31" label="Nebraska"/>
+		<value code="32" label="Nevada"/>
+		<value code="33" label="New Hampshire"/>
+		<value code="34" label="New Jersey"/>
+		<value code="35" label="New Mexico"/>
+		<value code="36" label="New York"/>
+		<value code="37" label="North Carolina"/>
+		<value code="38" label="North Dakota"/>
+		<value code="39" label="Ohio"/>
+		<value code="40" label="Oklahoma"/>
+		<value code="41" label="Oregon"/>
+		<value code="42" label="Pennsylvania"/>
+		<value code="44" label="Rhode Island"/>
+		<value code="45" label="South Carolina"/>
+		<value code="46" label="South Dakota"/>
+		<value code="47" label="Tennessee"/>
+		<value code="48" label="Texas"/>
+		<value code="49" label="Utah"/>
+		<value code="50" label="Vermont"/>
+		<value code="51" label="Virginia"/>
+		<value code="53" label="Washington"/>
+		<value code="54" label="West Virginia"/>
+		<value code="55" label="Wisconsin"/>
+		<value code="56" label="Wyoming"/>
+		<value code="72" label="Puerto Rico"/>
+	</variable>
+	<variable groupby-heading="endgroup"/>
+	<variable groupby-heading="Year and Demographics"/>
+	<variable code="D205.V1" label="Year" type="range=1999-2022" display-code="F" use-finder="false">
+		<range>
+			<min code="1999" label="1999"/>
+			<max code="2022" label="2022"/>
+		</range>
+		<value code="1999" label="1999"/>
+		<value code="2000" label="2000"/>
+		<value code="2001" label="2001"/>
+		<value code="2002" label="2002"/>
+		<value code="2003" label="2003"/>
+		<value code="2004" label="2004"/>
+		<value code="2005" label="2005"/>
+		<value code="2006" label="2006"/>
+		<value code="2007" label="2007"/>
+		<value code="2008" label="2008"/>
+		<value code="2009" label="2009"/>
+		<value code="2010" label="2010"/>
+		<value code="2011" label="2011"/>
+		<value code="2012" label="2012"/>
+		<value code="2013" label="2013"/>
+		<value code="2014" label="2014"/>
+		<value code="2015" label="2015"/>
+		<value code="2016" label="2016"/>
+		<value code="2017" label="2017"/>
+		<value code="2018" label="2018"/>
+		<value code="2019" label="2019"/>
+		<value code="2020" label="2020"/>
+		<value code="2021" label="2021"/>
+		<value code="2022" label="2022"/>
+	</variable>
+	<variable code="D205.V5" label="Age Groups" type="" display-code="F" use-finder="false">
+		<value code="1" label="&lt; 1 year"/>
+		<value code="1-4" label="1-4 years"/>
+		<value code="5-9" label="5-9 years"/>
+		<value code="10-14" label="10-14 years"/>
+		<value code="15-19" label="15-19 years"/>
+		<value code="20-24" label="20-24 years"/>
+		<value code="25-29" label="25-29 years"/>
+		<value code="30-34" label="30-34 years"/>
+		<value code="35-39" label="35-39 years"/>
+		<value code="40-44" label="40-44 years"/>
+		<value code="45-49" label="45-49 years"/>
+		<value code="50-54" label="50-54 years"/>
+		<value code="55-59" label="55-59 years"/>
+		<value code="60-64" label="60-64 years "/>
+		<value code="65-69" label="65-69 years"/>
+		<value code="70-74" label="70-74 years"/>
+		<value code="75-79" label="75-79 years"/>
+		<value code="80-84" label="80-84 years"/>
+		<value code="85+" label="85+ years"/>
+	</variable>
+	<variable code="D205.V9" label="Sex" type="" display-code="F" use-finder="false">
+		<value code="F" label="Female"/>
+		<value code="M" label="Male"/>
+	</variable>
+	<variable code="D205.V6" label="Ethnicity" type="" display-code="F" use-finder="false">
+		<value code="2135-2" label="Hispanic"/>
+		<value code="2186-5" label="Non-Hispanic"/>
+		<value code="UNK" label="Unknown or Missing"/>
+	</variable>
+	<variable code="D205.V4" label="Race" type="" display-code="F" use-finder="false">
+		<value code="1002-5" label="American Indian or Alaska Native"/>
+		<value code="A-PI" label="Asian or Pacific Islander"/>
+		<value code="2054-5" label="Black or African American"/>
+		<value code="2106-3" label="White"/>
+		<value code="2131-1" label="Other Races and Unknown combined"/>
+	</variable>
+	<variable groupby-heading="endgroup"/>
+	<measure code="D205.M1" label="Count" type="count" datatype="int" isdefault="true"/>
+	<measure code="D205.M2" label="Population" type="pop" datatype="int" isdefault="true"/>
+	<measure code="D205.M30" label="Age-Adjusted Rate" type="rate" datatype="double" isdefault="false">
+		<combine-label idx="0" label="95% Confidence Interval"/>
+		<combine-label idx="1" label="Standard Error"/>
+	</measure>
+	<measure code="D205.M31" label="Age-Adjusted Rate Lower 95% Confidence Interval" type="lci" datatype="double" isdefault="false"/>
+	<measure code="D205.M32" label="Age-Adjusted Rate Upper 95% Confidence Interval" type="uci" datatype="double" isdefault="false"/>
+	<measure code="D205.M33" label="Age-Adjusted Rate Standard Error" type="se" datatype="double" isdefault="false"/>
+	<measure code="D205.M40" label="Crude Rate" type="rate" datatype="double" isdefault="false">
+		<combine-label idx="0" label="95% Confidence Interval"/>
+		<combine-label idx="1" label="Standard Error"/>
+	</measure>
+	<measure code="D205.M41" label="Crude Rate Lower 95% Confidence Interval" type="lci" datatype="double" isdefault="false"/>
+	<measure code="D205.M42" label="Crude Rate Upper 95% Confidence Interval" type="uci" datatype="double" isdefault="false"/>
+	<measure code="D205.M43" label="Crude Rate Standard Error" type="se" datatype="double" isdefault="false"/>
+<documentation>
+	<citation>United States Cancer Statistics - Incidence: 1999 - 2022, WONDER Online Database. 
+		United States Department of Health and Human Services, Centers for Disease Control and Prevention and National Cancer Institute; 
+		2024 submission; 2025 release.</citation>
+	<helpfile>/wonder/help/cancer-v2022.html</helpfile>
+	<jumppageURL>/cancer.html</jumppageURL>
+	<jumppageText>Cancer Statistics Data</jumppageText>
+	<citationURL>http://wonder.cdc.gov/cancer-v2022.html</citationURL>
+	<about><p>
+			The <a onclick="setfocus('WONDER_Help')" target="WONDER_Help" href="https://www.cdc.gov/cancer/uscs/">United States Cancer Statistics</a> (USCS) 
+			are the official federal statistics on cancer incidence from registries having high-quality data 
+			and cancer mortality statistics for 50 states and the District of Columbia. 
+			USCS are produced by the Centers for Disease Control and Prevention (CDC) 
+			and the National Cancer Institute (NCI).  
+			For a list of all USCS contributors and partners, visit 
+			<a onclick="setfocus('WONDER_Help')" target="WONDER_Help" 
+			href="https://www.cdc.gov/cancer/uscs/technical_notes/contributors/">USCS Contributors</a>.
+			</p>
+			
+			<p>
+			Data are provided by: 
+			<ul>
+			<li>The Centers for Disease Control and Prevention <a href="http://www.cdc.gov/cancer/npcr/">National Program of Cancer Registries (NPCR)</a></li>
+			<li>The National Cancer Institute <a href="http://seer.cancer.gov/about">Surveillance, Epidemiology and End Results (SEER)</a> program</li>
+			</ul>
+			</p>
+			
+			<p>
+			Cancer data are available for the United States, state and metropolitan areas (MSA) by 
+			age group, race (5 groups), ethnicity, 	sex, childhood cancer classifications and cancer sites. 
+			</p></about>
+	<dataurl>https://www.cdc.gov/cancer/uscs/public-use/</dataurl>
+	<caveat code="D205.C01a">
+		<text evaluate="false"><![CDATA[Statistics are suppressed to protect personal privacy, for the following conditions:
+				<ol><li> 
+					Data are suppressed if the figures represent fewer than 16 cases for the specific category in the table cell.
+				</li><li>
+					Counts and rates are suppressed for cells at the Metropolitan Statistical Area (MSA) level for the race categories 
+					"American Indian or Alaska Native" or "Asian or Pacific Islander" 
+					when the specific category's population for rate calculations 
+					is less than 50,000 persons. 
+				</li><li>
+					Data are suppressed at the state and MSA level for certain race and ethnicity groups: 
+					<ul><li>
+				   	American Indian or Alaska Native data are suppressed at the state and MSA level for residents of
+					Illinois, Kansas, New Jersey, and New York; 
+					</li><li>
+				    Hispanic Asian or Pacific Islander and Hispanic Black or African American data are suppressed at the state and MSA level 
+					for all years and for Non-Hispanic Asian or Pacific Islanders for 1999 for residents of Kansas. 
+					</li></ul>
+				</li></ol>
+				States decide whether to suppress data for specific race and ethnicity categories.  
+				The suppression criteria may vary in previous releases of these data
+				#Confidentiality#]]></text>
+		<rule>wonder:cancer-suppressed-flag()</rule>
+	</caveat>
+	<caveat code="D205.C01b">
+		<text evaluate="false"><![CDATA['Not Applicable' is displayed for all data values when sex-specific cancers are combined with the wrong sex. #Genital Cancers List"#]]></text>
+		<rule>wonder:cancer-gender-na('26000-Male,28010-28040,28010,28020,28030,28040,Breast-InSitu-Male,26000-Female,27010-27070,27010,27020,27030,27040,27050,27060,27070,Breast-InSitu-Female,254M,254F')</rule>
+	</caveat>
+	<caveat code="D205.C01c">
+		<text evaluate="false"><![CDATA['Not Applicable' is displayed for Population when it is not available,
+				and for Age Adjusted Rates, Crude Rates, 95% Confidence Interval, and Standard Error when they cannot be 
+				calculated due to lack of denominator population.]]></text>
+		<rule>wonder:cancer-NA-flag()</rule>
+	</caveat>
+	<caveat code="D205.C01d">
+		<text evaluate="false"><![CDATA['Missing' is displayed for a combination of states/territories/MSAs and years that did not meet 
+				the United States Cancer Statistics (USCS) publication standard or did not allow permission for 
+				their data to be used.]]></text>
+		<rule>wonder:cancer-missing-flag()</rule>
+	</caveat>
+	<caveat code="D205.C02a">
+		<text evaluate="false"><![CDATA[The "Show Totals" checkbox is disabled when data are grouped by Cancer Sites or by Childhood Cancer, because aggregate values are displayed in the table.  Also be aware that charts and maps containing both aggregate and detail data could be misleading.]]></text>
+		<rule>wonder:cancer-totals()</rule>
+	</caveat>
+	<caveat code="D205.C02b">
+		<text evaluate="false"><![CDATA[Age-adjusted rates are not available when results are grouped by age.]]></text>
+		<rule>wonder:cancer-aar()</rule>
+	</caveat>
+	<caveat code="D205.C02c">
+		<text evaluate="false"><![CDATA[These states are missing data for the indicated year: 
+				Mississippi 1999-2002; 
+ 			    South Dakota 1999-2000.]]></text>
+		<rule>wonder:cancer-states('18,28,32,46')</rule>
+	</caveat>
+	<caveat code="D205.C02d">
+		<text evaluate="false"><![CDATA[These states are missing data for the indicated year: 
+				Mississippi 1999-2002; 
+ 			    South Dakota 1999-2000;
+				Puerto Rico 1999-2004.]]></text>
+		<rule>wonder:cancer-states-pr('18,28,32,46,72')</rule>
+	</caveat>
+	<caveat code="D205.C02d2">
+		<text evaluate="false"><![CDATA[Puerto Rico's 2017 incidence counts and rates are based on the first six months of 
+				reported data (January to June 2017) coupled with half of the population estimate. Cases with unknown 
+				month of diagnosis were included. Data from July to December 2017 are excluded to account for the 
+				population shift that occurred due to Hurricane Maria.]]></text>
+		<rule>wonder:cancer-states-pr('72')</rule>
+	</caveat>
+	<caveat code="D205.C02e">
+		<text evaluate="false"><![CDATA[These MSAs are missing data for the indicated years: 
+				Boise City, ID 1999-2002;
+				Bridgeport-Stamford-Norwalk, CT 1999-2022;
+				Cape Coral-Fort Myers, FL 1999-2003;
+				Chattanooga, TN-GA 1999-2005;
+				Deltona-Daytona Beach-Ormond Beach, FL 1999-2000;
+				Durham-Chapel Hill, NC 1999-2003;
+				Fayetteville, NC 1999-2011;
+				Fayetteville-Springdale-Rogers, AR-MO 1999-2015;
+				Hartford-West Hartford-East Hartford, CT 1999-2022;
+				Huntsville, AL 1999-2020;
+				Jackson, MS 1999-2002;
+				Kansas City, MO-KS 1999-2022;
+				Killeen-Temple, TX 1999-2022;
+				Lakeland-Winter Haven, FL 1999-2001;
+				Lancaster, PA 1999-2005;
+				Lexington-Fayette, KY 1999-2014;
+				Memphis, TN-MS-AR  1999-2002;
+				Modesto, CA 1999-2004;
+				New Haven-Milford, CT 1999-2022;
+				Ogden-Clearfield, UT 1999-2001;
+				Palm Bay-Melbourne-Titusville, FL 1999-2002;
+				Pensacola-Ferry Pass-Brent, FL 1999-2018;
+				Portland-South Portland, ME 1999-2001;
+				Port St. Lucie, FL 1999-2020;
+				Provo-Orem, UT 1999-2008;
+				Reno, NV 1999-2014;
+				Santa Rosa-Petaluma 1999-2014 and 2018-2022;
+				Spokane-Spokane Valley, WA 1999-2007;
+				Urban Honolulu, HI  1999;
+				Wichita, KS 1999-2022.#MSA#]]></text>
+		<rule>wonder:cancer-msas('28660,37860,16980,17140,26900,31140,14260,15980,16860,19660,19740,20500,22180,22220,27140,28140,29460,29540,29820,30460,30780,32820,33460,33700,36260,37340,38860,39340,42220,44060,46520,48620,40060,47260,47900,26620,38940,39900,14860,25540,35300')</rule>
+	</caveat>
+	<caveat code="D205.C02f">
+		<text evaluate="false"><![CDATA[Data are from selected statewide and metropolitan area cancer registries that meet data quality criteria.
+					Incidence data shown for the United States are diagnoses and populations from included registries only.]]></text>
+		<rule>true()</rule>
+	</caveat>
+	<caveat code="D205.C02g">
+		<text evaluate="false"><![CDATA[Information on primary site, behavior, and histology was coded according to the 
+			International Classification of Diseases for Oncology, Third Edition (ICD-O-3) and categorized 
+			according to the revised SEER recodes dated March 1, 2018, which define standard groupings of 
+			primary cancer sites.]]></text>
+		<rule>true()</rule>
+	</caveat>
+	<caveat code="D205.C02h">
+		<text evaluate="false"><![CDATA[MSA data are not available for Connecticut because populations estimates for the 9 new planning regions (county equivalent areas) are not yet available.]]></text>
+		<rule>wonder:cancer-msas('14860,25540,35300')</rule>
+	</caveat>
+	<caveat code="D205.C03">
+		<text evaluate="false"><![CDATA[For the 2005 year, the Census Bureau estimates that 203,937 persons were displaced from 
+			Alabama, Louisiana, Mississippi and Texas due to Hurricanes Katrina and Rita. CDC WONDER does not 
+			include the displaced persons in the 2005 population counts for these states, nor are these counts 
+			included in the summary populations for the affected division, regions or national population.  However, 
+			the USCS web site does include these displaced persons in the national population figures for 2005.]]></text>
+		<rule>true()</rule>
+	</caveat>
+<footnote>wonder:cancer-fn-ins-breast()</footnote>
+<footnote>wonder:cancer-fn-ins-childhood-breast()</footnote>
+</documentation>
+<missing var1="D205.V11-level3" var2="D205.V1" flag="Missing" preference="2">
+	<instance code="28"> <!--Mississippi-->
+		<range>1999-2002</range>
+	</instance>
+	<instance code="46"> <!--South Dakota-->
+		<range>1999-2000</range>
+	</instance>
+</missing>
+<missing var1="D205.V2" var2="D205.V1" flag="Missing" preference="2">
+	<instance code="28"> <!--Mississippi-->
+		<range>1999-2002</range>
+	</instance>
+	<instance code="46"> <!--South Dakota-->
+		<range>1999-2000</range>
+	</instance>
+</missing>
+<missing var1="D205.V12" var2="D205.V1" flag="Missing" preference="2">
+	<instance code="28"> <!--Mississippi-->
+		<range>1999-2002</range>
+	</instance>
+	<instance code="46"> <!--South Dakota-->
+		<range>1999-2000</range>
+	</instance>
+	<instance code="72"> <!-- Puerto Rico -->
+		<range>1999-2004</range>
+	</instance>
+</missing>
+<missing var1="D205.V9" var2="D205.V8" flag="Not Applicable" preference="1">
+	<condition other="O_cancer" value="D205.V8"/>
+	<instance code="F">
+		<value>26000-Male</value>
+		<value>28010-28040</value>
+		<value>28010</value>
+		<value>28020</value>
+		<value>28030</value>
+		<value>28040</value>
+		<value>Breast-InSitu-Male</value>
+	</instance>
+	<instance code="M">
+		<value>26000-Female</value>
+		<value>27010-27070</value>
+		<value>27010</value>
+		<value>27020</value>
+		<value>27030</value>
+		<value>27040</value>
+		<value>27050</value>
+		<value>27060</value>
+		<value>27070</value>
+		<value>Breast-InSitu-Female</value>
+	</instance>
+</missing>
+<missing var1="D205.V9" var2="D205.V10" flag="Not Applicable" preference="1">
+	<condition other="O_cancer" value="D205.V10"/>
+	<instance code="F">
+		<value>28010</value>
+	</instance>
+	<instance code="M">
+		<value>27010</value>
+		<value>27020</value>
+		<value>27040</value>
+	</instance>
+</missing>
+<missing var1="D205.V9" var2="D205.V7" flag="Not Applicable" preference="1">
+	<condition other="O_cancer" value="D205.V7"/>
+	<instance code="F">
+		<value>254M</value>
+	</instance>
+	<instance code="M">
+		<value>254F</value>
+	</instance>
+</missing>
+<missing var1="D205.V3" var2="D205.V1" flag="Missing" preference="1">
+	<condition other="O_location" value="D205.V3"/>
+
+	<instance code="42220"> <!-- Santa Rose, CA --> 
+		<range>1999-2015</range>
+	</instance>
+	<instance code="37860"> <!-- Pensicola, FL --> 
+		<range>1999-2018</range>
+	</instance>
+</missing>
+<missing var1="D205.V3" var2="D205.V1" flag="Missing" preference="2">
+	<condition other="O_location" value="D205.V3"/>
+	<instance code="14260"> <!-- Boise City, ID -->
+		<range>1999-2002</range>
+	</instance>
+	<instance code="14860"> <!-- Bridgeport-Stamford-Norwalk, CT  -->
+		<range>1999-2022</range>
+	</instance>
+	<instance code="15980"> <!-- Cape Coral-Fort Myers, FL -->
+		<range>1999-2003</range>
+	</instance>
+	<instance code="16860"> <!-- Chattanooga, TN-GA -->
+		<range>1999-2005</range>
+	</instance>
+	<instance code="19660"> <!-- Deltona-Daytona Beach-Ormond Beach, FL*** -->
+		<range>1999-2000</range>
+	</instance>
+	<instance code="19740"> <!-- Denver-Aurora-Lakewood, CO -->
+		<range>1999-2001</range>
+	</instance>
+	<instance code="20500"> <!-- Durham-Chapel Hill, NC -->
+		<range>1999-2003</range>
+	</instance>
+	<instance code="22220"> <!-- Fayetteville-Springdale-Rogers, AR-MO -->
+		<range>1999-2015</range>
+	</instance>
+	<instance code="25540"> <!-- Hartford-West Hartford-East Hartford, CT  -->
+		<range>1990-2022</range>
+	</instance>
+	<instance code="26620"> <!-- Huntsville, AL -->
+		<range>1990-2020</range>
+	</instance>
+	<instance code="27140"> <!-- Jackson, MS -->
+		<range>1999-2002</range>
+	</instance>
+	<instance code="28140"> <!-- this msa, kansas city, will not show up in scripts to find missing years because all years are missing. -->
+		<range>1999-2022</range>
+	</instance>
+	<instance code="28660"> <!-- Killeen-Temple, TX. -->
+		<range>1999-2022</range>
+	</instance>
+	<instance code="29460"> <!-- Lakeland-Winter Haven, FL -->
+		<range>1999-2001</range>
+	</instance>
+	<instance code="29540"> <!-- Lancaster, PA -->
+		<range>1999-2005</range>
+	</instance>
+	<instance code="30460"> <!-- Lexington-Fayette, KY -->
+		<range>1999-2015</range>
+	</instance>
+	<instance code="32820"> <!-- Memphis, TN-MS-AR -->
+		<range>1999-2002</range>
+	</instance>
+	<instance code="33700"> <!-- Modesto, CA -->
+		<range>1999-2004</range>
+	</instance>
+	<instance code="35300"> <!-- New Haven-Milford, CT  -->
+		<range>1999-2022</range>
+	</instance>
+	<instance code="36260"> <!-- Ogden-Clearfield, UT -->
+		<range>1999-2001</range>
+	</instance>
+	<instance code="37340"> <!-- Palm Bay-Melbourne-Titusville, FL -->
+		<range>1999-2002</range>
+	</instance>
+	<instance code="38860"> <!-- Portland-South Portland, ME -->
+		<range>1999-2001</range>
+	</instance>
+	<instance code="38940"> <!-- Port St. Lucie, FL -->
+		<range>1999-2020</range>
+	</instance>
+	<instance code="39340"> <!-- Provo-Orem, UT -->
+		<range>1999-2008</range>
+	</instance>
+	<instance code="39900"> <!-- Reno, NV-->
+		<range>1999-2014</range>
+	</instance>
+	<instance code="42220"> <!-- Santa Rose, CA --> 
+		<range>2018-2022</range>
+	</instance>
+	<instance code="44060"> <!-- Spokane-Spokane Valley, WA -->
+		<range>1999-2007</range>
+	</instance>
+	<instance code="46520"> <!-- Urban Honolulu, HI -->
+		<value>1999</value>
+	</instance>
+	<instance code="48620"> <!-- this msa, wichita, will not show up in scripts to find missing years because all years are missing. -->
+		<range>1999-2022</range>
+	</instance>
+</missing>
+</dataset>
+<response>
+<request query-date="Oct 28, 2026 10:53:16 PM">
+<variable-selections>
+	<variable code="D205.V8" from-finder="false">
+		<value code="21041-21052"/>
+	</variable>
+	<variable code="D205.V1" from-finder="false">
+		<value code="1999" label="1999"/>
+		<value code="2000" label="2000"/>
+		<value code="2001" label="2001"/>
+		<value code="2002" label="2002"/>
+		<value code="2003" label="2003"/>
+		<value code="2004" label="2004"/>
+		<value code="2005" label="2005"/>
+		<value code="2006" label="2006"/>
+		<value code="2007" label="2007"/>
+		<value code="2008" label="2008"/>
+		<value code="2009" label="2009"/>
+		<value code="2010" label="2010"/>
+		<value code="2011" label="2011"/>
+		<value code="2012" label="2012"/>
+		<value code="2013" label="2013"/>
+		<value code="2014" label="2014"/>
+		<value code="2015" label="2015"/>
+		<value code="2016" label="2016"/>
+		<value code="2017" label="2017"/>
+		<value code="2018" label="2018"/>
+		<value code="2019" label="2019"/>
+		<value code="2020" label="2020"/>
+	</variable>
+</variable-selections>
+<byvariables>
+	<variable code="D205.V1"/>
+	<variable code="D205.V5"/>
+</byvariables>
+<list-variables>
+</list-variables>
+<measure-selections>
+	<measure code="D205.M1"/>
+	<measure code="D205.M2"/>
+	<measure code="D205.M40"/>
+</measure-selections>
+<other-parameters>
+	<parameter code="O_show_totals" label="Show Totals" display="true">
+		<option value="true" label="True"/>
+		<option value="false" label="False"/>
+		<option value="disabled" label="Disabled"/>
+		<value>true</value>
+	</parameter>
+	<parameter code="O_show_zeros" label="Show Zero Values" display="true">
+		<option value="true" label="True"/>
+		<option value="false" label="False"/>
+		<option value="disabled" label="Disabled"/>
+		<value>false</value>
+	</parameter>
+	<parameter code="O_show_suppressed" label="Show Suppressed" display="true">
+		<option value="true" label="True"/>
+		<option value="false" label="False"/>
+		<option value="disabled" label="Disabled"/>
+		<value>true</value>
+	</parameter>
+	<parameter code="O_precision" label="Precision" display="false">
+		<option value="0" label="0"/>
+		<option value="1" label="1"/>
+		<option value="2" label="2"/>
+		<option value="3" label="3"/>
+		<option value="4" label="4"/>
+		<option value="5" label="5"/>
+		<option value="6" label="6"/>
+		<option value="7" label="7"/>
+		<option value="8" label="8"/>
+		<option value="9" label="9"/>
+		<value>2</value>
+	</parameter>
+	<parameter code="O_timeout" label="Data Access Timeout" display="false">
+		<option value="60" label="1"/>
+		<option value="120" label="2"/>
+		<option value="180" label="3"/>
+		<option value="240" label="4"/>
+		<option value="300" label="5"/>
+		<option value="360" label="6"/>
+		<option value="420" label="7"/>
+		<option value="480" label="8"/>
+		<option value="540" label="9"/>
+		<option value="600" label="10"/>
+		<option value="660" label="11"/>
+		<option value="720" label="12"/>
+		<option value="780" label="13"/>
+		<option value="840" label="14"/>
+		<option value="900" label="15"/>
+		<value>600</value>
+	</parameter>
+	<parameter code="O_groups_count" label="Groups" display="false">
+		<option value="2" label="Two"/>
+		<option value="3" label="Three"/>
+		<option value="4" label="Four"/>
+		<option value="5" label="Five"/>
+		<option value="6" label="Six"/>
+		<option value="7" label="Seven"/>
+		<option value="8" label="Eight"/>
+		<option value="9" label="Nine"/>
+		<option value="10" label="Ten"/>
+		<value>4</value>
+	</parameter>
+	<parameter code="O_groups_methods" label="Group Breaks Method" display="false">
+		<option value="QUANTILE" label="Quantile"/>
+		<option value="EQUAL" label="Equal Interval"/>
+		<value>QUANTILE</value>
+	</parameter>
+	<parameter code="O_rate_per" label="Calculate Rates Per" display="true">
+		<option value="100000" label="100,000"/>
+		<option value="1000000" label="1,000,000"/>
+		<value>100000</value>
+	</parameter>
+	<parameter code="O_stdpop" label="Standard Population" display="true">
+		<option value="141" label="1940 U.S. Std. Million"/>
+		<option value="171" label="1970 U.S. Std. Million"/>
+		<option value="201" label="2000 U.S. Std. Million"/>
+		<option value="006" label="World Std. Million"/>
+		<value>201</value>
+	</parameter>
+	<parameter code="O_PR" label="" display="false">
+		<value>false</value>
+	</parameter>
+	<parameter code="O_cancer" display="false">
+		<value>D205.V8</value>
+	</parameter>
+	<parameter code="O_javascript" display="false">
+		<value>off</value>
+	</parameter>
+	<parameter code="O_location" display="false">
+		<value>D205.V2</value>
+	</parameter>
+	<parameter code="O_labels_opt" display="false">
+		<value>false</value>
+	</parameter>
+	<parameter code="O_show_rank" display="false">
+		<value>false</value>
+	</parameter>
+	<parameter code="O_groups" display="false">
+		<value>false</value>
+	</parameter>
+</other-parameters>
+<request-parameters>
+	<parameter>
+		<name>B_1</name>
+		<value>D205.V1</value>
+	</parameter>
+	<parameter>
+		<name>B_2</name>
+		<value>D205.V5</value>
+	</parameter>
+	<parameter>
+		<name>M_1</name>
+		<value>D205.M1</value>
+	</parameter>
+	<parameter>
+		<name>M_2</name>
+		<value>D205.M2</value>
+	</parameter>
+	<parameter>
+		<name>M_40</name>
+		<value>D205.M40</value>
+	</parameter>
+	<parameter>
+		<name>V_D205.V1</name>
+		<value>1999</value>
+		<value>2000</value>
+		<value>2001</value>
+		<value>2002</value>
+		<value>2003</value>
+		<value>2004</value>
+		<value>2005</value>
+		<value>2006</value>
+		<value>2007</value>
+		<value>2008</value>
+		<value>2009</value>
+		<value>2010</value>
+		<value>2011</value>
+		<value>2012</value>
+		<value>2013</value>
+		<value>2014</value>
+		<value>2015</value>
+		<value>2016</value>
+		<value>2017</value>
+		<value>2018</value>
+		<value>2019</value>
+		<value>2020</value>
+	</parameter>
+	<parameter>
+		<name>V_D205.V8</name>
+		<value>21041-21052</value>
+	</parameter>
+</request-parameters>
+</request>
+<other-parameters>
+	<parameter code="O_show_totals" label="Show Totals" display="true">
+		<option value="true" label="True"/>
+		<option value="false" label="False"/>
+		<option value="disabled" label="Disabled"/>
+		<value>disabled</value>
+	</parameter>
+	<parameter code="O_show_zeros" label="Show Zero Values" display="true">
+		<option value="true" label="True"/>
+		<option value="false" label="False"/>
+		<option value="disabled" label="Disabled"/>
+		<value>false</value>
+	</parameter>
+	<parameter code="O_show_suppressed" label="Show Suppressed" display="true">
+		<option value="true" label="True"/>
+		<option value="false" label="False"/>
+		<option value="disabled" label="Disabled"/>
+		<value>true</value>
+	</parameter>
+	<parameter code="O_precision" label="Precision" display="false">
+		<option value="0" label="0"/>
+		<option value="1" label="1"/>
+		<option value="2" label="2"/>
+		<option value="3" label="3"/>
+		<option value="4" label="4"/>
+		<option value="5" label="5"/>
+		<option value="6" label="6"/>
+		<option value="7" label="7"/>
+		<option value="8" label="8"/>
+		<option value="9" label="9"/>
+		<value>2</value>
+	</parameter>
+	<parameter code="O_timeout" label="Data Access Timeout" display="false">
+		<option value="60" label="1"/>
+		<option value="120" label="2"/>
+		<option value="180" label="3"/>
+		<option value="240" label="4"/>
+		<option value="300" label="5"/>
+		<option value="360" label="6"/>
+		<option value="420" label="7"/>
+		<option value="480" label="8"/>
+		<option value="540" label="9"/>
+		<option value="600" label="10"/>
+		<option value="660" label="11"/>
+		<option value="720" label="12"/>
+		<option value="780" label="13"/>
+		<option value="840" label="14"/>
+		<option value="900" label="15"/>
+		<value>600</value>
+	</parameter>
+	<parameter code="O_groups_count" label="Groups" display="false">
+		<option value="2" label="Two"/>
+		<option value="3" label="Three"/>
+		<option value="4" label="Four"/>
+		<option value="5" label="Five"/>
+		<option value="6" label="Six"/>
+		<option value="7" label="Seven"/>
+		<option value="8" label="Eight"/>
+		<option value="9" label="Nine"/>
+		<option value="10" label="Ten"/>
+		<value>4</value>
+	</parameter>
+	<parameter code="O_groups_methods" label="Group Breaks Method" display="false">
+		<option value="QUANTILE" label="Quantile"/>
+		<option value="EQUAL" label="Equal Interval"/>
+		<value>QUANTILE</value>
+	</parameter>
+	<parameter code="O_rate_per" label="Calculate Rates Per" display="true">
+		<option value="100000" label="100,000"/>
+		<option value="1000000" label="1,000,000"/>
+		<value>100000</value>
+	</parameter>
+	<parameter code="O_stdpop" label="Standard Population" display="true">
+		<option value="141" label="1940 U.S. Std. Million"/>
+		<option value="171" label="1970 U.S. Std. Million"/>
+		<option value="201" label="2000 U.S. Std. Million"/>
+		<option value="006" label="World Std. Million"/>
+		<value>201</value>
+	</parameter>
+	<parameter code="O_PR" label="" display="false">
+		<value>false</value>
+	</parameter>
+	<parameter code="O_cancer" display="false">
+		<value>D205.V8</value>
+	</parameter>
+	<parameter code="O_javascript" display="false">
+		<value>off</value>
+	</parameter>
+	<parameter code="O_location" display="false">
+		<value>D205.V2</value>
+	</parameter>
+	<parameter code="O_labels_opt" display="false">
+		<value>true</value>
+	</parameter>
+	<parameter code="O_show_rank" display="false">
+		<value>false</value>
+	</parameter>
+	<parameter code="O_groups" display="false">
+		<value>false</value>
+	</parameter>
+	<parameter code="O_labels_quick" display="false">
+		<value>true</value>
+	</parameter>
+</other-parameters>
+<measure-selections>
+	<measure code="D205.M1" min="0" max="3,226,046" minNtNz="16" maxNtNz="24,708" minNtWz="0" maxNtWz="24,708" minWtNz="16" maxWtNz="3,226,046"/>
+	<measure code="D205.M2" min="3,702,966" max="6,744,312,435" minNtNz="3,702,966" maxNtNz="23,177,569" minNtWz="3,702,966" maxNtWz="23,177,569" minWtNz="3,702,966" maxWtNz="6,744,312,435"/>
+	<measure code="D205.M40" min="0.00" max="448.59" minNtNz="0.08" maxNtNz="448.59" minNtWz="0.00" maxNtWz="448.59" minWtNz="0.08" maxWtNz="448.59"/>
+</measure-selections>
+<measure-selections-all>
+	<measure code="D205.M1"/>
+	<measure code="D205.M2"/>
+	<measure code="D205.M40"/>
+</measure-selections-all>
+<data-table show-all-labels="true">
+<r><c l="1999"/><c l="5-9 years"/><c v="Suppressed"/><c v="20,334,315"/><c v="Suppressed"/></r>
+<r><c l="1999"/><c l="10-14 years"/><c v="Suppressed"/><c v="19,935,660"/><c v="Suppressed"/></r>
+<r><c l="1999"/><c l="15-19 years"/><c v="50"/><c v="19,785,979"/><c v="0.25"/></r>
+<r><c l="1999"/><c l="20-24 years"/><c v="135"/><c v="18,328,417"/><c v="0.74"/></r>
+<r><c l="1999"/><c l="25-29 years"/><c v="371"/><c v="19,333,894"/><c v="1.92"/></r>
+<r><c l="1999"/><c l="30-34 years"/><c v="778"/><c v="20,371,091"/><c v="3.82"/></r>
+<r><c l="1999"/><c l="35-39 years"/><c v="1,667"/><c v="22,611,624"/><c v="7.37"/></r>
+<r><c l="1999"/><c l="40-44 years"/><c v="3,209"/><c v="21,924,672"/><c v="14.64"/></r>
+<r><c l="1999"/><c l="45-49 years"/><c v="5,500"/><c v="19,413,875"/><c v="28.33"/></r>
+<r><c l="1999"/><c l="50-54 years"/><c v="8,659"/><c v="16,718,890"/><c v="51.79"/></r>
+<r><c l="1999"/><c l="55-59 years"/><c v="11,269"/><c v="12,922,630"/><c v="87.20"/></r>
+<r><c l="1999"/><c l="60-64 years "/><c v="14,367"/><c v="10,551,544"/><c v="136.16"/></r>
+<r><c l="1999"/><c l="65-69 years"/><c v="19,415"/><c v="9,416,383"/><c v="206.18"/></r>
+<r><c l="1999"/><c l="70-74 years"/><c v="23,462"/><c v="8,763,864"/><c v="267.71"/></r>
+<r><c l="1999"/><c l="75-79 years"/><c v="24,708"/><c v="7,251,311"/><c v="340.74"/></r>
+<r><c l="1999"/><c l="80-84 years"/><c v="19,495"/><c v="4,820,265"/><c v="404.44"/></r>
+<r><c l="1999"/><c l="85+ years"/><c v="18,374"/><c v="4,095,902"/><c v="448.59"/></r>
+<r><c l="2000"/><c l="1-4 years"/><c v="Suppressed"/><c v="15,119,430"/><c v="Suppressed"/></r>
+<r><c l="2000"/><c l="10-14 years"/><c v="Suppressed"/><c v="20,358,437"/><c v="Suppressed"/></r>
+<r><c l="2000"/><c l="15-19 years"/><c v="54"/><c v="19,998,739"/><c v="0.27"/></r>
+<r><c l="2000"/><c l="20-24 years"/><c v="135"/><c v="18,848,983"/><c v="0.72"/></r>
+<r><c l="2000"/><c l="25-29 years"/><c v="362"/><c v="19,044,554"/><c v="1.90"/></r>
+<r><c l="2000"/><c l="30-34 years"/><c v="788"/><c v="20,289,179"/><c v="3.88"/></r>
+<r><c l="2000"/><c l="35-39 years"/><c v="1,763"/><c v="22,382,940"/><c v="7.88"/></r>
+<r><c l="2000"/><c l="40-44 years"/><c v="3,334"/><c v="22,245,365"/><c v="14.99"/></r>
+<r><c l="2000"/><c l="45-49 years"/><c v="5,911"/><c v="19,972,154"/><c v="29.60"/></r>
+<r><c l="2000"/><c l="50-54 years"/><c v="9,384"/><c v="17,563,484"/><c v="53.43"/></r>
+<r><c l="2000"/><c l="55-59 years"/><c v="11,487"/><c v="13,399,105"/><c v="85.73"/></r>
+<r><c l="2000"/><c l="60-64 years "/><c v="14,866"/><c v="10,720,153"/><c v="138.67"/></r>
+<r><c l="2000"/><c l="65-69 years"/><c v="19,057"/><c v="9,398,861"/><c v="202.76"/></r>
+<r><c l="2000"/><c l="70-74 years"/><c v="23,283"/><c v="8,746,579"/><c v="266.20"/></r>
+<r><c l="2000"/><c l="75-79 years"/><c v="24,371"/><c v="7,347,313"/><c v="331.70"/></r>
+<r><c l="2000"/><c l="80-84 years"/><c v="19,766"/><c v="4,921,341"/><c v="401.64"/></r>
+<r><c l="2000"/><c l="85+ years"/><c v="18,604"/><c v="4,203,260"/><c v="442.61"/></r>
+<r><c l="2001"/><c l="&lt; 1 year"/><c v="Suppressed"/><c v="3,970,113"/><c v="Suppressed"/></r>
+<r><c l="2001"/><c l="1-4 years"/><c v="Suppressed"/><c v="15,123,657"/><c v="Suppressed"/></r>
+<r><c l="2001"/><c l="5-9 years"/><c v="Suppressed"/><c v="19,962,452"/><c v="Suppressed"/></r>
+<r><c l="2001"/><c l="10-14 years"/><c v="Suppressed"/><c v="20,758,808"/><c v="Suppressed"/></r>
+<r><c l="2001"/><c l="15-19 years"/><c v="56"/><c v="20,227,701"/><c v="0.28"/></r>
+<r><c l="2001"/><c l="20-24 years"/><c v="166"/><c v="19,536,435"/><c v="0.85"/></r>
+<r><c l="2001"/><c l="25-29 years"/><c v="375"/><c v="18,634,669"/><c v="2.01"/></r>
+<r><c l="2001"/><c l="30-34 years"/><c v="831"/><c v="20,462,391"/><c v="4.06"/></r>
+<r><c l="2001"/><c l="35-39 years"/><c v="1,738"/><c v="22,030,086"/><c v="7.89"/></r>
+<r><c l="2001"/><c l="40-44 years"/><c v="3,456"/><c v="22,601,240"/><c v="15.29"/></r>
+<r><c l="2001"/><c l="45-49 years"/><c v="6,025"/><c v="20,501,373"/><c v="29.39"/></r>
+<r><c l="2001"/><c l="50-54 years"/><c v="9,979"/><c v="18,507,423"/><c v="53.92"/></r>
+<r><c l="2001"/><c l="55-59 years"/><c v="11,854"/><c v="13,833,003"/><c v="85.69"/></r>
+<r><c l="2001"/><c l="60-64 years "/><c v="14,670"/><c v="11,020,881"/><c v="133.11"/></r>
+<r><c l="2001"/><c l="65-69 years"/><c v="18,861"/><c v="9,463,333"/><c v="199.31"/></r>
+<r><c l="2001"/><c l="70-74 years"/><c v="22,826"/><c v="8,734,260"/><c v="261.34"/></r>
+<r><c l="2001"/><c l="75-79 years"/><c v="24,318"/><c v="7,386,502"/><c v="329.22"/></r>
+<r><c l="2001"/><c l="80-84 years"/><c v="19,803"/><c v="5,091,062"/><c v="388.98"/></r>
+<r><c l="2001"/><c l="85+ years"/><c v="18,671"/><c v="4,270,572"/><c v="437.20"/></r>
+<r><c l="2002"/><c l="&lt; 1 year"/><c v="Suppressed"/><c v="3,910,837"/><c v="Suppressed"/></r>
+<r><c l="2002"/><c l="5-9 years"/><c v="Suppressed"/><c v="19,665,950"/><c v="Suppressed"/></r>
+<r><c l="2002"/><c l="10-14 years"/><c v="19"/><c v="21,040,663"/><c v="0.09"/></r>
+<r><c l="2002"/><c l="15-19 years"/><c v="48"/><c v="20,386,049"/><c v="0.24"/></r>
+<r><c l="2002"/><c l="20-24 years"/><c v="159"/><c v="20,019,398"/><c v="0.79"/></r>
+<r><c l="2002"/><c l="25-29 years"/><c v="394"/><c v="18,510,142"/><c v="2.13"/></r>
+<r><c l="2002"/><c l="30-34 years"/><c v="872"/><c v="20,467,339"/><c v="4.26"/></r>
+<r><c l="2002"/><c l="35-39 years"/><c v="1,774"/><c v="21,551,652"/><c v="8.23"/></r>
+<r><c l="2002"/><c l="40-44 years"/><c v="3,531"/><c v="22,675,693"/><c v="15.57"/></r>
+<r><c l="2002"/><c l="45-49 years"/><c v="6,200"/><c v="21,049,493"/><c v="29.45"/></r>
+<r><c l="2002"/><c l="50-54 years"/><c v="10,240"/><c v="18,560,294"/><c v="55.17"/></r>
+<r><c l="2002"/><c l="55-59 years"/><c v="12,408"/><c v="14,996,304"/><c v="82.74"/></r>
+<r><c l="2002"/><c l="60-64 years "/><c v="14,733"/><c v="11,442,027"/><c v="128.76"/></r>
+<r><c l="2002"/><c l="65-69 years"/><c v="18,272"/><c v="9,538,576"/><c v="191.56"/></r>
+<r><c l="2002"/><c l="70-74 years"/><c v="22,127"/><c v="8,663,457"/><c v="255.41"/></r>
+<r><c l="2002"/><c l="75-79 years"/><c v="23,498"/><c v="7,400,487"/><c v="317.52"/></r>
+<r><c l="2002"/><c l="80-84 years"/><c v="19,864"/><c v="5,246,561"/><c v="378.61"/></r>
+<r><c l="2002"/><c l="85+ years"/><c v="18,302"/><c v="4,327,726"/><c v="422.90"/></r>
+<r><c l="2003"/><c l="10-14 years"/><c v="18"/><c v="21,415,353"/><c v="0.08"/></r>
+<r><c l="2003"/><c l="15-19 years"/><c v="54"/><c v="20,797,166"/><c v="0.26"/></r>
+<r><c l="2003"/><c l="20-24 years"/><c v="166"/><c v="20,591,688"/><c v="0.81"/></r>
+<r><c l="2003"/><c l="25-29 years"/><c v="372"/><c v="18,771,585"/><c v="1.98"/></r>
+<r><c l="2003"/><c l="30-34 years"/><c v="934"/><c v="20,472,210"/><c v="4.56"/></r>
+<r><c l="2003"/><c l="35-39 years"/><c v="1,771"/><c v="21,264,159"/><c v="8.33"/></r>
+<r><c l="2003"/><c l="40-44 years"/><c v="3,687"/><c v="22,890,047"/><c v="16.11"/></r>
+<r><c l="2003"/><c l="45-49 years"/><c v="6,358"/><c v="21,722,676"/><c v="29.27"/></r>
+<r><c l="2003"/><c l="50-54 years"/><c v="10,667"/><c v="19,097,278"/><c v="55.86"/></r>
+<r><c l="2003"/><c l="55-59 years"/><c v="13,144"/><c v="15,814,557"/><c v="83.11"/></r>
+<r><c l="2003"/><c l="60-64 years "/><c v="15,267"/><c v="12,194,388"/><c v="125.20"/></r>
+<r><c l="2003"/><c l="65-69 years"/><c v="18,613"/><c v="9,830,796"/><c v="189.33"/></r>
+<r><c l="2003"/><c l="70-74 years"/><c v="21,202"/><c v="8,670,119"/><c v="244.54"/></r>
+<r><c l="2003"/><c l="75-79 years"/><c v="23,453"/><c v="7,497,842"/><c v="312.80"/></r>
+<r><c l="2003"/><c l="80-84 years"/><c v="19,786"/><c v="5,398,596"/><c v="366.50"/></r>
+<r><c l="2003"/><c l="85+ years"/><c v="18,424"/><c v="4,466,176"/><c v="412.52"/></r>
+<r><c l="2004"/><c l="&lt; 1 year"/><c v="Suppressed"/><c v="4,014,258"/><c v="Suppressed"/></r>
+<r><c l="2004"/><c l="1-4 years"/><c v="Suppressed"/><c v="15,771,627"/><c v="Suppressed"/></r>
+<r><c l="2004"/><c l="5-9 years"/><c v="Suppressed"/><c v="19,454,237"/><c v="Suppressed"/></r>
+<r><c l="2004"/><c l="10-14 years"/><c v="Suppressed"/><c v="21,411,680"/><c v="Suppressed"/></r>
+<r><c l="2004"/><c l="15-19 years"/><c v="54"/><c v="21,102,552"/><c v="0.26"/></r>
+<r><c l="2004"/><c l="20-24 years"/><c v="193"/><c v="20,845,560"/><c v="0.93"/></r>
+<r><c l="2004"/><c l="25-29 years"/><c v="382"/><c v="19,107,055"/><c v="2.00"/></r>
+<r><c l="2004"/><c l="30-34 years"/><c v="942"/><c v="20,159,501"/><c v="4.67"/></r>
+<r><c l="2004"/><c l="35-39 years"/><c v="1,822"/><c v="20,874,649"/><c v="8.73"/></r>
+<r><c l="2004"/><c l="40-44 years"/><c v="3,661"/><c v="22,925,626"/><c v="15.97"/></r>
+<r><c l="2004"/><c l="45-49 years"/><c v="6,692"/><c v="22,065,262"/><c v="30.33"/></r>
+<r><c l="2004"/><c l="50-54 years"/><c v="11,072"/><c v="19,564,668"/><c v="56.59"/></r>
+<r><c l="2004"/><c l="55-59 years"/><c v="13,422"/><c v="16,607,176"/><c v="80.82"/></r>
+<r><c l="2004"/><c l="60-64 years "/><c v="15,365"/><c v="12,698,128"/><c v="121.00"/></r>
+<r><c l="2004"/><c l="65-69 years"/><c v="18,414"/><c v="10,073,429"/><c v="182.80"/></r>
+<r><c l="2004"/><c l="70-74 years"/><c v="20,280"/><c v="8,594,104"/><c v="235.98"/></r>
+<r><c l="2004"/><c l="75-79 years"/><c v="22,176"/><c v="7,461,399"/><c v="297.21"/></r>
+<r><c l="2004"/><c l="80-84 years"/><c v="19,775"/><c v="5,528,504"/><c v="357.69"/></r>
+<r><c l="2004"/><c l="85+ years"/><c v="17,832"/><c v="4,545,883"/><c v="392.27"/></r>
+<r><c l="2005"/><c l="&lt; 1 year"/><c v="Suppressed"/><c v="3,999,783"/><c v="Suppressed"/></r>
+<r><c l="2005"/><c l="1-4 years"/><c v="Suppressed"/><c v="15,899,370"/><c v="Suppressed"/></r>
+<r><c l="2005"/><c l="5-9 years"/><c v="Suppressed"/><c v="19,374,703"/><c v="Suppressed"/></r>
+<r><c l="2005"/><c l="10-14 years"/><c v="Suppressed"/><c v="21,195,702"/><c v="Suppressed"/></r>
+<r><c l="2005"/><c l="15-19 years"/><c v="70"/><c v="21,471,178"/><c v="0.33"/></r>
+<r><c l="2005"/><c l="20-24 years"/><c v="157"/><c v="20,941,230"/><c v="0.75"/></r>
+<r><c l="2005"/><c l="25-29 years"/><c v="411"/><c v="19,521,407"/><c v="2.11"/></r>
+<r><c l="2005"/><c l="30-34 years"/><c v="905"/><c v="19,707,198"/><c v="4.59"/></r>
+<r><c l="2005"/><c l="35-39 years"/><c v="1,783"/><c v="20,785,291"/><c v="8.58"/></r>
+<r><c l="2005"/><c l="40-44 years"/><c v="3,790"/><c v="22,690,105"/><c v="16.70"/></r>
+<r><c l="2005"/><c l="45-49 years"/><c v="6,713"/><c v="22,403,209"/><c v="29.96"/></r>
+<r><c l="2005"/><c l="50-54 years"/><c v="11,324"/><c v="20,067,242"/><c v="56.43"/></r>
+<r><c l="2005"/><c l="55-59 years"/><c v="14,043"/><c v="17,495,609"/><c v="80.27"/></r>
+<r><c l="2005"/><c l="60-64 years "/><c v="15,424"/><c v="13,131,162"/><c v="117.46"/></r>
+<r><c l="2005"/><c l="65-69 years"/><c v="18,022"/><c v="10,273,382"/><c v="175.42"/></r>
+<r><c l="2005"/><c l="70-74 years"/><c v="19,387"/><c v="8,598,015"/><c v="225.48"/></r>
+<r><c l="2005"/><c l="75-79 years"/><c v="21,479"/><c v="7,458,837"/><c v="287.97"/></r>
+<r><c l="2005"/><c l="80-84 years"/><c v="19,397"/><c v="5,608,292"/><c v="345.86"/></r>
+<r><c l="2005"/><c l="85+ years"/><c v="17,990"/><c v="4,690,947"/><c v="383.50"/></r>
+<r><c l="2006"/><c l="&lt; 1 year"/><c v="Suppressed"/><c v="4,041,738"/><c v="Suppressed"/></r>
+<r><c l="2006"/><c l="5-9 years"/><c v="Suppressed"/><c v="19,544,688"/><c v="Suppressed"/></r>
+<r><c l="2006"/><c l="10-14 years"/><c v="18"/><c v="21,033,138"/><c v="0.09"/></r>
+<r><c l="2006"/><c l="15-19 years"/><c v="62"/><c v="21,807,709"/><c v="0.28"/></r>
+<r><c l="2006"/><c l="20-24 years"/><c v="177"/><c v="21,036,135"/><c v="0.84"/></r>
+<r><c l="2006"/><c l="25-29 years"/><c v="450"/><c v="20,110,011"/><c v="2.24"/></r>
+<r><c l="2006"/><c l="30-34 years"/><c v="947"/><c v="19,285,168"/><c v="4.91"/></r>
+<r><c l="2006"/><c l="35-39 years"/><c v="1,924"/><c v="20,941,233"/><c v="9.19"/></r>
+<r><c l="2006"/><c l="40-44 years"/><c v="3,872"/><c v="22,302,568"/><c v="17.36"/></r>
+<r><c l="2006"/><c l="45-49 years"/><c v="6,840"/><c v="22,715,286"/><c v="30.11"/></r>
+<r><c l="2006"/><c l="50-54 years"/><c v="11,569"/><c v="20,570,873"/><c v="56.24"/></r>
+<r><c l="2006"/><c l="55-59 years"/><c v="14,289"/><c v="18,396,860"/><c v="77.67"/></r>
+<r><c l="2006"/><c l="60-64 years "/><c v="15,238"/><c v="13,533,253"/><c v="112.60"/></r>
+<r><c l="2006"/><c l="65-69 years"/><c v="17,797"/><c v="10,553,201"/><c v="168.64"/></r>
+<r><c l="2006"/><c l="70-74 years"/><c v="18,916"/><c v="8,649,826"/><c v="218.69"/></r>
+<r><c l="2006"/><c l="75-79 years"/><c v="20,638"/><c v="7,447,034"/><c v="277.13"/></r>
+<r><c l="2006"/><c l="80-84 years"/><c v="18,592"/><c v="5,648,117"/><c v="329.17"/></r>
+<r><c l="2006"/><c l="85+ years"/><c v="17,765"/><c v="4,865,929"/><c v="365.09"/></r>
+<r><c l="2007"/><c l="5-9 years"/><c v="Suppressed"/><c v="19,714,611"/><c v="Suppressed"/></r>
+<r><c l="2007"/><c l="10-14 years"/><c v="16"/><c v="20,841,042"/><c v="0.08"/></r>
+<r><c l="2007"/><c l="15-19 years"/><c v="63"/><c v="22,067,816"/><c v="0.29"/></r>
+<r><c l="2007"/><c l="20-24 years"/><c v="196"/><c v="21,077,999"/><c v="0.93"/></r>
+<r><c l="2007"/><c l="25-29 years"/><c v="442"/><c v="20,542,698"/><c v="2.15"/></r>
+<r><c l="2007"/><c l="30-34 years"/><c v="870"/><c v="19,170,765"/><c v="4.54"/></r>
+<r><c l="2007"/><c l="35-39 years"/><c v="1,924"/><c v="20,963,891"/><c v="9.18"/></r>
+<r><c l="2007"/><c l="40-44 years"/><c v="3,846"/><c v="21,832,339"/><c v="17.62"/></r>
+<r><c l="2007"/><c l="45-49 years"/><c v="7,060"/><c v="22,799,761"/><c v="30.97"/></r>
+<r><c l="2007"/><c l="50-54 years"/><c v="12,144"/><c v="21,140,178"/><c v="57.45"/></r>
+<r><c l="2007"/><c l="55-59 years"/><c v="14,275"/><c v="18,454,772"/><c v="77.35"/></r>
+<r><c l="2007"/><c l="60-64 years "/><c v="15,902"/><c v="14,673,662"/><c v="108.37"/></r>
+<r><c l="2007"/><c l="65-69 years"/><c v="17,930"/><c v="10,970,235"/><c v="163.44"/></r>
+<r><c l="2007"/><c l="70-74 years"/><c v="18,580"/><c v="8,728,492"/><c v="212.87"/></r>
+<r><c l="2007"/><c l="75-79 years"/><c v="19,667"/><c v="7,400,363"/><c v="265.76"/></r>
+<r><c l="2007"/><c l="80-84 years"/><c v="17,995"/><c v="5,687,076"/><c v="316.42"/></r>
+<r><c l="2007"/><c l="85+ years"/><c v="17,729"/><c v="5,039,545"/><c v="351.80"/></r>
+<r><c l="2008"/><c l="&lt; 1 year"/><c v="Suppressed"/><c v="4,132,735"/><c v="Suppressed"/></r>
+<r><c l="2008"/><c l="5-9 years"/><c v="Suppressed"/><c v="19,929,602"/><c v="Suppressed"/></r>
+<r><c l="2008"/><c l="10-14 years"/><c v="Suppressed"/><c v="20,706,655"/><c v="Suppressed"/></r>
+<r><c l="2008"/><c l="15-19 years"/><c v="67"/><c v="22,210,880"/><c v="0.30"/></r>
+<r><c l="2008"/><c l="20-24 years"/><c v="196"/><c v="21,180,612"/><c v="0.93"/></r>
+<r><c l="2008"/><c l="25-29 years"/><c v="482"/><c v="20,902,668"/><c v="2.31"/></r>
+<r><c l="2008"/><c l="30-34 years"/><c v="910"/><c v="19,304,805"/><c v="4.71"/></r>
+<r><c l="2008"/><c l="35-39 years"/><c v="1,982"/><c v="20,817,463"/><c v="9.52"/></r>
+<r><c l="2008"/><c l="40-44 years"/><c v="3,751"/><c v="21,375,023"/><c v="17.55"/></r>
+<r><c l="2008"/><c l="45-49 years"/><c v="7,038"/><c v="22,820,973"/><c v="30.84"/></r>
+<r><c l="2008"/><c l="50-54 years"/><c v="12,336"/><c v="21,639,474"/><c v="57.01"/></r>
+<r><c l="2008"/><c l="55-59 years"/><c v="13,968"/><c v="18,814,568"/><c v="74.24"/></r>
+<r><c l="2008"/><c l="60-64 years "/><c v="15,898"/><c v="15,342,495"/><c v="103.62"/></r>
+<r><c l="2008"/><c l="65-69 years"/><c v="17,878"/><c v="11,594,347"/><c v="154.20"/></r>
+<r><c l="2008"/><c l="70-74 years"/><c v="18,075"/><c v="8,911,332"/><c v="202.83"/></r>
+<r><c l="2008"/><c l="75-79 years"/><c v="19,052"/><c v="7,345,743"/><c v="259.36"/></r>
+<r><c l="2008"/><c l="80-84 years"/><c v="17,911"/><c v="5,730,359"/><c v="312.56"/></r>
+<r><c l="2008"/><c l="85+ years"/><c v="18,294"/><c v="5,195,840"/><c v="352.09"/></r>
+<r><c l="2009"/><c l="10-14 years"/><c v="17"/><c v="20,660,564"/><c v="0.08"/></r>
+<r><c l="2009"/><c l="15-19 years"/><c v="54"/><c v="22,192,810"/><c v="0.24"/></r>
+<r><c l="2009"/><c l="20-24 years"/><c v="204"/><c v="21,384,122"/><c v="0.95"/></r>
+<r><c l="2009"/><c l="25-29 years"/><c v="477"/><c v="21,078,228"/><c v="2.26"/></r>
+<r><c l="2009"/><c l="30-34 years"/><c v="956"/><c v="19,645,114"/><c v="4.87"/></r>
+<r><c l="2009"/><c l="35-39 years"/><c v="1,909"/><c v="20,507,796"/><c v="9.31"/></r>
+<r><c l="2009"/><c l="40-44 years"/><c v="3,802"/><c v="20,980,015"/><c v="18.12"/></r>
+<r><c l="2009"/><c l="45-49 years"/><c v="7,205"/><c v="22,862,245"/><c v="31.51"/></r>
+<r><c l="2009"/><c l="50-54 years"/><c v="12,664"/><c v="22,004,843"/><c v="57.55"/></r>
+<r><c l="2009"/><c l="55-59 years"/><c v="13,779"/><c v="19,280,603"/><c v="71.47"/></r>
+<r><c l="2009"/><c l="60-64 years "/><c v="16,085"/><c v="16,124,997"/><c v="99.75"/></r>
+<r><c l="2009"/><c l="65-69 years"/><c v="17,758"/><c v="12,092,377"/><c v="146.85"/></r>
+<r><c l="2009"/><c l="70-74 years"/><c v="17,318"/><c v="9,140,722"/><c v="189.46"/></r>
+<r><c l="2009"/><c l="75-79 years"/><c v="17,788"/><c v="7,295,064"/><c v="243.84"/></r>
+<r><c l="2009"/><c l="80-84 years"/><c v="16,578"/><c v="5,727,711"/><c v="289.43"/></r>
+<r><c l="2009"/><c l="85+ years"/><c v="17,443"/><c v="5,367,301"/><c v="324.99"/></r>
+<r><c l="2010"/><c l="5-9 years"/><c v="Suppressed"/><c v="20,334,374"/><c v="Suppressed"/></r>
+<r><c l="2010"/><c l="10-14 years"/><c v="16"/><c v="20,704,318"/><c v="0.08"/></r>
+<r><c l="2010"/><c l="15-19 years"/><c v="86"/><c v="21,995,964"/><c v="0.39"/></r>
+<r><c l="2010"/><c l="20-24 years"/><c v="233"/><c v="21,698,591"/><c v="1.07"/></r>
+<r><c l="2010"/><c l="25-29 years"/><c v="512"/><c v="21,133,663"/><c v="2.42"/></r>
+<r><c l="2010"/><c l="30-34 years"/><c v="1,012"/><c v="20,069,890"/><c v="5.04"/></r>
+<r><c l="2010"/><c l="35-39 years"/><c v="1,899"/><c v="20,086,667"/><c v="9.45"/></r>
+<r><c l="2010"/><c l="40-44 years"/><c v="3,697"/><c v="20,912,078"/><c v="17.68"/></r>
+<r><c l="2010"/><c l="45-49 years"/><c v="7,043"/><c v="22,644,443"/><c v="31.10"/></r>
+<r><c l="2010"/><c l="50-54 years"/><c v="12,549"/><c v="22,361,262"/><c v="56.12"/></r>
+<r><c l="2010"/><c l="55-59 years"/><c v="13,622"/><c v="19,802,800"/><c v="68.79"/></r>
+<r><c l="2010"/><c l="60-64 years "/><c v="15,954"/><c v="16,993,381"/><c v="93.88"/></r>
+<r><c l="2010"/><c l="65-69 years"/><c v="17,173"/><c v="12,522,534"/><c v="137.14"/></r>
+<r><c l="2010"/><c l="70-74 years"/><c v="16,898"/><c v="9,333,490"/><c v="181.05"/></r>
+<r><c l="2010"/><c l="75-79 years"/><c v="16,702"/><c v="7,313,731"/><c v="228.36"/></r>
+<r><c l="2010"/><c l="80-84 years"/><c v="15,770"/><c v="5,751,515"/><c v="274.19"/></r>
+<r><c l="2010"/><c l="85+ years"/><c v="17,166"/><c v="5,530,650"/><c v="310.38"/></r>
+<r><c l="2011"/><c l="&lt; 1 year"/><c v="Suppressed"/><c v="3,961,945"/><c v="Suppressed"/></r>
+<r><c l="2011"/><c l="5-9 years"/><c v="Suppressed"/><c v="20,348,346"/><c v="Suppressed"/></r>
+<r><c l="2011"/><c l="10-14 years"/><c v="25"/><c v="20,832,481"/><c v="0.12"/></r>
+<r><c l="2011"/><c l="15-19 years"/><c v="75"/><c v="21,731,484"/><c v="0.35"/></r>
+<r><c l="2011"/><c l="20-24 years"/><c v="234"/><c v="22,145,284"/><c v="1.06"/></r>
+<r><c l="2011"/><c l="25-29 years"/><c v="528"/><c v="21,234,140"/><c v="2.49"/></r>
+<r><c l="2011"/><c l="30-34 years"/><c v="997"/><c v="20,523,896"/><c v="4.86"/></r>
+<r><c l="2011"/><c l="35-39 years"/><c v="1,904"/><c v="19,644,203"/><c v="9.69"/></r>
+<r><c l="2011"/><c l="40-44 years"/><c v="3,819"/><c v="21,080,258"/><c v="18.12"/></r>
+<r><c l="2011"/><c l="45-49 years"/><c v="6,753"/><c v="22,209,109"/><c v="30.41"/></r>
+<r><c l="2011"/><c l="50-54 years"/><c v="12,580"/><c v="22,613,633"/><c v="55.63"/></r>
+<r><c l="2011"/><c l="55-59 years"/><c v="13,765"/><c v="20,303,252"/><c v="67.80"/></r>
+<r><c l="2011"/><c l="60-64 years "/><c v="16,374"/><c v="17,834,283"/><c v="91.81"/></r>
+<r><c l="2011"/><c l="65-69 years"/><c v="17,137"/><c v="12,888,831"/><c v="132.96"/></r>
+<r><c l="2011"/><c l="70-74 years"/><c v="16,997"/><c v="9,596,309"/><c v="177.12"/></r>
+<r><c l="2011"/><c l="75-79 years"/><c v="16,433"/><c v="7,358,395"/><c v="223.32"/></r>
+<r><c l="2011"/><c l="80-84 years"/><c v="15,563"/><c v="5,742,962"/><c v="270.99"/></r>
+<r><c l="2011"/><c l="85+ years"/><c v="17,067"/><c v="5,631,430"/><c v="303.07"/></r>
+<r><c l="2012"/><c l="&lt; 1 year"/><c v="Suppressed"/><c v="3,924,380"/><c v="Suppressed"/></r>
+<r><c l="2012"/><c l="5-9 years"/><c v="Suppressed"/><c v="20,496,200"/><c v="Suppressed"/></r>
+<r><c l="2012"/><c l="10-14 years"/><c v="29"/><c v="20,886,243"/><c v="0.14"/></r>
+<r><c l="2012"/><c l="15-19 years"/><c v="112"/><c v="21,498,428"/><c v="0.52"/></r>
+<r><c l="2012"/><c l="20-24 years"/><c v="251"/><c v="22,560,088"/><c v="1.11"/></r>
+<r><c l="2012"/><c l="25-29 years"/><c v="600"/><c v="21,300,874"/><c v="2.82"/></r>
+<r><c l="2012"/><c l="30-34 years"/><c v="1,102"/><c v="20,926,133"/><c v="5.27"/></r>
+<r><c l="2012"/><c l="35-39 years"/><c v="1,938"/><c v="19,572,429"/><c v="9.90"/></r>
+<r><c l="2012"/><c l="40-44 years"/><c v="3,776"/><c v="21,103,894"/><c v="17.89"/></r>
+<r><c l="2012"/><c l="45-49 years"/><c v="6,867"/><c v="21,768,537"/><c v="31.55"/></r>
+<r><c l="2012"/><c l="50-54 years"/><c v="12,857"/><c v="22,662,040"/><c v="56.73"/></r>
+<r><c l="2012"/><c l="55-59 years"/><c v="13,799"/><c v="20,852,889"/><c v="66.17"/></r>
+<r><c l="2012"/><c l="60-64 years "/><c v="16,222"/><c v="17,849,962"/><c v="90.88"/></r>
+<r><c l="2012"/><c l="65-69 years"/><c v="17,780"/><c v="13,997,377"/><c v="127.02"/></r>
+<r><c l="2012"/><c l="70-74 years"/><c v="16,826"/><c v="9,990,618"/><c v="168.42"/></r>
+<r><c l="2012"/><c l="75-79 years"/><c v="15,987"/><c v="7,438,863"/><c v="214.91"/></r>
+<r><c l="2012"/><c l="80-84 years"/><c v="14,742"/><c v="5,716,721"/><c v="257.88"/></r>
+<r><c l="2012"/><c l="85+ years"/><c v="16,426"/><c v="5,743,075"/><c v="286.01"/></r>
+<r><c l="2013"/><c l="5-9 years"/><c v="Suppressed"/><c v="20,609,959"/><c v="Suppressed"/></r>
+<r><c l="2013"/><c l="10-14 years"/><c v="38"/><c v="20,964,073"/><c v="0.18"/></r>
+<r><c l="2013"/><c l="15-19 years"/><c v="120"/><c v="21,362,136"/><c v="0.56"/></r>
+<r><c l="2013"/><c l="20-24 years"/><c v="253"/><c v="22,773,138"/><c v="1.11"/></r>
+<r><c l="2013"/><c l="25-29 years"/><c v="540"/><c v="21,447,714"/><c v="2.52"/></r>
+<r><c l="2013"/><c l="30-34 years"/><c v="1,129"/><c v="21,295,504"/><c v="5.30"/></r>
+<r><c l="2013"/><c l="35-39 years"/><c v="1,918"/><c v="19,724,062"/><c v="9.72"/></r>
+<r><c l="2013"/><c l="40-44 years"/><c v="3,853"/><c v="20,960,140"/><c v="18.38"/></r>
+<r><c l="2013"/><c l="45-49 years"/><c v="6,820"/><c v="21,323,031"/><c v="31.98"/></r>
+<r><c l="2013"/><c l="50-54 years"/><c v="13,214"/><c v="22,677,710"/><c v="58.27"/></r>
+<r><c l="2013"/><c l="55-59 years"/><c v="14,471"/><c v="21,300,795"/><c v="67.94"/></r>
+<r><c l="2013"/><c l="60-64 years "/><c v="16,355"/><c v="18,166,404"/><c v="90.03"/></r>
+<r><c l="2013"/><c l="65-69 years"/><c v="18,203"/><c v="14,619,772"/><c v="124.51"/></r>
+<r><c l="2013"/><c l="70-74 years"/><c v="17,109"/><c v="10,568,313"/><c v="161.89"/></r>
+<r><c l="2013"/><c l="75-79 years"/><c v="15,730"/><c v="7,599,553"/><c v="206.99"/></r>
+<r><c l="2013"/><c l="80-84 years"/><c v="14,453"/><c v="5,672,493"/><c v="254.79"/></r>
+<r><c l="2013"/><c l="85+ years"/><c v="16,345"/><c v="5,814,190"/><c v="281.12"/></r>
+<r><c l="2014"/><c l="&lt; 1 year"/><c v="Suppressed"/><c v="3,950,564"/><c v="Suppressed"/></r>
+<r><c l="2014"/><c l="5-9 years"/><c v="Suppressed"/><c v="20,571,344"/><c v="Suppressed"/></r>
+<r><c l="2014"/><c l="10-14 years"/><c v="62"/><c v="21,075,809"/><c v="0.29"/></r>
+<r><c l="2014"/><c l="15-19 years"/><c v="146"/><c v="21,293,573"/><c v="0.69"/></r>
+<r><c l="2014"/><c l="20-24 years"/><c v="330"/><c v="22,820,908"/><c v="1.45"/></r>
+<r><c l="2014"/><c l="25-29 years"/><c v="675"/><c v="21,789,623"/><c v="3.10"/></r>
+<r><c l="2014"/><c l="30-34 years"/><c v="1,266"/><c v="21,539,742"/><c v="5.88"/></r>
+<r><c l="2014"/><c l="35-39 years"/><c v="2,131"/><c v="20,032,189"/><c v="10.64"/></r>
+<r><c l="2014"/><c l="40-44 years"/><c v="3,915"/><c v="20,681,863"/><c v="18.93"/></r>
+<r><c l="2014"/><c l="45-49 years"/><c v="7,071"/><c v="20,973,739"/><c v="33.71"/></r>
+<r><c l="2014"/><c l="50-54 years"/><c v="13,531"/><c v="22,681,918"/><c v="59.66"/></r>
+<r><c l="2014"/><c l="55-59 years"/><c v="15,262"/><c v="21,628,648"/><c v="70.56"/></r>
+<r><c l="2014"/><c l="60-64 years "/><c v="17,401"/><c v="18,606,741"/><c v="93.52"/></r>
+<r><c l="2014"/><c l="65-69 years"/><c v="18,962"/><c v="15,337,993"/><c v="123.63"/></r>
+<r><c l="2014"/><c l="70-74 years"/><c v="17,049"/><c v="11,012,585"/><c v="154.81"/></r>
+<r><c l="2014"/><c l="75-79 years"/><c v="15,803"/><c v="7,805,614"/><c v="202.46"/></r>
+<r><c l="2014"/><c l="80-84 years"/><c v="13,740"/><c v="5,639,016"/><c v="243.66"/></r>
+<r><c l="2014"/><c l="85+ years"/><c v="16,051"/><c v="5,893,917"/><c v="272.33"/></r>
+<r><c l="2015"/><c l="1-4 years"/><c v="Suppressed"/><c v="15,956,752"/><c v="Suppressed"/></r>
+<r><c l="2015"/><c l="5-9 years"/><c v="24"/><c v="20,547,067"/><c v="0.12"/></r>
+<r><c l="2015"/><c l="10-14 years"/><c v="113"/><c v="21,111,845"/><c v="0.54"/></r>
+<r><c l="2015"/><c l="15-19 years"/><c v="277"/><c v="21,380,065"/><c v="1.30"/></r>
+<r><c l="2015"/><c l="20-24 years"/><c v="456"/><c v="22,602,634"/><c v="2.02"/></r>
+<r><c l="2015"/><c l="25-29 years"/><c v="724"/><c v="22,206,073"/><c v="3.26"/></r>
+<r><c l="2015"/><c l="30-34 years"/><c v="1,379"/><c v="21,681,061"/><c v="6.36"/></r>
+<r><c l="2015"/><c l="35-39 years"/><c v="2,272"/><c v="20,507,635"/><c v="11.08"/></r>
+<r><c l="2015"/><c l="40-44 years"/><c v="4,018"/><c v="20,315,911"/><c v="19.78"/></r>
+<r><c l="2015"/><c l="45-49 years"/><c v="7,247"/><c v="20,947,903"/><c v="34.60"/></r>
+<r><c l="2015"/><c l="50-54 years"/><c v="13,787"/><c v="22,463,539"/><c v="61.38"/></r>
+<r><c l="2015"/><c l="55-59 years"/><c v="15,271"/><c v="21,947,773"/><c v="69.58"/></r>
+<r><c l="2015"/><c l="60-64 years "/><c v="17,447"/><c v="19,113,877"/><c v="91.28"/></r>
+<r><c l="2015"/><c l="65-69 years"/><c v="19,402"/><c v="16,091,588"/><c v="120.57"/></r>
+<r><c l="2015"/><c l="70-74 years"/><c v="16,935"/><c v="11,401,528"/><c v="148.53"/></r>
+<r><c l="2015"/><c l="75-79 years"/><c v="15,889"/><c v="7,971,430"/><c v="199.32"/></r>
+<r><c l="2015"/><c l="80-84 years"/><c v="13,521"/><c v="5,648,437"/><c v="239.38"/></r>
+<r><c l="2015"/><c l="85+ years"/><c v="15,918"/><c v="5,962,266"/><c v="266.98"/></r>
+<r><c l="2016"/><c l="&lt; 1 year"/><c v="Suppressed"/><c v="3,956,880"/><c v="Suppressed"/></r>
+<r><c l="2016"/><c l="1-4 years"/><c v="Suppressed"/><c v="15,992,704"/><c v="Suppressed"/></r>
+<r><c l="2016"/><c l="5-9 years"/><c v="16"/><c v="20,517,750"/><c v="0.08"/></r>
+<r><c l="2016"/><c l="10-14 years"/><c v="123"/><c v="21,229,611"/><c v="0.58"/></r>
+<r><c l="2016"/><c l="15-19 years"/><c v="303"/><c v="21,487,470"/><c v="1.41"/></r>
+<r><c l="2016"/><c l="20-24 years"/><c v="417"/><c v="22,266,178"/><c v="1.87"/></r>
+<r><c l="2016"/><c l="25-29 years"/><c v="801"/><c v="22,665,879"/><c v="3.53"/></r>
+<r><c l="2016"/><c l="30-34 years"/><c v="1,362"/><c v="21,882,982"/><c v="6.22"/></r>
+<r><c l="2016"/><c l="35-39 years"/><c v="2,383"/><c v="21,029,692"/><c v="11.33"/></r>
+<r><c l="2016"/><c l="40-44 years"/><c v="4,070"/><c v="19,895,585"/><c v="20.46"/></r>
+<r><c l="2016"/><c l="45-49 years"/><c v="7,348"/><c v="21,129,690"/><c v="34.78"/></r>
+<r><c l="2016"/><c l="50-54 years"/><c v="13,985"/><c v="22,047,289"/><c v="63.43"/></r>
+<r><c l="2016"/><c l="55-59 years"/><c v="15,325"/><c v="22,199,146"/><c v="69.03"/></r>
+<r><c l="2016"/><c l="60-64 years "/><c v="17,591"/><c v="19,575,738"/><c v="89.86"/></r>
+<r><c l="2016"/><c l="65-69 years"/><c v="20,035"/><c v="16,862,506"/><c v="118.81"/></r>
+<r><c l="2016"/><c l="70-74 years"/><c v="17,291"/><c v="11,726,915"/><c v="147.45"/></r>
+<r><c l="2016"/><c l="75-79 years"/><c v="15,699"/><c v="8,192,837"/><c v="191.62"/></r>
+<r><c l="2016"/><c l="80-84 years"/><c v="13,105"/><c v="5,694,495"/><c v="230.13"/></r>
+<r><c l="2016"/><c l="85+ years"/><c v="15,703"/><c v="6,019,203"/><c v="260.88"/></r>
+<r><c l="2017"/><c l="&lt; 1 year"/><c v="Suppressed"/><c v="3,875,307"/><c v="Suppressed"/></r>
+<r><c l="2017"/><c l="1-4 years"/><c v="Suppressed"/><c v="16,035,213"/><c v="Suppressed"/></r>
+<r><c l="2017"/><c l="5-9 years"/><c v="20"/><c v="20,407,959"/><c v="0.10"/></r>
+<r><c l="2017"/><c l="10-14 years"/><c v="122"/><c v="21,481,359"/><c v="0.57"/></r>
+<r><c l="2017"/><c l="15-19 years"/><c v="265"/><c v="21,508,380"/><c v="1.23"/></r>
+<r><c l="2017"/><c l="20-24 years"/><c v="485"/><c v="21,946,343"/><c v="2.21"/></r>
+<r><c l="2017"/><c l="25-29 years"/><c v="784"/><c v="23,038,131"/><c v="3.40"/></r>
+<r><c l="2017"/><c l="30-34 years"/><c v="1,398"/><c v="22,015,063"/><c v="6.35"/></r>
+<r><c l="2017"/><c l="35-39 years"/><c v="2,524"/><c v="21,482,231"/><c v="11.75"/></r>
+<r><c l="2017"/><c l="40-44 years"/><c v="4,002"/><c v="19,827,766"/><c v="20.18"/></r>
+<r><c l="2017"/><c l="45-49 years"/><c v="7,518"/><c v="21,158,222"/><c v="35.53"/></r>
+<r><c l="2017"/><c l="50-54 years"/><c v="13,412"/><c v="21,616,721"/><c v="62.04"/></r>
+<r><c l="2017"/><c l="55-59 years"/><c v="15,290"/><c v="22,247,221"/><c v="68.73"/></r>
+<r><c l="2017"/><c l="60-64 years "/><c v="17,569"/><c v="20,076,632"/><c v="87.51"/></r>
+<r><c l="2017"/><c l="65-69 years"/><c v="19,886"/><c v="16,867,717"/><c v="117.89"/></r>
+<r><c l="2017"/><c l="70-74 years"/><c v="17,910"/><c v="12,716,473"/><c v="140.84"/></r>
+<r><c l="2017"/><c l="75-79 years"/><c v="15,603"/><c v="8,515,856"/><c v="183.22"/></r>
+<r><c l="2017"/><c l="80-84 years"/><c v="13,066"/><c v="5,755,609"/><c v="227.01"/></r>
+<r><c l="2017"/><c l="85+ years"/><c v="15,339"/><c v="6,042,819"/><c v="253.84"/></r>
+<r><c l="2018"/><c l="&lt; 1 year"/><c v="Suppressed"/><c v="3,818,945"/><c v="Suppressed"/></r>
+<r><c l="2018"/><c l="1-4 years"/><c v="Suppressed"/><c v="15,978,154"/><c v="Suppressed"/></r>
+<r><c l="2018"/><c l="5-9 years"/><c v="23"/><c v="20,300,871"/><c v="0.11"/></r>
+<r><c l="2018"/><c l="10-14 years"/><c v="141"/><c v="21,688,848"/><c v="0.65"/></r>
+<r><c l="2018"/><c l="15-19 years"/><c v="299"/><c v="21,535,176"/><c v="1.39"/></r>
+<r><c l="2018"/><c l="20-24 years"/><c v="420"/><c v="21,696,588"/><c v="1.94"/></r>
+<r><c l="2018"/><c l="25-29 years"/><c v="797"/><c v="23,177,569"/><c v="3.44"/></r>
+<r><c l="2018"/><c l="30-34 years"/><c v="1,481"/><c v="22,195,651"/><c v="6.67"/></r>
+<r><c l="2018"/><c l="35-39 years"/><c v="2,498"/><c v="21,886,285"/><c v="11.41"/></r>
+<r><c l="2018"/><c l="40-44 years"/><c v="4,150"/><c v="19,970,686"/><c v="20.78"/></r>
+<r><c l="2018"/><c l="45-49 years"/><c v="7,460"/><c v="21,016,026"/><c v="35.50"/></r>
+<r><c l="2018"/><c l="50-54 years"/><c v="13,448"/><c v="21,177,217"/><c v="63.50"/></r>
+<r><c l="2018"/><c l="55-59 years"/><c v="15,082"/><c v="22,260,894"/><c v="67.75"/></r>
+<r><c l="2018"/><c l="60-64 years "/><c v="17,987"/><c v="20,476,304"/><c v="87.84"/></r>
+<r><c l="2018"/><c l="65-69 years"/><c v="19,836"/><c v="17,151,146"/><c v="115.65"/></r>
+<r><c l="2018"/><c l="70-74 years"/><c v="18,618"/><c v="13,271,909"/><c v="140.28"/></r>
+<r><c l="2018"/><c l="75-79 years"/><c v="16,132"/><c v="9,000,330"/><c v="179.24"/></r>
+<r><c l="2018"/><c l="80-84 years"/><c v="13,228"/><c v="5,882,868"/><c v="224.86"/></r>
+<r><c l="2018"/><c l="85+ years"/><c v="15,430"/><c v="6,049,790"/><c v="255.05"/></r>
+<r><c l="2019"/><c l="5-9 years"/><c v="21"/><c v="20,320,495"/><c v="0.10"/></r>
+<r><c l="2019"/><c l="10-14 years"/><c v="136"/><c v="21,719,943"/><c v="0.63"/></r>
+<r><c l="2019"/><c l="15-19 years"/><c v="297"/><c v="21,580,691"/><c v="1.38"/></r>
+<r><c l="2019"/><c l="20-24 years"/><c v="443"/><c v="21,502,590"/><c v="2.06"/></r>
+<r><c l="2019"/><c l="25-29 years"/><c v="785"/><c v="23,125,962"/><c v="3.39"/></r>
+<r><c l="2019"/><c l="30-34 years"/><c v="1,526"/><c v="22,536,270"/><c v="6.77"/></r>
+<r><c l="2019"/><c l="35-39 years"/><c v="2,620"/><c v="22,137,898"/><c v="11.83"/></r>
+<r><c l="2019"/><c l="40-44 years"/><c v="4,264"/><c v="20,247,590"/><c v="21.06"/></r>
+<r><c l="2019"/><c l="45-49 years"/><c v="7,655"/><c v="20,730,207"/><c v="36.93"/></r>
+<r><c l="2019"/><c l="50-54 years"/><c v="13,597"/><c v="20,822,213"/><c v="65.30"/></r>
+<r><c l="2019"/><c l="55-59 years"/><c v="15,368"/><c v="22,257,759"/><c v="69.05"/></r>
+<r><c l="2019"/><c l="60-64 years "/><c v="18,172"/><c v="20,758,878"/><c v="87.54"/></r>
+<r><c l="2019"/><c l="65-69 years"/><c v="20,139"/><c v="17,544,800"/><c v="114.79"/></r>
+<r><c l="2019"/><c l="70-74 years"/><c v="18,984"/><c v="13,902,868"/><c v="136.55"/></r>
+<r><c l="2019"/><c l="75-79 years"/><c v="16,055"/><c v="9,361,866"/><c v="171.49"/></r>
+<r><c l="2019"/><c l="80-84 years"/><c v="13,408"/><c v="6,040,416"/><c v="221.97"/></r>
+<r><c l="2019"/><c l="85+ years"/><c v="15,085"/><c v="6,048,982"/><c v="249.38"/></r>
+<r><c l="2020"/><c l="&lt; 1 year"/><c v="Suppressed"/><c v="3,702,966"/><c v="Suppressed"/></r>
+<r><c l="2020"/><c l="5-9 years"/><c v="19"/><c v="20,345,136"/><c v="0.09"/></r>
+<r><c l="2020"/><c l="10-14 years"/><c v="136"/><c v="21,694,336"/><c v="0.63"/></r>
+<r><c l="2020"/><c l="15-19 years"/><c v="283"/><c v="21,542,085"/><c v="1.31"/></r>
+<r><c l="2020"/><c l="20-24 years"/><c v="446"/><c v="21,473,625"/><c v="2.08"/></r>
+<r><c l="2020"/><c l="25-29 years"/><c v="783"/><c v="22,801,499"/><c v="3.43"/></r>
+<r><c l="2020"/><c l="30-34 years"/><c v="1,544"/><c v="22,875,009"/><c v="6.75"/></r>
+<r><c l="2020"/><c l="35-39 years"/><c v="2,624"/><c v="22,232,820"/><c v="11.80"/></r>
+<r><c l="2020"/><c l="40-44 years"/><c v="4,171"/><c v="20,670,615"/><c v="20.18"/></r>
+<r><c l="2020"/><c l="45-49 years"/><c v="7,229"/><c v="20,317,691"/><c v="35.58"/></r>
+<r><c l="2020"/><c l="50-54 years"/><c v="12,034"/><c v="20,778,385"/><c v="57.92"/></r>
+<r><c l="2020"/><c l="55-59 years"/><c v="13,309"/><c v="22,026,763"/><c v="60.42"/></r>
+<r><c l="2020"/><c l="60-64 years "/><c v="16,429"/><c v="21,024,533"/><c v="78.14"/></r>
+<r><c l="2020"/><c l="65-69 years"/><c v="17,872"/><c v="17,994,296"/><c v="99.32"/></r>
+<r><c l="2020"/><c l="70-74 years"/><c v="17,057"/><c v="14,574,985"/><c v="117.03"/></r>
+<r><c l="2020"/><c l="75-79 years"/><c v="14,276"/><c v="9,661,327"/><c v="147.76"/></r>
+<r><c l="2020"/><c l="80-84 years"/><c v="11,837"/><c v="6,160,937"/><c v="192.13"/></r>
+<r><c l="2020"/><c l="85+ years"/><c v="13,812"/><c v="6,061,016"/><c v="227.88"/></r>
+</data-table>
+<flags>
+<flag oncount="true">Suppressed</flag>
+</flags>
+<options>
+<other-parameters>
+	<parameter code="O_show_totals" label="Show Totals" display="true">
+		<option value="true" label="True"/>
+		<option value="false" label="False"/>
+		<option value="disabled" label="Disabled"/>
+		<value>disabled</value>
+	</parameter>
+	<parameter code="O_show_zeros" label="Show Zero Values" display="true">
+		<option value="true" label="True"/>
+		<option value="false" label="False"/>
+		<option value="disabled" label="Disabled"/>
+		<value>false</value>
+	</parameter>
+	<parameter code="O_show_suppressed" label="Show Suppressed" display="true">
+		<option value="true" label="True"/>
+		<option value="false" label="False"/>
+		<option value="disabled" label="Disabled"/>
+		<value>true</value>
+	</parameter>
+	<parameter code="O_precision" label="Precision" display="false">
+		<option value="0" label="0"/>
+		<option value="1" label="1"/>
+		<option value="2" label="2"/>
+		<option value="3" label="3"/>
+		<option value="4" label="4"/>
+		<option value="5" label="5"/>
+		<option value="6" label="6"/>
+		<option value="7" label="7"/>
+		<option value="8" label="8"/>
+		<option value="9" label="9"/>
+		<value>2</value>
+	</parameter>
+	<parameter code="O_timeout" label="Data Access Timeout" display="false">
+		<option value="60" label="1"/>
+		<option value="120" label="2"/>
+		<option value="180" label="3"/>
+		<option value="240" label="4"/>
+		<option value="300" label="5"/>
+		<option value="360" label="6"/>
+		<option value="420" label="7"/>
+		<option value="480" label="8"/>
+		<option value="540" label="9"/>
+		<option value="600" label="10"/>
+		<option value="660" label="11"/>
+		<option value="720" label="12"/>
+		<option value="780" label="13"/>
+		<option value="840" label="14"/>
+		<option value="900" label="15"/>
+		<value>600</value>
+	</parameter>
+	<parameter code="O_groups_count" label="Groups" display="false">
+		<option value="2" label="Two"/>
+		<option value="3" label="Three"/>
+		<option value="4" label="Four"/>
+		<option value="5" label="Five"/>
+		<option value="6" label="Six"/>
+		<option value="7" label="Seven"/>
+		<option value="8" label="Eight"/>
+		<option value="9" label="Nine"/>
+		<option value="10" label="Ten"/>
+		<value>4</value>
+	</parameter>
+	<parameter code="O_groups_methods" label="Group Breaks Method" display="false">
+		<option value="QUANTILE" label="Quantile"/>
+		<option value="EQUAL" label="Equal Interval"/>
+		<value>QUANTILE</value>
+	</parameter>
+	<parameter code="O_rate_per" label="Calculate Rates Per" display="true">
+		<option value="100000" label="100,000"/>
+		<option value="1000000" label="1,000,000"/>
+		<value>100000</value>
+	</parameter>
+	<parameter code="O_stdpop" label="Standard Population" display="true">
+		<option value="141" label="1940 U.S. Std. Million"/>
+		<option value="171" label="1970 U.S. Std. Million"/>
+		<option value="201" label="2000 U.S. Std. Million"/>
+		<option value="006" label="World Std. Million"/>
+		<value>201</value>
+	</parameter>
+	<parameter code="O_PR" label="" display="false">
+		<value>false</value>
+	</parameter>
+	<parameter code="O_cancer" display="false">
+		<value>D205.V8</value>
+	</parameter>
+	<parameter code="O_javascript" display="false">
+		<value>off</value>
+	</parameter>
+	<parameter code="O_location" display="false">
+		<value>D205.V2</value>
+	</parameter>
+	<parameter code="O_labels_opt" display="false">
+		<value>true</value>
+	</parameter>
+	<parameter code="O_show_rank" display="false">
+		<value>false</value>
+	</parameter>
+	<parameter code="O_groups" display="false">
+		<value>false</value>
+	</parameter>
+	<parameter code="O_labels_quick" display="false">
+		<value>true</value>
+	</parameter>
+</other-parameters>
+<measure-selections-show>
+	<measure code="D205.M1"/>
+	<measure code="D205.M2"/>
+	<measure code="D205.M40"/>
+</measure-selections-show>
+<groups>
+</groups>
+</options>
+<footnotes>
+</footnotes>
+<caveats>
+<caveat><![CDATA[Statistics are suppressed to protect personal privacy, for the following conditions:
+				<ol><li> 
+					Data are suppressed if the figures represent fewer than 16 cases for the specific category in the table cell.
+				</li><li>
+					Counts and rates are suppressed for cells at the Metropolitan Statistical Area (MSA) level for the race categories 
+					"American Indian or Alaska Native" or "Asian or Pacific Islander" 
+					when the specific category's population for rate calculations 
+					is less than 50,000 persons. 
+				</li><li>
+					Data are suppressed at the state and MSA level for certain race and ethnicity groups: 
+					<ul><li>
+				   	American Indian or Alaska Native data are suppressed at the state and MSA level for residents of
+					Illinois, Kansas, New Jersey, and New York; 
+					</li><li>
+				    Hispanic Asian or Pacific Islander and Hispanic Black or African American data are suppressed at the state and MSA level 
+					for all years and for Non-Hispanic Asian or Pacific Islanders for 1999 for residents of Kansas. 
+					</li></ul>
+				</li></ol>
+				States decide whether to suppress data for specific race and ethnicity categories.  
+				The suppression criteria may vary in previous releases of these data
+				<a href="/wonder/help/cancer-v2022.html#Confidentiality" target="WONDER_Help" onclick="setfocus('WONDER_Help')">More information.</a>]]></caveat>
+<caveat><![CDATA[Age-adjusted rates are not available when results are grouped by age.]]></caveat>
+<caveat><![CDATA[Data are from selected statewide and metropolitan area cancer registries that meet data quality criteria.
+					Incidence data shown for the United States are diagnoses and populations from included registries only.]]></caveat>
+<caveat><![CDATA[Information on primary site, behavior, and histology was coded according to the 
+			International Classification of Diseases for Oncology, Third Edition (ICD-O-3) and categorized 
+			according to the revised SEER recodes dated March 1, 2018, which define standard groupings of 
+			primary cancer sites.]]></caveat>
+<caveat><![CDATA[For the 2005 year, the Census Bureau estimates that 203,937 persons were displaced from 
+			Alabama, Louisiana, Mississippi and Texas due to Hurricanes Katrina and Rita. CDC WONDER does not 
+			include the displaced persons in the 2005 population counts for these states, nor are these counts 
+			included in the summary populations for the affected division, regions or national population.  However, 
+			the USCS web site does include these displaced persons in the national population figures for 2005.]]></caveat>
+</caveats>
+</response>
+<message><![CDATA[Totals are not available for these results due to suppression constraints. <a href="/wonder/help/faq.html#Privacy">More Information.</a>]]></message>
+<message>Rows with zero Count are hidden. Use Quick Options above to show zero rows.</message>
+<tabs2>
+	<tab label="Request Form" status="closed" target="request" title="Click to see the request page"/>
+	<tab label="Results" status="open" target="results" title="Click to see the results table"/>
+	<tab label="Map" status="closed" target="map" title="Click to create maps"/>
+	<tab label="Chart" status="closed" target="chart" title="Click to create charts"/>
+	<tab label="About" status="closed" target="about" title="Information about this dataset"/>
+</tabs2>
+<thisfile>/wonder/templates/xsl/table_response.xsl</thisfile>
+</page>

@@ -1,0 +1,1492 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+
+
+
+
+
+
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# " class=" js">
+<head>
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+
+	<title>SID: File Composition - Number of Hospitals by Year</title>
+	
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	
+	<link rel="stylesheet" media="all" href="/css/css_uswds2.0_clean.css">
+	
+	<link rel="stylesheet" media="all" href="/css/css_ahrq_global_clean.css">
+	<link rel="stylesheet" media="all" href="/css/HCUP_US.css">
+	
+
+		
+		<style>
+			.site-shutdown-banner {
+				background: #fff3cd;
+				border: 1px solid #ffe69c;
+				color: #664d03;
+				margin: 0;
+				border-left: 0;
+				border-right: 0;
+				text-align: center;
+			}
+			.site-shutdown-banner__inner {
+				max-width: 1200px;
+				margin: 0 auto;
+				padding: 10px 16px;
+				font-family: "Open Sans", Roboto, Arial, sans-serif;
+				font-size: 16px;
+				line-height: 1.4;
+			}
+			.site-shutdown-banner__text { margin: 0; }
+		</style>
+
+  	
+	  
+  	
+
+  	
+	  	<script src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=HHS&subagency=AHRQ" type="text/javascript" id="_fed_an_ua_tag"></script>
+  	
+
+	
+	
+
+	
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-ELCZRRJTY0"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-ELCZRRJTY0');
+	</script>
+	
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+
+	<script src="/scripts/jquery-3.6.4.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"></script>
+	<script src="/scripts/bootstrap.min.js"></script>
+	<script src="/scripts/opensearch.js"></script>
+</head>
+<body>
+
+		<div id="uswds-usa-banner" class="usa-banner usa-banner-bg">
+	  		<div class="usa-accordion usa-accordion-text-color">
+		  		<header class="usa-banner__header">
+			  		<div class="row no-gutters row-mobile-offset">
+				  		<div class="col-sm-auto col-lg-auto offset-lg-1 img-icon">
+					  		<img class="usa-banner__header-flag" src="/images/us_flag_small.png" alt="U.S. flag">
+				  		</div>
+				  		<div class="col-sm-auto col-lg-auto banner-hhs img-icon">
+					  		<img class="usa-banner__header-flag" src="/images/logo-HHSmini.png" alt="Health and Human Services Logo">
+				  		</div>
+				  		<div class="col-sm-8 col-lg-8  txt-gov-banner">
+					  		<p class="usa-banner__header-text"><a href="https://www.hhs.gov/">An official website of the Department of Health &amp; Human Services</a></p>
+				  		</div>
+			  		</div>
+		  		</header>
+	  		</div>
+  		</div>
+
+		<div class="row">
+			<header id="primary-header" class="header row-side-margins mobile-row-side-margins" role="heading">
+				<div class="col-md-12">
+					<div class="primary-header-wrapper">
+						<div class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3">
+
+								<div class="logo-ahrq">
+									<a href="https://www.ahrq.gov"><img src="/images/logo-ahrq.png" alt="AHRQ: Agency for Healthcare Research and Quality "></a>
+								</div>
+							</div>
+							<div class="d-xs-none d-sm-none d-md-none d-lg-block col-lg-9 d-xl-block col-xl-9">
+								<div id="utility-nav">
+									<ul class="clearfix">
+										<li class="first"><a href="https://search.ahrq.gov/" target="_blank">Search All AHRQ Websites</a></li>
+										<li><a href="https://www.ahrq.gov/cpi/about/careers/index.html" target="_blank">Careers</a></li>
+										<li><a href="https://www.ahrq.gov/contact/index.html" target="_blank">Contact Us</a></li>
+										<li><a href="https://www.ahrq.gov/topics/informacion-en-espanol/index.html" target="_blank">Espanol</a></li>
+										<li class="last"><a href="https://info.ahrq.gov/" target="_blank">FAQs</a></li>
+								 		<li><a href="https://subscriptions.ahrq.gov/accounts/USAHRQ/subscriber/new" target="_blank"><img src="/images/envelope-regular.png" width="18" height="18" class="utility-envelope" alt="Envelope icon to subscribe to Email Updates"> Email Updates</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+  		</header>
+		</div>
+
+		<div id="header-middle container" class="header-middle">
+			<div class="row">
+				<div class="col-md-2 col-xs-8 text-center mob_logo">
+					<a href="/"><img src="/images/hcup-logo3.png" class="hcup-logo-img"></a>
+				</div>
+				<div class="col-md-2 col-xs-4 mobile_nav">
+					<div class="mob_nav">
+						<nav class="navbar navbar-expand-lg navbar-light">
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+
+							<div class="collapse navbar-collapse" id="navbarSupportedContent">
+								<ul class="navbar-nav mr-auto">
+									<li class="nav-item active"><a class="nav-link" href="/databases.jsp">Database Information</a></li>
+									<li class="nav-item"><a class="nav-link" href="/tools_software.jsp">Research Tools</a></li>
+									<li class="nav-item"><a class="nav-link" href="/tech_assist/centdist.jsp">Request Data</a></li>
+									<li class="nav-item"><a class="nav-link" href="/reports.jsp">Reports &amp; Publications</a></li>
+									<li class="nav-item"><a class="nav-link" href="/datavisualizations.jsp">Data Visualizations</a></li>
+									<li class="nav-item"><a class="nav-link" href="/dataquerytools.jsp">Data Query Tools</a></li>
+									<li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+									<li class="nav-item"><a class="nav-link" href="/overview.jsp">About</a></li>
+									<li class="nav-item"><a class="nav-link" href="/techassist.jsp">Need Help?</a></li>
+								</ul>
+							</div>
+						</nav>
+					</div>
+				</div>
+				<div class="col-md-10 header-middle-col2">
+					<div class="row">
+						<div class="col-md-6 header-middle-col2-col1">
+							<span class="meader_mid_subtitle">HEALTHCARE COST &amp; UTILIZATION PROJECT</span>
+							<h1>User Support</h1>
+						</div>
+						<div class="col-md-6 header-middle-col2-col2">
+							<div>
+								<ul class="clearfix header-middle-menu">
+									<li><a href="/">Home</a></li>
+									<li><a href="/overview.jsp">About</a></li>
+									<li class="last"><a href="/techassist.jsp">Need Help?</a></li>
+								</ul>
+							</div>
+							<div class="search_sec">
+								<form action="/search/results.jsp" method="get" onsubmit="return redirectToSearchResults();">
+									<input id="search-input" type="text" class="os-default-search-input" name="query" placeholder="Search HCUP-US">
+									<input type="submit" name="submit" class="submit_btn" value="s">
+								</form>
+							</div>
+
+							<script>
+								function redirectToSearchResults() {
+									const query = document.getElementById("search-input").value;
+									window.location.href = "/search/results.jsp?s=" + encodeURIComponent(query);
+									return false;
+								}
+							</script>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header_bottom d-none d-md-block">
+			<div class="row">
+				<div class="col-6" style="padding:0">
+					<span> Do Your own analysis</span>
+				</div>
+				<div class="col-6" style="padding:0">
+					<span class="border_non"> Explore Expert Research &amp; Limited Datasets</span>
+				</div>
+			</div>
+		</div>
+		<div class="last_sec" id="hideShow">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<div class="collapse1 navbar-collapse" id="navbarSupportedContent1">
+					<ul class="navbar-nav mr-auto">
+						<div class="col-md-2" style="padding:0">
+							<li class="nav-item dropdown active">
+								<a class="nav-link" href="/databases.jsp" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">DATABASE<br/>INFORMATION</a>
+							</li>
+						</div>
+						<div class="col-md-2" style="padding:0">
+							<li class="nav-item dropdown ">
+								<a class="nav-link" href="/tools_software.jsp" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">RESEARCH TOOLS</a>
+								<div class="dropdown-menu" id="drop-menu-research" aria-labelledby="navbarDropdown">
+									<div class="row">
+										<div class="col-md-6">
+											<h3 class="text-white">Tools for ICD-10-CM/PCS</h3>
+											<a class="dropdown-item" href="/toolssoftware/ccsr/ccs_refined.jsp">Clinical Classifications Software Refined (CCSR)</a>
+											<a class="dropdown-item" href="/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp">Elixhauser Comorbidity Software Refined for ICD-10-CM</a>
+											<a class="dropdown-item" href="/toolssoftware/chronic_icd10/chronic_icd10.jsp">Chronic Condition Indicator Refined for ICD-10-CM</a>
+											<a class="dropdown-item" href="/toolssoftware/procedureicd10/procedure_icd10.jsp">Procedure Classes Refined for ICD-10-PCS</a>
+
+											<h3 class="text-white">Tools for CPT and HCPCS Level II</h3>
+											<a class="dropdown-item" href="/toolssoftware/ccs_svcsproc/ccssvcproc.jsp">CCS for Services and Procedures</a>
+											<a class="dropdown-item" href="/toolssoftware/surgeryflags_svcproc/surgeryflagssvc_proc.jsp">Surgery Flags for Services and Procedures</a>
+
+											<h3 class="text-white">Tools for ICD-9-CM</h3>
+											<a class="dropdown-item" href="/toolssoftware/ccs/ccs.jsp">Clinical Classifications Software (CCS) for ICD-9-CM</a>
+											<a class="dropdown-item" href="/toolssoftware/chronic/chronic.jsp">Chronic Condition Indicator (CCI) for ICD-9-CM</a>
+											<a class="dropdown-item" href="/toolssoftware/comorbidity/comorbidity.jsp">Elixhauser Comorbidity Software for ICD-9-CM</a>
+											<a class="dropdown-item" href="/toolssoftware/util_flags/utilflag.jsp">Utilization Flags for Revenue Center Codes and ICD-9-CM</a>
+											<a class="dropdown-item" href="/toolssoftware/procedure/procedure.jsp">Procedure Classes for ICD-9-CM</a>
+											<a class="dropdown-item" href="/toolssoftware/surgflags/surgeryflags.jsp">Surgery Flags for ICD-9-CM</a>
+										</div>
+										<div class="col-md-6">
+											<h3 class="text-white">HCUP Supplemental Files</h3>
+											<a class="dropdown-item" href="/db/nation/nis/nistrends.jsp">NIS-Trend Weights Files</a>
+											<a class="dropdown-item" href="/db/nation/nis/nisownership.jsp">NIS Hospital Ownership Files</a>
+											<a class="dropdown-item" href="/db/nation/nis/nistrends2.jsp">NIS 1993-2002 Discharge-Level Supplemental Files</a>
+											<a class="dropdown-item" href="/db/nation/kid/kidtrends.jsp">KID-Trend File</a>
+											<a class="dropdown-item" href="/db/ccr/costtocharge.jsp">Cost-to-Charge Ratio (CCR) Files</a>
+											<a class="dropdown-item" href="/toolssoftware/hms/hms.jsp">Hospital Market Structure (HMS) Files</a>
+											<a class="dropdown-item" href="/toolssoftware/revisit/revisit.jsp">Supplemental Variables for Revisit Analyses</a>
+											<a class="dropdown-item" href="/db/state/ahalinkage/aha_linkage.jsp">American Hospital Association (AHA) Linkage Files</a>
+
+											<h3 class="text-white">AHRQ Quality Indicators (QIs)</h3>
+										</div>
+									</div>
+								</div>
+							</li>
+						</div>
+
+						<div class="col-md-2" style="padding:0">
+							<li class="nav-item dropdown ">
+								<a class="nav-link" href="/tech_assist/centdist.jsp" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">REQUEST DATA</a>
+							</li>
+						</div>
+
+						<div class="col-md-2" style="padding:0">
+							<li class="nav-item dropdown ">
+								<a class="nav-link" href="/reports.jsp" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">REPORTS &amp;<br/> PUBLICATIONS</a>
+								<div class="dropdown-menu" id="drop-menu-reports" aria-labelledby="navbarDropdown">
+									<div class="row">
+										<div class="col-md-5">
+											<h3 class="text-white">Favorites</h3>
+											<a class="dropdown-item" href="/reports/statbriefs/statbriefs.jsp#">Statistical Briefs</a>
+											<a class="dropdown-item" href="/reports/trendtables/summarytrendtables.jsp">Summary Trend Tables</a>
+											<a class="dropdown-item" href="/reports/ataglance/findingsataglance.jsp">Findings-At-A-Glance</a>
+											<a class="dropdown-item" href="/reports/pubs_rpts.jsp">Publications</a>
+										</div>
+										<div class="col-md-7">
+											<h3 class="text-white">Information About Using HCUP Data</h3>
+											<a class="dropdown-item" href="/reports/methods/methods.jsp">Methods Series</a>
+											<a class="dropdown-item" href="/datainnovations/icd10_resources.jsp">ICD-10-CM/PCS Resources</a>
+											<a class="dropdown-item" href="/reports/database_rpts.jsp">Database Reports</a>
+
+											<h3 class="text-white">Additional Topics and Archives</h3>
+											<a class="dropdown-item" href="/reports/topicalrpts.jsp">Topical Reports</a>
+											<a class="dropdown-item" href="/reports/admindata.jsp">Enhancing Administrative Data</a>
+											<a class="dropdown-item" href="/reports/reports_archive.jsp">Reports Archive</a>
+										</div>
+									</div>
+								</div>
+							</li>
+						</div>
+						<div class="col-md-2" style="padding:0">
+							<li class="nav-item dropdown ">
+								<a class="nav-link" href="/datavisualizations.jsp" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">DATA<br/>VISUALIZATIONS</a>
+
+							</li>
+						</div>
+
+						<div class="col-md-2" style="padding:0">
+							<li class="nav-item dropdown ">
+								<a class="nav-link" href="/dataquerytools.jsp" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">DATA QUERY<br/>TOOLS</a>
+							</li>
+						</div>
+					</ul>
+				</div>
+			</nav>
+		</div>
+
+		
+<script>
+	document.addEventListener("DOMContentLoaded", () => {
+		const desktopMinWidth = 992;
+		const dropdownItems = document.querySelectorAll(".nav-item.dropdown");
+
+		const setDropdownState = (dropdown, shouldOpen) => {
+			dropdown.classList.toggle("show", shouldOpen);
+
+			const menus = dropdown.getElementsByClassName("dropdown-menu");
+			for (let i = 0; i < menus.length; i++) {
+				menus[i].classList.toggle("show", shouldOpen);
+			}
+
+			const links = dropdown.getElementsByClassName("nav-link");
+			for (let j = 0; j < links.length; j++) {
+				links[j].setAttribute("aria-expanded", shouldOpen ? "true" : "false");
+			}
+		};
+
+		const toggleDropdown = (event) => {
+			if (window.innerWidth < desktopMinWidth) {
+				return;
+			}
+
+			const dropdown = event.currentTarget;
+			window.setTimeout(() => {
+				const shouldOpen = event.type === "mouseenter";
+				setDropdownState(dropdown, shouldOpen);
+			}, 0);
+		};
+
+		for (let k = 0; k < dropdownItems.length; k++) {
+			dropdownItems[k].addEventListener("mouseenter", toggleDropdown);
+			dropdownItems[k].addEventListener("mouseleave", toggleDropdown);
+		}
+	});
+</script>
+
+<div class="bodycontainer" style="padding:8px">
+
+
+
+	<h1 class="mainheader">SID: File Composition - Number of Hospitals by Year</h1>
+
+
+
+
+
+
+
+
+<table width="100%" border="0" cellspacing="2" cellpadding="4" summary="layout">
+	<tr><td>&nbsp;</td></tr>
+	<tr>
+		<td align="left" valign="top">
+	<div class="texttitle">HCUP State Inpatient Databases (SID) File Composition - Number of Hospitals by Year</div><br>
+	<div class="pagetext">
+		What types of hospitals are included in the SID depends on the information provided by the Data Organizations and how the files were handled during HCUP processing.  Most state government data organizations provide information on all acute care hospitals in the respective state.  Private data organizations are often restricted to member hospitals and may not provide information on all hospitals in their state.<br><br>
+		Beginning with the 1994 SID, all hospitals reported by the Data Organizations were retained in the SID files.  Discharges from facilities such as psychiatric facilities, alcohol and drug dependency facilities, ambulatory surgery facilities, and State, Federal, and Veterans hospitals will be in the SID, if reported by the data source.  Prior to 1994, only discharges from community hospitals were retained in the SID.<br><br>
+		Community hospitals, as defined by American Hospital Association (AHA), include &quot;all nonfederal, short-term, general and other specialty hospitals, excluding hospital units of institutions.&quot;  Included among community hospitals are academic medical centers and specialty hospitals such as obstetrics, gynecology, ear nose throat, short-term rehabilitation, orthopedic, and pediatric hospitals.  Non-community hospitals include federal hospitals (Veterans Administration, Department of Defense, and Indian Health Service hospitals), long-term hospitals, psychiatric hospitals, alcohol/chemical dependency treatment facilities and hospitals units within institutions such as prisons.<br><br>
+		Some community hospitals may not be included in the SID because their data were not provided by the data source.  To identify community hospitals, the SID must be linked to the AHA Annual Survey of Hospitals by the AHA hospital identifier.<br><br>
+		The following tables show the number of hospitals by year, starting in 1997.  The tables enumerate the number of facilities by community hospitals, hospitals not classified as community, and community hospitals not in the SID.  Information from AHA Annual Survey of Hospitals was used to determine if a hospital was a community hospital.  Some hospitals could not be categorized as community or non-community hospitals because these hospitals could not be matched with AHA information.  This occurs when a hospital closed in a previous year or when the hospital does not report to the AHA.  This information is not available for the 1990-1996 SID files. <a name="top"></a>
+        <br><br>
+Beginning in 2010 the format of the table is expanded to provide additional information:
+<br><br>
+	<ul>
+		<li><a href="2024CDSIDDischHospitalCountsReport.xlsx" target="_blank">2024 Counts for SID Discharges and Hospitals</a> (Excel file, 27 KB)</li>
+		<li><a href="2023CDSIDDischHospitalCountsReport.xlsx" target="_blank">2023 Counts for SID Discharges and Hospitals</a> (Excel file, 26 KB)</li>
+		<li><a href="2022CDSIDDischHospitalCountsReport.xlsx" target="_blank">2022 Counts for SID Discharges and Hospitals</a> (Excel file, 23 KB)</li>
+		<li><a href="2021CDSIDDischHospitalCountsReport.pdf" target="_blank">2021 Counts for SID Discharges and Hospitals</a> (PDF file, 166 KB)</li>
+		<li><a href="2020CDSIDDischHospitalCountsReport.pdf" target="_blank">2020 Counts for SID Discharges and Hospitals</a> (PDF file, 176 KB)</li>
+		<li><a href="2019CDSIDDischHospitalCountsReport.pdf" target="_blank">2019 Counts for SID Discharges and Hospitals</a> (PDF file, 99 KB) </li>
+		<li><a href="2018CDSIDDischargeandHospitalCountsReport.pdf" target="_blank">2018 Counts for SID Discharges and Hospitals</a> (PDF file, 98 KB) </li>
+		<li><a href="2017CountsSIDdischargeshosps.pdf" target="_blank">2017 Counts for SID Discharges and Hospitals</a> (PDF file, 121 KB) </li>
+		<li><a href="2016CDSIDDischargeandHospCountsRpt.pdf" target="_blank">2016 Counts for SID Discharges and Hospitals</a> (PDF file, 162 KB) </li>
+		<li><a href="2015SIDDischargeandHospitalCountsReport_CD_111417.pdf" target="_blank">2015 Counts for SID Discharges and Hospitals</a> (PDF file, 398 KB) </li>
+		<li><a href="2014CDSID_DischargeAndHospitalCounts_Sept22016 updt.pdf" target="_blank">2014 Counts for SID Discharges and Hospitals</a> (PDF file, 398 KB) </li>
+		<li><a href="2013CDSIDDischargeandHospitalCountsReport12142015updt.pdf" target="_blank">2013 Counts for SID Discharges and Hospitals</a> (PDF file, 397 KB) </li>
+		<li><a href="2012SIDDischargeandHospitalCountsReportCD05012014updt.pdf" target="_blank">2012 Counts for SID Discharges and Hospitals</a> (PDF file, 395 KB) </li>
+		<li><a href="2011SIDDischargeandHospitalCountsReportCD05192012updt.pdf" target="_blank">2011 Counts for SID Discharges and Hospitals</a> (PDF file, 396 KB) </li>
+		<li><a href="2010SIDDischargeandHospitalCountsRptCD05192012updt.pdf" target="_blank">2010 Counts for SID Discharges and Hospitals</a> (PDF file, 396 KB)</li>
+    </ul>
+Prior to 2010, only information on basic hospital counts are available        
+		<ul>
+			<li><a href="#2010">2010</a></li>
+			<li><a href="#2009">2009</a></li>
+			<li><a href="#2008">2008</a></li>
+			<li><a href="#2007">2007</a></li>
+			<li><a href="#2006">2006</a></li>
+			<li><a href="#2005">2005</a></li>
+			<li><a href="#2004">2004</a></li>
+			<li><a href="#2003">2003</a></li>
+			<li><a href="#2002">2002</a></li>
+			<li><a href="#2001">2001</a></li>
+			<li><a href="#2000">2000</a></li>
+			<li><a href="#1999">1999</a></li>
+			<li><a href="#1998">1998</a></li>
+			<li><a href="#1997">1997</a></li>
+		</ul><br><br>
+	</div>
+		</td>
+	</tr>
+
+<!-- Annette Wakefield will give the numbers for this one.  Can only generate these numbers once all the data is in -->
+
+
+
+
+
+
+
+
+
+
+
+	<tr><td class="pagetext">
+	<a name="2010"><b>Number of Hospitals in 2010</b></a>
+    </td></tr></table>
+
+   	<table class="pagetext" width="35%" cellspacing="0" cellpadding="8" border="1" summary="layout">
+		<tr>
+        	<th scope="col">State</th>
+            <th scope="col">Community Hospitals in the SID</th>
+            <th scope="col">Hospitals in the SID not Identified as Community</th>
+            <th scope="col">Community Hospitals <span style="text-decoration:underline">Not</span> Included in the SID</th>
+        </tr>
+		<tr>
+        	<td scope="row">AR</td>
+            <td align="right">91</td>
+            <td align="right">10</td>
+            <td align="right">1</td>
+        </tr>
+		<tr>
+        	<td scope="row">AZ</td>
+            <td align="right">81</td>
+            <td align="right">0</td>
+            <td align="right">4</td>
+        </tr>
+		<tr>
+        	<td scope="row">CA</td>
+            <td align="right">354</td>
+            <td align="right">35</td>
+            <td align="right">6</td>
+        </tr>
+		<tr>
+        	<td scope="row">CO</td>
+            <td align="right">76</td>
+            <td align="right">3</td>
+            <td align="right">7</td>
+         </tr>
+		<tr>
+        	<td scope="row">FL</td>
+            <td align="right">214</td>
+            <td align="right">20</td>
+            <td align="right">1</td>
+        </tr>
+		<tr>
+        	<td scope="row">HI</td>
+            <td align="right">22</td>
+            <td align="right">2</td>
+            <td align="right">4</td>
+        </tr>
+		<tr>
+        	<td scope="row">IA</td>
+            <td align="right">117</td>
+            <td align="right">0</td>
+            <td align="right">2</td>
+        </tr>
+		<tr>
+        	<td scope="row">KY</td>
+            <td align="right">109</td>
+            <td align="right">10</td>
+            <td align="right">2</td>
+        </tr>
+		<tr>
+        	<td scope="row">MA</td>
+            <td align="right">64</td>
+            <td align="right">0</td>
+            <td align="right">17</td>
+        </tr>
+		<tr>
+        	<td scope="row">MD</td>
+            <td align="right">47</td>
+            <td align="right">1</td>
+            <td align="right">1</td>
+        </tr>
+		<tr>
+        	<td scope="row">ME</td>
+            <td align="right">37</td>
+            <td align="right">3</td>
+            <td align="right">0</td>
+        </tr>
+		<tr>
+        	<td scope="row">MI</td>
+            <td align="right">146</td>
+            <td align="right">1</td>
+			<td align="right">11</td>
+		</tr>
+		<tr>
+        	<td scope="row">NC</td>
+            <td align="right">117</td>
+            <td align="right">5</td>
+			<td align="right">5</td>
+		</tr>
+		<tr>
+        	<td scope="row">NE</td>
+            <td align="right">88</td>
+            <td align="right">0</td>
+            <td align="right">4</td>
+        </tr>
+		<tr>
+        	<td scope="row">NJ</td>
+            <td align="right">69</td>
+            <td align="right">1</td>
+            <td align="right">8</td>
+        </tr>
+		<tr>
+        	<td scope="row">NV</td>
+            <td align="right">40</td>
+            <td align="right">4</td>
+            <td align="right">4</td>
+        </tr>
+		<tr>
+        	<td scope="row">NY</td>
+            <td align="right">186</td>
+            <td align="right">3</td>
+            <td align="right">1</td>
+        </tr>
+		<tr>
+        	<td scope="row">OR</td>
+            <td align="right">59</td>
+            <td align="right">0</td>
+            <td align="right">1</td>
+        </tr>
+		<tr>
+        	<td scope="row">RI</td>
+            <td align="right">12</td>
+            <td align="right">2</td>
+            <td align="right">0</td>
+        </tr>
+		<tr>
+        	<td scope="row">SC</td>
+            <td align="right">59</td>
+            <td align="right">0</td>
+            <td align="right">11</td>
+        </tr>
+		<tr>
+        	<td scope="row">SD</td>
+            <td align="right">49</td>
+            <td align="right">0</td>
+            <td align="right">8</td>
+        </tr>
+		<tr>
+        	<td scope="row">UT</td>
+            <td align="right">48</td>
+            <td align="right">3</td>
+            <td align="right">1</td>
+        </tr>
+		<tr>
+        	<td scope="row">VT</td>
+            <td align="right">14</td>
+            <td align="right">0</td>
+            <td align="right">0</td>
+        </tr>
+		<tr>
+        	<td scope="row">WA</td>
+            <td align="right">88</td>
+            <td align="right">7</td>
+            <td align="right">1</td>
+        </tr>
+		<tr>
+        	<td scope="row">WI</td>
+            <td align="right">129</td>
+            <td align="right">14</td>
+            <td align="right">1</td>
+        </tr>
+		<tr>
+        	<td scope="row">WV</td>
+            <td align="right">58</td>
+            <td align="right">4</td>
+            <td align="right">0</td>
+        </tr>
+	</table>
+
+<table class="pagetext" width="100%" border="0" cellspacing="2" cellpadding="4">
+<tr><td>&nbsp;</td></tr>
+<tr><td>
+	<a href="#top">Return to top</a>
+	</td></tr>
+<tr><td>&nbsp;</td></tr>
+
+
+
+
+
+
+
+
+
+	<tr><td class="pagetext">
+	<a name="2009"><b>Number of Hospitals in 2009</b></a>
+    </td></tr></table>
+
+   	<table class="pagetext" width="35%" cellspacing="0" cellpadding="8" border="1" summary="layout">
+		<tr>
+        	<th scope="col">State</th>
+            <th scope="col">Community Hospitals in the SID</th>
+            <th scope="col">Hospitals in the SID not Identified as Community</th>
+            <th scope="col">Community Hospitals <span style="text-decoration:underline">Not</span> Included in the SID</th>
+        </tr>
+		<tr>
+        	<td scope="row">AR</td>
+            <td align="right">93</td>
+            <td align="right">8</td>
+            <td align="right">2</td>
+        </tr>
+		<tr>
+        	<td scope="row">AZ</td>
+            <td align="right">80</td>
+            <td align="right">0</td>
+            <td align="right">2</td>
+        </tr>
+		<tr>
+        	<td scope="row">CA</td>
+            <td align="right">354</td>
+            <td align="right">36</td>
+            <td align="right">3</td>
+        </tr>
+		<tr>
+        	<td scope="row">CO</td>
+            <td align="right">76</td>
+            <td align="right">2</td>
+            <td align="right">8</td>
+         </tr>
+		<tr>
+        	<td scope="row">FL</td>
+            <td align="right">199</td>
+            <td align="right">17</td>
+            <td align="right">16</td>
+        </tr>
+		<tr>
+        	<td scope="row">HI</td>
+            <td align="right">23</td>
+            <td align="right">2</td>
+            <td align="right">2</td>
+        </tr>
+		<tr>
+        	<td scope="row">IA</td>
+            <td align="right">117</td>
+            <td align="right">0</td>
+            <td align="right">1</td>
+        </tr>
+		<tr>
+        	<td scope="row">KY</td>
+            <td align="right">107</td>
+            <td align="right">11</td>
+            <td align="right">2</td>
+        </tr>
+		<tr>
+        	<td scope="row">MA</td>
+            <td align="right">64</td>
+            <td align="right">0</td>
+            <td align="right">16</td>
+        </tr>
+		<tr>
+        	<td scope="row">MD</td>
+            <td align="right">49</td>
+            <td align="right">1</td>
+            <td align="right">0</td>
+        </tr>
+		<tr>
+        	<td scope="row">ME</td>
+            <td align="right">37</td>
+            <td align="right">4</td>
+            <td align="right">0</td>
+        </tr>
+		<tr>
+        	<td scope="row">MI</td>
+            <td align="right">147</td>
+            <td align="right">1</td>
+			<td align="right">13</td>
+		</tr>
+		<tr>
+        	<td scope="row">NC</td>
+            <td align="right">115</td>
+            <td align="right">6</td>
+			<td align="right">2</td>
+		</tr>
+		<tr>
+        	<td scope="row">NE</td>
+            <td align="right">87</td>
+            <td align="right">0</td>
+            <td align="right">3</td>
+        </tr>
+		<tr>
+        	<td scope="row">NJ</td>
+            <td align="right">70</td>
+            <td align="right">1</td>
+            <td align="right">10</td>
+        </tr>
+		<tr>
+        	<td scope="row">NV</td>
+            <td align="right">40</td>
+            <td align="right">5</td>
+            <td align="right">3</td>
+        </tr>
+		<tr>
+        	<td scope="row">NY</td>
+            <td align="right">190</td>
+            <td align="right">3</td>
+            <td align="right">1</td>
+        </tr>
+		<tr>
+        	<td scope="row">OR</td>
+            <td align="right">58</td>
+            <td align="right">0</td>
+            <td align="right">1</td>
+        </tr>
+		<tr>
+        	<td scope="row">RI</td>
+            <td align="right">12</td>
+            <td align="right">2</td>
+            <td align="right">0</td>
+        </tr>
+		<tr>
+        	<td scope="row">SC</td>
+            <td align="right">59</td>
+            <td align="right">0</td>
+            <td align="right">13</td>
+        </tr>
+		<tr>
+        	<td scope="row">SD</td>
+            <td align="right">49</td>
+            <td align="right">0</td>
+            <td align="right">9</td>
+        </tr>
+		<tr>
+        	<td scope="row">UT</td>
+            <td align="right">44</td>
+            <td align="right">4</td>
+            <td align="right">3</td>
+        </tr>
+		<tr>
+        	<td scope="row">VT</td>
+            <td align="right">14</td>
+            <td align="right">0</td>
+            <td align="right">0</td>
+        </tr>
+		<tr>
+        	<td scope="row">WA</td>
+            <td align="right">89</td>
+            <td align="right">6</td>
+            <td align="right">1</td>
+        </tr>
+		<tr>
+        	<td scope="row">WI</td>
+            <td align="right">131</td>
+            <td align="right">13</td>
+            <td align="right">1</td>
+        </tr>
+		<tr>
+        	<td scope="row">WV</td>
+            <td align="right">58</td>
+            <td align="right">4</td>
+            <td align="right">0</td>
+        </tr>
+	</table>
+
+<table class="pagetext" width="100%" border="0" cellspacing="2" cellpadding="4">
+<tr><td>&nbsp;</td></tr>
+<tr><td>
+	<a href="#top">Return to top</a>
+	</td></tr>
+<tr><td>&nbsp;</td></tr>
+
+	<tr><td>
+	<a name="2008"><b>Number of Hospitals in 2008</b></a></td></tr></table>
+
+   	<table class="pagetext" width="35%" cellspacing="0" cellpadding="8" border="1" summary="layout">
+		<tr>
+        	<th scope="col">State</th>
+            <th scope="col">Community Hospitals in the SID</th>
+            <th scope="col">Hospitals in the SID not Identified as Community</th>
+            <th scope="col">Community Hospitals <span style="text-decoration:underline">Not</span> Included in the SID</th>
+        </tr>
+		<tr>
+        	<td scope="row">AR</td>
+            <td align="right">91</td>
+            <td align="right">10</td>
+            <td align="right">1</td>
+        </tr>
+		<tr>
+        	<td scope="row">AZ</td>
+            <td align="right">80</td>
+            <td align="right">1</td>
+            <td align="right">2</td>
+        </tr>
+		<tr>
+        	<td scope="row">CA</td>
+            <td align="right">361</td>
+            <td align="right">34</td>
+            <td align="right">7</td>
+        </tr>
+		<tr>
+        	<td scope="row">CO</td>
+            <td align="right">75</td>
+            <td align="right">3</td>
+            <td align="right">7</td>
+         </tr>
+		<tr>
+        	<td scope="row">FL</td>
+            <td align="right">199</td>
+            <td align="right">18</td>
+            <td align="right">18</td>
+        </tr>
+		<tr>
+        	<td scope="row">HI</td>
+            <td align="right">22</td>
+            <td align="right">3</td>
+            <td align="right">3</td>
+        </tr>
+		<tr>
+        	<td scope="row">IA</td>
+            <td align="right">117</td>
+            <td align="right">0</td>
+            <td align="right">1</td>
+        </tr>
+		<tr>
+        	<td scope="row">KY</td>
+            <td align="right">108</td>
+            <td align="right">9</td>
+            <td align="right">2</td>
+        </tr>
+		<tr>
+        	<td scope="row">MA</td>
+            <td align="right">63</td>
+            <td align="right">0</td>
+            <td align="right">15</td>
+        </tr>
+		<tr>
+        	<td scope="row">MD</td>
+            <td align="right">50</td>
+            <td align="right">0</td>
+            <td align="right">0</td>
+        </tr>
+		<tr>
+        	<td scope="row">ME</td>
+            <td align="right">37</td>
+            <td align="right">4</td>
+            <td align="right">0</td>
+        </tr>
+		<tr>
+        	<td scope="row">MI</td>
+            <td align="right">144</td>
+            <td align="right">2</td>
+			<td align="right">16</td>
+		</tr>
+		<tr>
+        	<td scope="row">NC</td>
+            <td align="right">116</td>
+            <td align="right">5</td>
+			<td align="right">2</td>
+		</tr>
+		<tr>
+        	<td scope="row">NE</td>
+            <td align="right">87</td>
+            <td align="right">0</td>
+            <td align="right">2</td>
+        </tr>
+		<tr>
+        	<td scope="row">NJ</td>
+            <td align="right">71</td>
+            <td align="right">1</td>
+            <td align="right">9</td>
+        </tr>
+		<tr>
+        	<td scope="row">NV</td>
+            <td align="right">39</td>
+            <td align="right">5</td>
+            <td align="right">4</td>
+        </tr>
+		<tr>
+        	<td scope="row">NY</td>
+            <td align="right">196</td>
+            <td align="right">3</td>
+            <td align="right">1</td>
+        </tr>
+		<tr>
+        	<td scope="row">OR</td>
+            <td align="right">58</td>
+            <td align="right">0</td>
+            <td align="right">1</td>
+        </tr>
+		<tr>
+        	<td scope="row">RI</td>
+            <td align="right">12</td>
+            <td align="right">2</td>
+            <td align="right">0</td>
+        </tr>
+		<tr>
+        	<td scope="row">SC</td>
+            <td align="right">59</td>
+            <td align="right">1</td>
+            <td align="right">11</td>
+        </tr>
+		<tr>
+        	<td scope="row">SD</td>
+            <td align="right">49</td>
+            <td align="right">0</td>
+            <td align="right">9</td>
+        </tr>
+		<tr>
+        	<td scope="row">UT</td>
+            <td align="right">44</td>
+            <td align="right">5</td>
+            <td align="right">3</td>
+        </tr>
+		<tr>
+        	<td scope="row">VT</td>
+            <td align="right">14</td>
+            <td align="right">0</td>
+            <td align="right">0</td>
+        </tr>
+		<tr>
+        	<td scope="row">WA</td>
+            <td align="right">89</td>
+            <td align="right">5</td>
+            <td align="right">1</td>
+        </tr>
+		<tr>
+        	<td scope="row">WI</td>
+            <td align="right">131</td>
+            <td align="right">13</td>
+            <td align="right">1</td>
+        </tr>
+		<tr>
+        	<td scope="row">WV</td>
+            <td align="right">58</td>
+            <td align="right">4</td>
+            <td align="right">0</td>
+        </tr>
+	</table>
+
+<table class="pagetext" width="100%" border="0" cellspacing="0" cellpadding="8">
+<tr><td>&nbsp;</td></tr>
+<tr><td>
+	<a href="#top">Return to top</a>
+	</td></tr>
+<tr><td>&nbsp;</td></tr>
+	<tr><td>
+	<a name="2007"><b>Number of Hospitals in 2007</b></a></td></tr></table>
+
+
+   	<table class="pagetext" width="35%" cellspacing="0" cellpadding="8" border="1" summary="layout">
+		<tr>
+        	<th scope="col">State</th>
+            <th scope="col">Community Hospitals in the SID</th>
+            <th scope="col">Hospitals in the SID not Identified as Community</th>
+            <th scope="col">Community Hospitals <span style="text-decoration:underline">Not</span> Included in the SID</th>
+        </tr>
+		<tr>
+        	<td scope="row">AR</td>
+            <td align="right">91</td>
+            <td align="right">11</td>
+            <td align="right">0</td>
+         </tr>
+		<tr>
+        	<td scope="row">AZ</td><td align="right">73</td><td align="right">3</td><td align="right">2</td></tr>
+		<tr><td scope="row">CA</td><td align="right">360</td><td align="right">36</td><td align="right">7</td></tr>
+		<tr><td scope="row">CO</td><td align="right">73</td><td align="right">3</td><td align="right">6</td></tr>
+		<tr><td scope="row">FL</td><td align="right">194</td><td align="right">19</td><td align="right">16</td></tr>
+		<tr><td scope="row">HI</td><td align="right">20</td><td align="right">4</td><td align="right">3</td></tr>
+		<tr><td scope="row">IA</td><td align="right">117</td><td align="right">0</td><td align="right">0</td></tr>
+		<tr><td scope="row">KY</td><td align="right">107</td><td align="right">8</td><td align="right">4</td></tr>
+		<tr><td scope="row">MA</td><td align="right">65</td><td align="right">0</td><td align="right">16</td></tr>
+		<tr><td scope="row">MD</td><td align="right">49</td><td align="right">1</td><td align="right">0</td></tr>
+		<tr><td scope="row">ME</td><td align="right">37</td><td align="right">4</td><td align="right">0</td></tr>
+		<tr><td scope="row">MI</td><td align="right">144</td><td align="right">6</td><td align="right">14</td></tr>
+		<tr><td scope="row">NC</td><td align="right">116</td><td align="right">6</td><td align="right">3</td></tr>
+		<tr><td scope="row">NE</td><td align="right">86</td><td align="right">1</td><td align="right">2</td></tr>
+		<tr><td scope="row">NJ</td><td align="right">73</td><td align="right">1</td><td align="right">8</td></tr>
+		<tr><td scope="row">NV</td><td align="right">32</td><td align="right">0</td><td align="right">7</td></tr>
+		<tr><td scope="row">NY</td><td align="right">203</td><td align="right">3</td><td align="right">0</td></tr>
+		<tr><td scope="row">OR</td><td align="right">57</td><td align="right">0</td><td align="right">1</td></tr>
+		<tr><td scope="row">RI</td><td align="right">12</td><td align="right">2</td><td align="right">0</td></tr>
+		<tr><td scope="row">SC</td><td align="right">57</td><td align="right">2</td><td align="right">11</td></tr>
+		<tr><td scope="row">UT</td><td align="right">42</td><td align="right">5</td><td align="right">2</td></tr>
+		<tr><td scope="row">VT</td><td align="right">14</td><td align="right">0</td><td align="right">0</td></tr>
+		<tr><td scope="row">WA</td><td align="right">90</td><td align="right">5</td><td align="right">1</td></tr>
+		<tr><td scope="row">WI</td><td align="right">130</td><td align="right">13</td><td align="right">1</td></tr>
+		<tr><td scope="row">WV</td><td align="right">60</td><td align="right">4</td><td align="right">0</td></tr>
+	</table>
+
+<table class="pagetext" width="100%" border="0" cellspacing="2" cellpadding="4" summary="layout">
+<tr><td>&nbsp;</td></tr>
+<tr><td>
+	<a href="#top">Return to top</a>
+	</td></tr>
+<tr><td>&nbsp;</td></tr>
+	<tr><td>
+	<a name="2006"><b>Number of Hospitals in 2006</b></a></td></tr></table>
+
+
+   	<table class="pagetext" width="35%" cellspacing="0" cellpadding="8" border="1" summary="layout">
+		<tr>
+        	<th scope="col">State</th>
+            <th scope="col">Community Hospitals in the SID</th>
+            <th scope="col">Hospitals in the SID not Identified as Community</th>
+            <th scope="col">Community Hospitals <span style="text-decoration:underline">Not</span> Included in the SID</th>
+        </tr>
+		<tr><td scope="row">AR</td><td align="right">92</td><td align="right">11</td><td align="right">0</td></tr>
+		<tr><td scope="row">AZ</td><td align="right">73</td><td align="right">2</td><td align="right">2</td></tr>
+		<tr><td scope="row">CA</td><td align="right">364</td><td align="right">36</td><td align="right">7</td></tr>
+		<tr><td scope="row">CO</td><td align="right">71</td><td align="right">3</td><td align="right">6</td></tr>
+		<tr><td scope="row">FL</td><td align="right">200</td><td align="right">18</td><td align="right">16</td></tr>
+		<tr><td scope="row">HI</td><td align="right">21</td><td align="right">3</td><td align="right">3</td></tr>
+		<tr><td scope="row">IA</td><td align="right">117</td><td align="right">0</td><td align="right">1</td></tr>
+		<tr><td scope="row">KY</td><td align="right">108</td><td align="right">9</td><td align="right">4</td></tr>
+		<tr><td scope="row">MA</td><td align="right">67</td><td align="right">0</td><td align="right">16</td></tr>
+		<tr><td scope="row">MD</td><td align="right">50</td><td align="right">0</td><td align="right">0</td></tr>
+		<tr><td scope="row">ME</td><td align="right">37</td><td align="right">2</td><td align="right">0</td></tr>
+		<tr><td scope="row">MI</td><td align="right">142</td><td align="right">9</td><td align="right">12</td></tr>
+		<tr><td scope="row">NC</td><td align="right">116</td><td align="right">6</td><td align="right">4</td></tr>
+		<tr><td scope="row">NE</td><td align="right">86</td><td align="right">1</td><td align="right">2</td></tr>
+		<tr><td scope="row">NJ</td><td align="right">78</td><td align="right">1</td><td align="right">8</td></tr>
+		<tr><td scope="row">NV</td><td align="right">30</td><td align="right">0</td><td align="right">9</td></tr>
+		<tr><td scope="row">NY</td><td align="right">203</td><td align="right">3</td><td align="right">1</td></tr>
+		<tr><td scope="row">OR</td><td align="right">57</td><td align="right">0</td><td align="right">1</td></tr>
+		<tr><td scope="row">RI</td><td align="right">12</td><td align="right">2</td><td align="right">0</td></tr>
+		<tr><td scope="row">SC</td><td align="right">57</td><td align="right">3</td><td align="right">9</td></tr>
+		<tr><td scope="row">UT</td><td align="right">42</td><td align="right">4</td><td align="right">5</td></tr>
+		<tr><td scope="row">VT</td><td align="right">14</td><td align="right">0</td><td align="right">0</td></tr>
+		<tr><td scope="row">WA</td><td align="right">90</td><td align="right">5</td><td align="right">1</td></tr>
+		<tr><td scope="row">WI</td><td align="right">131</td><td align="right">14</td><td align="right">2</td></tr>
+		<tr><td scope="row">WV</td><td align="right">61</td><td align="right">4</td><td align="right">0</td></tr>
+	</table>
+
+<table class="pagetext" width="100%" border="0" cellspacing="2" cellpadding="4" summary="layout">
+<tr><td>&nbsp;</td></tr>
+<tr><td>
+	<a href="#top">Return to top</a>
+	</td></tr>
+<tr><td>&nbsp;</td></tr>
+	<tr><td>
+	<a name="2005"><b>Number of Hospitals in 2005</b></a></td></tr></table>
+
+	<table class="pagetext" width="35%" cellspacing="0" cellpadding="8" border="1" summary="layout">
+	  <tr>
+        <th scope="col">State</th>
+        <th scope="col">Community Hospitals in the SID</th>
+        <th scope="col">Hospitals in the SID not Identified as Community</th>
+        <th scope="col">Community Hospitals <span style="text-decoration:underline">Not</span> Included in the SID</th>
+      </tr>
+		<tr><td scope="row">AR</td><td align="right">93</td><td align="right">12</td><td align="right">0</td></tr>
+		<tr><td scope="row">AZ</td><td align="right">73</td><td align="right">2</td><td align="right">2</td></tr>
+		<tr><td scope="row">CA</td><td align="right">366</td><td align="right">38</td><td align="right">5</td></tr>
+		<tr><td scope="row">CO</td><td align="right">70</td><td align="right">3</td><td align="right">6</td></tr>
+		<tr><td scope="row">FL</td><td align="right">201</td><td align="right">16</td><td align="right">19</td></tr>
+		<tr><td scope="row">HI</td><td align="right">20</td><td align="right">2</td><td align="right">6</td></tr>
+		<tr><td scope="row">IA</td><td align="right">115</td><td align="right">0</td><td align="right">1</td></tr>
+		<tr><td scope="row">KY</td><td align="right">111</td><td align="right">6</td><td align="right">4</td></tr>
+		<tr><td scope="row">MA</td><td align="right">67</td><td align="right">0</td><td align="right">16</td></tr>
+		<tr><td scope="row">MD</td><td align="right">49</td><td align="right">0</td><td align="right">1</td></tr>
+		<tr><td scope="row">MI</td><td align="right">147</td><td align="right">5</td><td align="right">15</td></tr>
+		<tr><td scope="row">NC</td><td align="right">117</td><td align="right">6</td><td align="right">5</td></tr>
+		<tr><td scope="row">NE</td><td align="right">85</td><td align="right">0</td><td align="right">5</td></tr>
+		<tr><td scope="row">NJ</td><td align="right">78</td><td align="right">1</td><td align="right">9</td></tr>
+		<tr><td scope="row">NV</td><td align="right">30</td><td align="right">0</td><td align="right">8</td></tr>
+		<tr><td scope="row">NY</td><td align="right">202</td><td align="right">4</td><td align="right">3</td></tr>
+		<tr><td scope="row">OR</td><td align="right">58</td><td align="right">0</td><td align="right">1</td></tr>
+		<tr><td scope="row">RI</td><td align="right">20</td><td align="right">2</td><td align="right">6</td></tr>
+		<tr><td scope="row">SC</td><td align="right">56</td><td align="right">2</td><td align="right">11</td></tr>
+		<tr><td scope="row">UT</td><td align="right">45</td><td align="right">4</td><td align="right">2</td></tr>
+		<tr><td scope="row">VT</td><td align="right">14</td><td align="right">0</td><td align="right">0</td></tr>
+		<tr><td scope="row">WA</td><td align="right">88</td><td align="right">6</td><td align="right">1</td></tr>
+		<tr><td scope="row">WI</td><td align="right">128</td><td align="right">14</td><td align="right">4</td></tr>
+		<tr><td scope="row">WV</td><td align="right">61</td><td align="right">4</td><td align="right">0</td></tr>
+	</table>
+
+<table class="pagetext" width="100%" border="0" cellspacing="2" cellpadding="4" summary="layout">
+<tr><td>&nbsp;</td></tr>
+<tr><td>
+	<a href="#top">Return to top</a>
+	</td></tr>
+<tr><td>&nbsp;</td></tr>
+	<tr><td>
+	<a name="2004"><b>Number of Hospitals in 2004</b></a></td></tr></table>
+	
+	<table class="pagetext" width="35%" cellspacing="0" cellpadding="8" border="1" summary="layout">
+		<tr><th scope="col">State</th><th scope="col">Community Hospitals in the SID</th><th scope="col">Hospitals in the SID not Identified as Community</th><th scope="col">Community Hospitals <span style="text-decoration:underline">Not</span> Included in the SID</th></tr>
+		<tr><td scope="row">AR</td><td align="right">93</td><td align="right">10</td><td align="right">0</td></tr>
+		<tr><td scope="row">AZ</td><td align="right">65</td><td align="right">2</td><td align="right">1</td></tr>
+		<tr><td scope="row">CA</td><td align="right">360</td><td align="right">37</td><td align="right">6
+		<tr><td scope="row">CO</td><td align="right">68</td><td align="right">3</td><td align="right">3</td></tr>
+		<tr><td scope="row">FL</td><td align="right">190</td><td align="right">17</td><td align="right">15</td></tr>
+		<tr><td scope="row">HI</td><td align="right">19</td><td align="right">3</td><td align="right">5</td></tr>
+		<tr><td scope="row">IA</td><td align="right">115</td><td align="right">0</td><td align="right">0</td></tr>
+		<tr><td scope="row">KY</td><td align="right">106</td><td align="right">6</td><td align="right">1</td></tr>
+		<tr><td scope="row">MA</td><td align="right">66</td><td align="right">1</td><td align="right">13</td></tr>
+		<tr><td scope="row">MD</td><td align="right">49</td><td align="right">0</td><td align="right">1</td></tr>
+		<tr><td scope="row">MI</td><td align="right">136</td><td align="right">5</td><td align="right">13</td></tr>
+		<tr><td scope="row">NC</td><td align="right">114</td><td align="right">5</td><td align="right">2</td></tr>
+		<tr><td scope="row">NE</td><td align="right">84</td><td align="right">0</td><td align="right">1</td></tr>
+		<tr><td scope="row">NJ</td><td align="right">74</td><td align="right">1</td><td align="right">6</td></tr>
+		<tr><td scope="row">NV</td><td align="right">27</td><td align="right">0</td><td align="right">8</td></tr>
+		<tr><td scope="row">NY</td><td align="right">205</td><td align="right">3</td><td align="right">1</td></tr>
+		<tr><td scope="row">OR</td><td align="right">57</td><td align="right">0</td><td align="right">1</td></tr>
+		<tr><td scope="row">RI</td><td align="right">12</td><td align="right">2</td><td align="right">0</td></tr>
+		<tr><td scope="row">SC</td><td align="right">57</td><td align="right">1</td><td align="right">7</td></tr>
+		<tr><td scope="row">UT</td><td align="right">42</td><td align="right">4</td><td align="right">1</td></tr>
+		<tr><td scope="row">VT</td><td align="right">14</td><td align="right">0</td><td align="right">0</td></tr>
+		<tr><td scope="row">WA</td><td align="right">85</td><td align="right">7</td><td align="right">1</td></tr>
+		<tr><td scope="row">WI</td><td align="right">125</td><td align="right">13</td><td align="right">1</td></tr>
+		<tr><td scope="row">WV</td><td align="right">60</td><td align="right">4</td><td align="right">0</td></tr>
+	</table>
+
+<table class="pagetext" width="100%" border="0" cellspacing="2" cellpadding="4" summary="layout">
+<tr><td>&nbsp;</td></tr>
+<tr><td>
+	<a href="#top">Return to top</a>
+	</td></tr>
+<tr><td>&nbsp;</td></tr>
+	<tr><td>
+	<a name="2003"><b>Number of Hospitals in 2003</b></a></td></tr></table>
+	
+	<table class="pagetext" width="35%" cellspacing="0" cellpadding="8" border="1" summary="layout">
+		<tr><th scope="col">State</th><th scope="col">Community Hospitals in the SID</th><th scope="col">Hospitals in the SID not Identified as Community</th><th scope="col">Community Hospitals <span style="text-decoration:underline">Not</span> Included in the SID</th></tr>
+		<tr><td scope="row">AZ</td><td align="right">61</td><td align="right">3</td><td align="right">1</td></tr>
+		<tr><td scope="row">CA</td><td align="right">367</td><td align="right">37</td><td align="right">6</td></tr>
+		<tr><td scope="row">CO</td><td align="right">66</td><td align="right">3</td><td align="right">2</td></tr>
+		<tr><td scope="row">FL</td><td align="right">191</td><td align="right">18</td><td align="right">13</td></tr>
+		<tr><td scope="row">HI</td><td align="right">20</td><td align="right">2</td><td align="right">4</td></tr>
+		<tr><td scope="row">IA</td><td align="right">116</td><td align="right">0</td><td align="right">0</td></tr>
+		<tr><td scope="row">KY</td><td align="right">101</td><td align="right">6</td><td align="right">2</td></tr>
+		<tr><td scope="row">MA</td><td align="right">67</td><td align="right">1</td><td align="right">12</td></tr>
+		<tr><td scope="row">MD</td><td align="right">49</td><td align="right">0</td><td align="right">2</td></tr>
+		<tr><td scope="row">MI</td><td align="right">135</td><td align="right">13</td><td align="right">4</td></tr>
+		<tr><td scope="row">NC</td><td align="right">111</td><td align="right">4</td><td align="right">6</td></tr>
+		<tr><td scope="row">NE</td><td align="right">84</td><td align="right">0</td><td align="right">1</td></tr>
+		<tr><td scope="row">NJ</td><td align="right">73</td><td align="right">5</td><td align="right">1</td></tr>
+		<tr><td scope="row">NV</td><td align="right">25</td><td align="right">0</td><td align="right">4</td></tr>
+		<tr><td scope="row">NY</td><td align="right">206</td><td align="right">3</td><td align="right">1</td></tr>
+		<tr><td scope="row">OR</td><td align="right">56</td><td align="right">0</td><td align="right">2</td></tr>
+		<tr><td scope="row">RI</td><td align="right">12</td><td align="right">2</td><td align="right">0</td></tr>
+		<tr><td scope="row">SC</td><td align="right">57</td><td align="right">1</td><td align="right">5</td></tr>
+		<tr><td scope="row">UT</td><td align="right">41</td><td align="right">5</td><td align="right">1</td></tr>
+		<tr><td scope="row">VT</td><td align="right">14</td><td align="right">0</td><td align="right">0</td></tr>
+		<tr><td scope="row">WA</td><td align="right">86</td><td align="right">5</td><td align="right">1</td></tr>
+		<tr><td scope="row">WI</td><td align="right">128</td><td align="right">12</td><td align="right">0</td></tr>
+		<tr><td scope="row">WV</td><td align="right">54</td><td align="right">0</td><td align="right">5</td></tr>
+	</table>
+
+<table class="pagetext" width="100%" border="0" cellspacing="2" cellpadding="4" summary="layout">
+<tr><td>&nbsp;</td></tr>
+<tr><td>
+	<a href="#top">Return to top</a>
+	</td></tr>
+<tr><td>&nbsp;</td></tr>
+	<tr><td>
+	<a name="2002"><b>Number of Hospitals in 2002</b></a></td></tr></table>
+
+	<table class="pagetext" width="35%" cellspacing="0" cellpadding="8" border="1" summary="layout">
+		<tr><th scope="col">State</th><th scope="col">Community Hospitals in the SID</th><th scope="col">Hospitals in the SID not Identified as Community</th><th scope="col">Community Hospitals <span style="text-decoration:underline">Not</span> Included in the SID</th></tr>
+		<tr><td scope="row">AZ</td><td align="right">58</td><td align="right">2</td><td align="right">3</td></tr>
+		<tr><td scope="row">CA</td><td align="right">Not Available</td><td align="right">Not Available</td><td align="right">Not Available</td></tr>
+		<tr><td scope="row">CO</td><td align="right">66</td><td align="right">3</td><td align="right">2</td></tr>
+		<tr><td scope="row">FL</td><td align="right">189</td><td align="right">18</td><td align="right">13</td></tr>
+		<tr><td scope="row">HI</td><td align="right">19</td><td align="right">1</td><td align="right">6</td></tr>
+		<tr><td scope="row">IA</td><td align="right">116</td><td align="right">0</td><td align="right">0</td></tr>
+		<tr><td scope="row">KY</td><td align="right">101</td><td align="right">5</td><td align="right">3</td></tr>
+		<tr><td scope="row">MA</td><td align="right">66</td><td align="right">2</td><td align="right">12</td></tr>
+		<tr><td scope="row">MD</td><td align="right">49</td><td align="right">0</td><td align="right">0</td></tr>
+		<tr><td scope="row">MI</td><td align="right">136</td><td align="right">4</td><td align="right">10</td></tr>
+		<tr><td scope="row">NC</td><td align="right">112</td><td align="right">6</td><td align="right">3</td></tr>
+		<tr><td scope="row">NE</td><td align="right">81</td><td align="right">0</td><td align="right">5</td></tr>
+		<tr><td scope="row">NJ</td><td align="right">74</td><td align="right">1</td><td align="right">7</td></tr>
+		<tr><td scope="row">NV</td><td align="right">24</td><td align="right">0</td><td align="right">5</td></tr>
+		<tr><td scope="row">NY</td><td align="right">209</td><td align="right">2</td><td align="right">2</td></tr>
+		<tr><td scope="row">OR</td><td align="right">58</td><td align="right">0</td><td align="right">2</td></tr>
+		<tr><td scope="row">RI</td><td align="right">12</td><td align="right">2</td><td align="right">0</td></tr>
+		<tr><td scope="row">SC</td><td align="right">58</td><td align="right">1</td><td align="right">5</td></tr>
+		<tr><td scope="row">UT</td><td align="right">41</td><td align="right">5</td><td align="right">1</td></tr>
+		<tr><td scope="row">VT</td><td align="right">14</td><td align="right">0</td><td align="right">0</td></tr>
+		<tr><td scope="row">WA</td><td align="right">86</td><td align="right">5</td><td align="right">1</td></tr>
+		<tr><td scope="row">WI</td><td align="right">120</td><td align="right">12</td><td align="right">0</td></tr>
+		<tr><td scope="row">WV</td><td align="right">54</td><td align="right">0</td><td align="right">4</td></tr>
+	</table>
+
+<table class="pagetext" width="100%" border="0" cellspacing="2" cellpadding="4" summary="layout">
+<tr><td>&nbsp;</td></tr>
+<tr><td>
+	<a href="#top">Return to top</a>
+	</td></tr>
+<tr><td>&nbsp;</td></tr>
+	<tr><td>
+	<a name="2001"><b>Number of Hospitals in 2001</b></a>
+	</td></tr></table>
+
+	<table class="pagetext" width="35%" cellspacing="0" cellpadding="8" border="1" summary="layout">
+		<tr><th scope="col">State</th><th scope="col">Community Hospitals in the SID</th><th scope="col">Hospitals in the SID not Identified as Community</th><th scope="col">Community Hospitals <span style="text-decoration:underline">Not</span> Included in the SID</th></tr>
+		<tr><td scope="row">AZ</td><td align="right">56</td><td align="right">2</td><td align="right">5</td></tr>
+		<tr><td scope="row">CA</td><td align="right">381</td><td align="right">36</td><td align="right">6</td></tr>
+		<tr><td scope="row">CO</td><td align="right">65</td><td align="right">4</td><td align="right">1</td></tr>
+		<tr><td scope="row">FL</td><td align="right">189</td><td align="right">19</td><td align="right">14</td></tr>
+		<tr><td scope="row">HI</td><td align="right">19</td><td align="right">2</td><td align="right">4</td></tr>
+		<tr><td scope="row">IA</td><td align="right">116</td><td align="right">0</td><td align="right">0</td></tr>
+		<tr><td scope="row">KY</td><td align="right">98</td><td align="right">5</td><td align="right">5</td></tr>
+		<tr><td scope="row">MA</td><td align="right">68</td><td align="right">2</td><td align="right">12</td></tr>
+		<tr><td scope="row">MD</td><td align="right">48</td><td align="right">0</td><td align="right">1</td></tr>
+		<tr><td scope="row">MI</td><td align="right">142</td><td align="right">4</td><td align="right">5</td></tr>
+		<tr><td scope="row">NC</td><td align="right">110</td><td align="right">6</td><td align="right">3</td></tr>
+		<tr><td scope="row">NE</td><td align="right">77</td><td align="right">2</td><td align="right">7</td></tr>
+		<tr><td scope="row">NJ</td><td align="right">71</td><td align="right">1</td><td align="right">7</td></tr>
+		<tr><td scope="row">NY</td><td align="right">211</td><td align="right">3</td><td align="right">1</td></tr>
+		<tr><td scope="row">NV</td><td align="right">Not Available</td><td align="right">Not Available</td><td align="right">Not Available</td></tr>
+		<tr><td scope="row">OR</td><td align="right">58</td><td align="right">0</td><td align="right">2</td></tr>
+		<tr><td scope="row">RI</td><td align="right">Not Available</td><td align="right">Not Available</td><td align="right">Not Available</td></tr>
+		<tr><td scope="row">SC</td><td align="right">58</td><td align="right">1</td><td align="right">5</td></tr>
+		<tr><td scope="row">UT</td><td align="right">41</td><td align="right">5</td><td align="right">1</td></tr>
+		<tr><td scope="row">VT</td><td align="right">14</td><td align="right">1</td><td align="right">0</td></tr>
+		<tr><td scope="row">WA</td><td align="right">84</td><td align="right">5</td><td align="right">1</td></tr>
+		<tr><td scope="row">WI</td><td align="right">121</td><td align="right">13</td><td align="right">0</td></tr>
+		<tr><td scope="row">WV</td><td align="right">54</td><td align="right">0</td><td align="right">4</td></tr>
+	</table>
+
+<table class="pagetext" width="100%" border="0" cellspacing="2" cellpadding="4" summary="layout">
+<tr><td>&nbsp;</td></tr>
+<tr><td><a href="#top">Return to top</a>
+	</td></tr>
+<tr><td>&nbsp;</td></tr>
+	<tr><td>
+	<a name="2000"><b>Number of Hospitals in 2000</b></a>
+	</td></tr>
+	</table>
+
+	<table class="pagetext" width="35%" cellspacing="0" cellpadding="8" border="1" summary="layout">
+		<tr><th scope="col">State</th><th scope="col">Community Hospitals in the SID</th><th scope="col">Hospitals in the SID not Identified as Community</th><th scope="col">Community Hospitals <span style="text-decoration:underline">Not</span> Included in the SID</th></tr>
+		<tr><td scope="row">AZ</td><td align="right">55</td><td align="right">2</td><td align="right">7</td></tr>
+		<tr><td scope="row">CA</td><td align="right">385</td><td align="right">38</td><td align="right">5</td></tr>
+		<tr><td scope="row">CO</td><td align="right">67</td><td align="right">2</td><td align="right">2</td></tr>
+		<tr><td scope="row">FL</td><td align="right">190</td><td align="right">20</td><td align="right">14</td></tr>
+		<tr><td scope="row">HI</td><td align="right">18</td><td align="right">2</td><td align="right">4</td></tr>
+		<tr><td scope="row">IA</td><td align="right">115</td><td align="right">1</td><td align="right">0</td></tr>
+		<tr><td scope="row">KY</td><td align="right">97</td><td align="right">4</td><td align="right">8</td></tr>
+		<tr><td scope="row">MA</td><td align="right">68</td><td align="right">2</td><td align="right">12</td></tr>
+		<tr><td scope="row">MD</td><td align="right">48</td><td align="right">1</td><td align="right">1</td></tr>
+		<tr><td scope="row">MI</td><td align="right">144</td><td align="right">4</td><td align="right">4</td></tr>
+		<tr><td scope="row">NC</td><td align="right">111</td><td align="right">8</td><td align="right">3</td></tr>
+		<tr><td scope="row">NE</td><td align="right">Not Available</td><td align="right">Not Available</td><td align="right">Not Available</td></tr>
+		<tr><td scope="row">NJ</td><td align="right">75</td><td align="right">1</td><td align="right">6</td></tr>
+		<tr><td scope="row">NY</td><td align="right">216</td><td align="right">4</td><td align="right">0</td></tr>
+		<tr><td scope="row">NV</td><td align="right">Not Available</td><td align="right">Not Available</td><td align="right">Not Available</td></tr>
+		<tr><td scope="row">OR</td><td align="right">58</td><td align="right">0</td><td align="right">1</td></tr>
+		<tr><td scope="row">RI</td><td align="right">Not Available</td><td align="right">Not Available</td><td align="right">Not Available</td></tr>
+		<tr><td scope="row">SC</td><td align="right">60</td><td align="right">1</td><td align="right">5</td></tr>
+		<tr><td scope="row">UT</td><td align="right">41</td><td align="right">5</td><td align="right">1</td></tr>
+		<tr><td scope="row">VT</td><td align="right">Not Available</td><td align="right">Not Available</td><td align="right">Not Available</td></tr>
+		<tr><td scope="row">WA</td><td align="right">84</td><td align="right">5</td><td align="right">1</td></tr>
+		<tr><td scope="row">WI</td><td align="right">120</td><td align="right">17</td><td align="right">1</td></tr>
+		<tr><td scope="row">WV</td><td align="right">54</td><td align="right">0</td><td align="right">4</td></tr>
+	</table>
+
+<table class="pagetext" width="100%" border="0" cellspacing="2" cellpadding="4" summary="layout">
+<tr><td>&nbsp;</td></tr>
+<tr><td><a href="#top">Return to top</a>
+	</td></tr>
+<tr><td>&nbsp;</td></tr>
+	<tr><td><a name="1999"><b>Number of Hospitals in 1999</b></a>
+	</td></tr></table>
+	
+	<table class="pagetext" width="35%" cellspacing="0" cellpadding="8" border="1" summary="layout">
+		<tr><th scope="col">State</th><th scope="col">Community Hospitals in the SID</th><th scope="col">Hospitals in the SID not Identified as Community</th><th scope="col">Community Hospitals <span style="text-decoration:underline">Not</span> Included in the SID</th></tr>
+		<tr><td scope="row">AZ</td><td align="right">59</td><td align="right">1</td><td align="right">3</td></tr>
+		<tr><td scope="row">CA</td><td align="right">391</td><td align="right">41</td><td align="right">6</td></tr>
+		<tr><td scope="row">CO</td><td align="right">66</td><td align="right">3</td><td align="right">1</td></tr>
+		<tr><td scope="row">FL</td><td align="right">193</td><td align="right">24</td><td align="right">12</td></tr>
+		<tr><td scope="row">HI</td><td align="right">19</td><td align="right">1</td><td align="right">4</td></tr>
+		<tr><td scope="row">IA</td><td align="right">115</td><td align="right">1</td><td align="right">0</td></tr>
+		<tr><td scope="row">KY</td><td align="right">Not Available</td><td align="right">Not Available</td><td align="right">Not Available</td></tr>
+		<tr><td scope="row">MA</td><td align="right">68</td><td align="right">2</td><td align="right">11</td></tr>
+		<tr><td scope="row">MD</td><td align="right">48</td><td align="right">1</td><td align="right">1</td></tr>
+		<tr><td scope="row">MI</td><td align="right">143</td><td align="right">4</td><td align="right">5</td></tr>
+		<tr><td scope="row">NC</td><td align="right">Not Available</td><td align="right">Not Available</td><td align="right">Not Available</td></tr>
+		<tr><td scope="row">NE</td><td align="right">Not Available</td><td align="right">Not Available</td><td align="right">Not Available</td></tr>
+		<tr><td scope="row">NJ</td><td align="right">75</td><td align="right">1</td><td align="right">6</td></tr>
+		<tr><td scope="row">NY</td><td align="right">217</td><td align="right">4</td><td align="right">1</td></tr>
+		<tr><td scope="row">NV</td><td align="right">Not Available</td><td align="right">Not Available</td><td align="right">Not Available</td></tr>
+		<tr><td scope="row">OR</td><td align="right">58</td><td align="right">2</td><td align="right">1</td></tr>
+		<tr><td scope="row">RI</td><td align="right">Not Available</td><td align="right">Not Available</td><td align="right">Not Available</td></tr>
+		<tr><td scope="row">SC</td><td align="right">60</td><td align="right">1</td><td align="right">5</td></tr>
+		<tr><td scope="row">UT</td><td align="right">41</td><td align="right">5</td><td align="right">1</td></tr>
+		<tr><td scope="row">VT</td><td align="right">Not Available</td><td align="right">Not Available</td><td align="right">Not Available</td></tr>
+		<tr><td scope="row">WA</td><td align="right">86</td><td align="right">4</td><td align="right">1</td></tr>
+		<tr><td scope="row">WI</td><td align="right">123</td><td align="right">16</td><td align="right">0</td></tr>
+		<tr><td scope="row">WV</td><td align="right">Not Available</td><td align="right">Not Available</td><td align="right">Not Available</td></tr>
+	</table>
+
+<table class="pagetext" width="100%" border="0" cellspacing="2" cellpadding="4" summary="layout">
+	<tr><td>&nbsp;</td></tr>
+	<tr><td><a href="#top">Return to top</a>
+	</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td><a name="1998"><b>Number of Hospitals in 1998</b></a></td></tr></table>
+	
+	<table class="pagetext" width="35%" cellspacing="0" cellpadding="8" border="1" summary="layout">
+		<tr><th scope="col">State</th><th scope="col">Community Hospitals in the SID</th><th scope="col">Hospitals in the SID not Identified as Community</th><th scope="col">Community Hospitals <span style="text-decoration:underline">Not</span> Included in the SID</th></tr>
+		<tr><td scope="row">AZ</td><td align="right">63</td><td align="right">2</td><td align="right">2</td></tr>
+		<tr><td scope="row">CA</td><td align="right">399</td><td align="right">39</td><td align="right">8</td></tr>
+		<tr><td scope="row">CO</td><td align="right">67</td><td align="right">2</td><td align="right">2</td></tr>
+		<tr><td scope="row">FL</td><td align="right">195</td><td align="right">32</td><td align="right">12</td></tr>
+		<tr><td scope="row">HI</td><td align="right">17</td><td align="right">4</td><td align="right">4</td></tr>
+		<tr><td scope="row">IA</td><td align="right">116</td><td align="right">1</td><td align="right">0</td></tr>
+		<tr><td scope="row">KY</td><td align="right">Not Available</td><td align="right">Not Available</td><td align="right">Not Available</td></tr>
+		<tr><td scope="row">MA</td><td align="right">70</td><td align="right">2</td><td align="right">12</td></tr>
+		<tr><td scope="row">MD</td><td align="right">51</td><td align="right">1</td><td align="right">0</td></tr>
+		<tr><td scope="row">MI</td><td align="right">Not Available</td><td align="right">Not Available</td><td align="right">Not Available</td></tr>
+		<tr><td scope="row">NC</td><td align="right">Not Available</td><td align="right">Not Available</td><td align="right">Not Available</td></tr>
+		<tr><td scope="row">NE</td><td align="right">Not Available</td><td align="right">Not Available</td><td align="right">Not Available</td></tr>
+		<tr><td scope="row">NJ</td><td align="right">77</td><td align="right">0</td><td align="right">6</td></tr>
+		<tr><td scope="row">NY</td><td align="right">221</td><td align="right">5</td><td align="right">1</td></tr>
+		<tr><td scope="row">NV</td><td align="right">Not Available</td><td align="right">Not Available</td><td align="right">Not Available</td></tr>
+		<tr><td scope="row">OR</td><td align="right">59</td><td align="right">2</td><td align="right">1</td></tr>
+		<tr><td scope="row">RI</td><td align="right">Not Available</td><td align="right">Not Available</td><td align="right">Not Available</td></tr>
+		<tr><td scope="row">SC</td><td align="right">60</td><td align="right">0</td><td align="right">6</td></tr>
+		<tr><td scope="row">UT</td><td align="right">41</td><td align="right">7</td><td align="right">1</td></tr>
+		<tr><td scope="row">VT</td><td align="right">Not Available</td><td align="right">Not Available</td><td align="right">Not Available</td></tr>
+		<tr><td scope="row">WA</td><td align="right">86</td><td align="right">4</td><td align="right">1</td></tr>
+		<tr><td scope="row">WI</td><td align="right">123</td><td align="right">16</td><td align="right">0</td></tr>
+		<tr><td scope="row">WV</td><td align="right">Not Available</td><td align="right">Not Available</td><td align="right">Not Available</td></tr>
+	</table>
+	
+<table class="pagetext" width="100%" border="0" cellspacing="2" cellpadding="4" summary="layout">
+	<tr><td>&nbsp;</td></tr>
+	<tr><td><a href="#top">Return to top</a>
+	</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td><a name="1997"><b>Number of Hospitals in 1997</b></a>
+	</td></tr>
+	</table>
+	
+	<table class="pagetext" width="35%" cellspacing="0" cellpadding="8" border="1" summary="layout">
+		<tr><th scope="col">State</th><th scope="col">Community Hospitals in the SID</th><th scope="col">Hospitals in the SID not Identified as Community</th><th scope="col">Community Hospitals <span style="text-decoration:underline">Not</span> Included in the SID</th></tr>
+		<tr><td scope="row">AZ</td><td align="right">62</td><td align="right">2</td><td align="right">2</td></tr>
+		<tr><td scope="row">CA</td><td align="right">411</td><td align="right">42</td><td align="right">4</td></tr>
+		<tr><td scope="row">CO</td><td align="right">66</td><td align="right">3</td><td align="right">1</td></tr>
+		<tr><td scope="row">FL</td><td align="right">198</td><td align="right">32</td><td align="right">12</td></tr>
+		<tr><td scope="row">HI</td><td align="right">Not Available</td><td align="right">Not Available</td><td align="right">Not Available</td></tr>
+		<tr><td scope="row">IA</td><td align="right">115</td><td align="right">2</td><td align="right">0</td></tr>
+		<tr><td scope="row">KY</td><td align="right">Not Available</td><td align="right">Not Available</td><td align="right">Not Available</td></tr>
+		<tr><td scope="row">MA</td><td align="right">73</td><td align="right">1</td><td align="right">11</td></tr>
+		<tr><td scope="row">MD</td><td align="right">51</td><td align="right">1</td><td align="right">0</td></tr>
+		<tr><td scope="row">MI</td><td align="right">Not Available</td><td align="right">Not Available</td><td align="right">Not Available</td></tr>
+		<tr><td scope="row">NC</td><td align="right">Not Available</td><td align="right">Not Available</td><td align="right">Not Available</td></tr>
+		<tr><td scope="row">NE</td><td align="right">Not Available</td><td align="right">Not Available</td><td align="right">Not Available</td></tr>
+		<tr><td scope="row">NJ</td><td align="right">78</td><td align="right">0</td><td align="right">7</td></tr>
+		<tr><td scope="row">NY</td><td align="right">222</td><td align="right">4</td><td align="right">3</td></tr>
+		<tr><td scope="row">NV</td><td align="right">Not Available</td><td align="right">Not Available</td><td align="right">Not Available</td></tr>
+		<tr><td scope="row">OR</td><td align="right">59</td><td align="right">2</td><td align="right">2</td></tr>
+		<tr><td scope="row">RI</td><td align="right">Not Available</td><td align="right">Not Available</td><td align="right">Not Available</td></tr>
+		<tr><td scope="row">SC</td><td align="right">60</td><td align="right">0</td><td align="right">5</td></tr>
+		<tr><td scope="row">UT</td><td align="right">40</td><td align="right">7</td><td align="right">1</td></tr>
+		<tr><td scope="row">VT</td><td align="right">Not Available</td><td align="right">Not Available</td><td align="right">Not Available</td></tr>
+		<tr><td scope="row">WA</td><td align="right">88</td><td align="right">3</td><td align="right">1</td></tr>
+		<tr><td scope="row">WI</td><td align="right">124</td><td align="right">16</td><td align="right">0</td></tr>
+		<tr><td scope="row">WV</td><td align="right">Not Available</td><td align="right">Not Available</td><td align="right">Not Available</td></tr>
+	</table>
+	
+<table class="pagetext" width="100%" border="0" cellspacing="2" cellpadding="4" summary="layout">
+	<tr><td>&nbsp;</td></tr>
+	<tr><td><a href="#top">Return to top</a>
+	</td></tr>
+	<tr><td>&nbsp;</td></tr>
+</table>
+
+
+
+
+
+
+</div> <!-- End bodycontainer -->
+
+<hr width="75%" align="center" class="hrruleblue">
+<div class="footer-citation" data-swiftype-index="false">
+  <div class="citationtext">
+    Internet Citation:  HCUP Central Distributor SID File Composition.
+    Healthcare Cost and Utilization Project (HCUP).  October 2026.
+    Agency for Healthcare Research and Quality, Rockville, MD. hcup-us.ahrq.gov&#x2f;db&#x2f;state&#x2f;siddist&#x2f;siddist_hospital.jsp.
+  </div>
+  <div class="citationtext">
+    <a href="/viewing_prntg.jsp">Are you having problems viewing or printing pages on this website?</a>
+  </div>
+  <div class="citationtext">
+    If you have comments, suggestions, and/or questions, please contact	<a href="mailto:hcup@ahrq.gov">hcup@ahrq.gov</a>.
+  </div>
+  <div class="citationtext">
+    If you are experiencing issues related to Section 508 accessibility of information on this website, please contact <a href="mailto:hcup@ahrq.gov">hcup@ahrq.gov</a>.
+  </div>
+  
+  <div class="citationtext">
+    <a href="http://www.ahrq.gov/policy/electronic/privacy/index.html" target="_blank">Privacy Notice</a>, <a href="http://www.hhs.gov/plugins.html" target="_blank">Viewers &amp; Players</a>
+  </div>
+  
+  <div class="citationtext">Last modified 10/14/26</div>
+</div>
+
+
+<!-- AHRQ Global Footer -->
+<footer id="global-footer">
+    <div class="row row-side-margins hide-on-desktop">
+        <div class="col-sm-12" id="top-button-container"> 
+            <a href="#" id="top-button">Back to Top <img alt="Go back to top" height="25" src="/images/chevron-circle-up-solid.png" width="25" /> </a> 
+        </div>
+    </div>
+    <div id="footer1">
+        <div class="row">
+            <div class="col-md-12 side-row-margins">
+                <div class="f1-div-width div-float init-pad">
+                    <h3>Connect With Us</h3> 
+                    <a href="http://www.facebook.com/ahrq.gov" target="_blank"><img src="/images/facebook-f-brands.png" height="45" alt="Facebook"></a> 
+                    <a href="https://x.com/AHRQGov" target="_blank"><img src="/images/x-twitter-brands.png" class="img-spacing" width="45" height="45" alt="X"></a>
+                    <a href="http://www.youtube.com/user/AHRQHealthTV?sub_confirmation=1" target="_blank"><img src="/images/youtube-brands.png" class="img-spacing" width="45" height="45" alt="You Tube"></a> 
+                    <a href="http://www.linkedin.com/company/agency-for-healthcare-research-and-quality" target="_blank"><img src="/images/linkedin-in-brands.png" class="img-spacing" width="45" height="45" alt="LinkedIn"></a>
+                </div>
+                <div class="f1-div-width div-float">
+                    <h3 class="header-mobile-top-spacing">Sign up for Email Updates</h3>
+                    <p class="primary-small email">To sign up for updates or to access your subscriber preferences, please enter your email address below.</p>
+                    <form id="GD-snippet-form" action="https://subscriptions.ahrq.gov/accounts/USAHRQ/subscribers/qualify" accept-charset="UTF-8" method="post"> 
+                        <input name="utf8" type="hidden" value="✓"> 
+                        <input type="hidden" name="authenticity_token" value="y9/sIPG+wf/QL20R4sTfazeOp4MyAOwD9ZszmZKWH0PZjGUt2JIEhyyE6dPCNgLP+WZWUcH1NjJVivzbrc8wmg==">
+                        <div role="search"> 
+                            <label class="usa-sr-only" for="email">Search</label> 
+                            <input class="usa-input email-input" id="email" type="text" name="email"> 
+                            <input class="usa-button email-update-button" type="submit" name="commit" value="Sign Up">
+                        </div>
+                    </form>
+                </div>
+                <div class="f1-div-width div-float">
+                    <address>
+                        <h3 class="header-mobile-top-spacing">Agency for Healthcare Research and Quality</h3>
+                        <p class="primary-regular">5600 Fishers Lane<br> Rockville, MD 20857</p>
+                    </address>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer2">
+        <div class="row">
+            <div class="col-md-12 side-row-margins init-pad">
+                <div class="left-div div-width-partial left-margin">
+                    <ul class="clearfix">
+                        <li class="first"><a href="https://www.ahrq.gov/cpi/about/careers/index.html" target="_blank">Careers</a></li>
+                        <li><a href="https://www.ahrq.gov/contact/index.html" target="_blank">Contact Us</a></li>
+                        <li><a href="https://www.ahrq.gov/topics/informacion-en-espanol/index.html" target="_blank">Espa&#241;ol</a></li>
+                        <li class="last"><a href="https://info.ahrq.gov/" target="_blank">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="left-div div-width-partial">
+                    <ul class="clearfix">
+                        <li class="first"><a href="https://www.ahrq.gov/policy/electronic/accessibility/index.html" target="_blank">Accessibility</a></li>
+                        <li><a href="https://www.ahrq.gov/policy/electronic/disclaimers/index.html" target="_blank">Disclaimers</a></li>
+                        <li><a href="https://www.ahrq.gov/policy/eeo/index.html" target="_blank">EEO</a></li>
+                        <li><a href="https://www.ahrq.gov/policy/electronic/about/policyix.html" target="_blank">Electronic Policies</a></li>
+                    </ul>
+                </div>
+                <div class="left-div div-width-partial">
+                    <ul>
+                        <li><a href="https://www.ahrq.gov/policy/foia/index.html" target="_blank">FOIA</a></li>
+                        <li><a href="http://www.hhs.gov/web/governance/strategy.html" target="_blank">HHS Digital Strategy</a></li>
+                        <li><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" target="_blank">HHS Nondiscrimination Notice</a></li>
+                        <li><a href="https://oig.hhs.gov/" target="_blank">Inspector General</a></li>
+                    </ul>
+                </div>
+                <div class="left-div div-width-partial">
+                    <ul>
+                        <li><a href="https://www.ahrq.gov/policy/electronic/plain-writing/index.html" target="_blank">Plain Writing Act</a></li>
+                        <li><a href="https://www.hhs.gov/web/policies-and-standards/hhs-web-policies/privacy/" target="_blank">HHS Privacy Policy</a></li>
+                        <li><a href="https://www.ahrq.gov/policy/electronic/privacy/index.html" target="_blank">Privacy Policy</a></li>
+                        <li class="last"><a href="http://www.hhs.gov/plugins.html" target="_blank">Viewers &amp; Players</a></li>
+                    </ul>
+                </div>
+                <div class="left-div div-width-full footer-border">
+                    <ul>
+                        <li><a href="http://www.hhs.gov/" target="_blank">U.S. Department of Health &amp; Human Services</a></li>
+                        <li><a href="http://www.whitehouse.gov/" target="_blank">The White House</a></li>
+                        <li><a href="http://www.usa.gov/" target="_blank">USA.gov</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div> <!-- End AHRQ Global Footer -->
+</footer>
+
+</body>
+</html>
+

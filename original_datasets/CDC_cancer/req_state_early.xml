@@ -1,0 +1,20 @@
+<request-parameters>
+  <parameter><name>B_1</name><value>D205.V1</value></parameter>
+  <parameter><name>B_2</name><value>D205.V2</value></parameter>
+  <parameter><name>M_1</name><value>D205.M1</value></parameter>
+  <parameter><name>M_2</name><value>D205.M2</value></parameter>
+  <parameter><name>M_40</name><value>D205.M40</value></parameter>
+  <parameter><name>O_location</name><value>D205.V2</value></parameter>
+  <parameter><name>O_cancer</name><value>D205.V8</value></parameter>
+  <parameter><name>V_D205.V8</name><value>21041-21052</value></parameter>
+  <parameter><name>V_D205.V1</name><value>1999</value><value>2000</value><value>2001</value><value>2002</value><value>2003</value><value>2004</value><value>2005</value><value>2006</value><value>2007</value><value>2008</value><value>2009</value><value>2010</value><value>2011</value><value>2012</value><value>2013</value><value>2014</value><value>2015</value><value>2016</value><value>2017</value><value>2018</value><value>2019</value><value>2020</value></parameter>
+  <parameter><name>V_D205.V5</name><value>20-24</value><value>25-29</value><value>30-34</value><value>35-39</value><value>40-44</value><value>45-49</value></parameter>
+  <parameter><name>O_stdpop</name><value>201</value></parameter>
+  <parameter><name>O_rate_per</name><value>100000</value></parameter>
+  <parameter><name>O_precision</name><value>2</value></parameter>
+  <parameter><name>O_javascript</name><value>off</value></parameter>
+  <parameter><name>O_show_totals</name><value>true</value></parameter>
+  <parameter><name>O_show_suppressed</name><value>false</value></parameter>
+  <parameter><name>O_show_zeros</name><value>false</value></parameter>
+  <parameter><name>accept_datause_restrictions</name><value>true</value></parameter>
+</request-parameters>
