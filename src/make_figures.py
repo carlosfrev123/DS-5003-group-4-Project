@@ -3,9 +3,10 @@
 from __future__ import annotations
 
 import os
+import tempfile
 from pathlib import Path
 
-os.environ.setdefault("MPLCONFIGDIR", "/tmp/mpl")
+os.environ.setdefault("MPLCONFIGDIR", str(Path(tempfile.gettempdir()) / "mpl"))
 
 import matplotlib
 
